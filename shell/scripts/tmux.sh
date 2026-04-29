@@ -19,4 +19,4 @@ tmux_open() {
 }
 
 bind -x '"\C-a": ( selected="$(zoxide query --list | fzf --height=40%)" && tmux_open "$selected" )'
-bind -x '"\C-p": ( selected="$(find /storage/projects/repos -maxdepth 1 -type d | fzf)" && tmux_open "$selected" )'
+bind -x '"\C-p": ( selected="$(find /storage/projects/repos -maxdepth 1 -mindepth 1 -type d | fzf)" && tmux_open "$selected" )'
