@@ -42,11 +42,11 @@ fi
 
 # pyenv
 export PATH="$CONFIG/pyenv/bin:$PATH"
-if command -v pyenv >/dev/null 2>&1; then
-  # pyenv detects shell from environment, but guard just in case
-  eval "$(pyenv init --path)"
-  eval "$(pyenv init -)"
-fi
+# if command -v pyenv >/dev/null 2>&1; then
+#   # pyenv detects shell from environment, but guard just in case
+#   eval "$(pyenv init --path)"
+#   eval "$(pyenv init -)"
+# fi
 export PYTHON_ENV_ACTIVATE=false
 
 # foundry
