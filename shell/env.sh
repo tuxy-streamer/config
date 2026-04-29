@@ -20,9 +20,6 @@ case ":$PATH:" in
 esac
 export PATH
 
-# rust
-export PATH="$CONFIG/cargo/bin:$PATH"
-
 # go
 export PATH="$CONFIG/go/bin:$PATH"
 
