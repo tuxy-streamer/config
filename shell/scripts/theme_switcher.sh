@@ -117,6 +117,26 @@ nvim_theme_switcher(){
     sed -i "s|^$old_line|$new_line|g" "$CONFIG"/nvim/lua/tuxy.lua
 }
 
+qtile_theme_switcher(){
+	theme="$1"
+	old_line="from colorscheme import .*"
+	new_line="from colorscheme import $theme"
+    sed -i "s|^$old_line|$new_line|g" "$CONFIG"/qtile/config.py
+	old_line="COLORSCHEME = .*"
+	new_line="COLORSCHEME = $theme"
+    sed -i "s|^$old_line|$new_line|g" "$CONFIG"/qtile/config.py
+}
+
+# TODO: Implement GTK Theme switching
+# gtk_theme_switcher(){
+#
+# }
+
+# TODO: Implement 
+# gtk_theme_switcher(){
+#
+# }
+
 theme_switch_launcher(){
     selected=$( printf "%s\n" "${themes[@]}" | sort | rofi -dmenu)
     [[ -n "$selected" ]] &&  theme_switcher "$selected"
