@@ -52,5 +52,8 @@ export PYTHON_ENV_ACTIVATE=false
 # foundry
 export PATH="$CONFIG/foundry/bin:$PATH"
 
-# autocompletions
+# auto-completions
 [[ -n "$ZSH_VERSION" ]] && autoload -U compinit && compinit
+
+# uv
+export PATH="/home/tuxy/.local/share/../bin:$PATH"
