@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
+
 source "$HOME/.config/shell/env.sh"
 source "$HOME/.config/shell/alias.sh"
 source "$HOME/.config/shell/zsh-plugins/init.sh"
 source "$HOME/.config/shell/scripts/init.sh"
-

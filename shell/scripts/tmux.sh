@@ -10,7 +10,6 @@ tmux_startup() {
 tmux_open() {
     selected=$1
     [ -z "$selected" ] && return 1
-
     session_name=$(basename "$selected")
     tmux has-session -t "$session_name" 2>/dev/null &&
         tmux attach -t "$session_name" ||
