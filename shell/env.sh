@@ -1,10 +1,15 @@
+#!/usr/bin/env bash
+
 set -o vi
 set -o posix
 export CONFIG="$HOME/.config"
-export STORAGE="/storage"
 export SCRIPTS="$CONFIG/shell/scripts"
 export ZSH_PLUGINS="$CONFIG/shell/zsh-plugins"
-export BOOK_LIBRARY="$STORAGE/personal/notes/library"
+export BOOK_LIBRARY="$HOME/Notes/library"
+
+# Locale
+export LANG=en_IN.UTF-8
+export LC_ALL=en_IN.UTF-8
 
 # Application config move to .config
 export WINEPREFIX="$CONFIG/wine"
@@ -22,7 +27,7 @@ esac
 export PATH
 
 # go
-export PATH="$CONFIG/go/bin:$PATH"
+export PATH="$HOME/go/bin:$PATH"
 
 # starship
 if [ -n "$ZSH_VERSION" ]; then
