@@ -1,3 +1,5 @@
+#! /usr/bin/env sh
+
 alias lah='ls -lah --group-directories-first --color=always'
 alias rm='rm -I --preserve-root'
 alias mv='cp -i'
