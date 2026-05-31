@@ -1,13 +1,11 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
 ghrd(){
-    local selected
     selected=$(gh repo list | awk '{print $1}' | fzf)
     gh repo delete "$selected" --yes
 }
 
 ghrc(){
-    local selected
     selected=$(gh repo list | awk '{print $1}' | fzf)
     gh repo clone "$selected"
 }

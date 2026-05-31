@@ -1,17 +1,6 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
-themes=(
-    "gruvbox"
-    "gruvbox-material"
-    "nord"
-    "onedark"
-    "kanagawa"
-    "everforest"
-    "dracula"
-    "catppuccin-mocha"
-    "alabaster"
-    "solarized"
-)
+themes="gruvbox gruvbox-material nord onedark kanagawa everforest dracula catppuccin-mocha alabaster solarized koda"
 
 theme_colors(){
     theme="$1"
@@ -20,7 +9,6 @@ theme_colors(){
             theme_color_bg=dcd7ba
             theme_color_fg=1f1f28
             echo "$theme_color_bg $theme_color_fg"
-            return
             ;;
         gruvbox)
             theme_color_bg=fbf1c7
@@ -67,12 +55,23 @@ theme_colors(){
             theme_color_fg=002b36
             echo "$theme_color_bg $theme_color_fg"
             ;;
-    esac
+		koda)
+			theme_color_bg=101010
+			theme_color_fg=ffffff
+            echo "$theme_color_bg $theme_color_fg"
+			;;
+		*)
+			echo "Invalid selection: $selected"
+			exit 1
+			;;
+	esac
 }
 
 hypr_theme_switcher(){
     theme="$1"
-    read -r bg_color accent_color <<< "$(theme_colors "$theme")"
+	set -- "$(theme_color "$theme")"
+	bg_color=$1
+	accent_color=$2
     old_line_1="col.active_border = rgb(.*)"
     old_line_2="col.inactive_border = rgb(.*)"
     new_line_1="col.active_border = rgb($bg_color)"
@@ -92,7 +91,9 @@ kitty_theme_switcher(){
 
 rofi_theme_switcher(){
     theme="$1"
-    read -r accent_color bg_color<<< "$(theme_colors "$theme")"
+	set -- "$(theme_color "$theme")"
+	bg_color=$1
+	accent_color=$1
     old_line_1="    bg0:				.*;"
     old_line_2="    fg0:				.*;"
     new_line_1="    bg0:				#$bg_color;"
@@ -106,7 +107,7 @@ dunst_theme_switcher(){
     old_line="foreground = \".*\""
     new_line=""
 
-    sed -i "s|^$old_line|$new_line|g" "$CONFIG"/rofi/config.rasi
+    sed -i "s|^$old_line|$new_line|g" "$CONFIG"/dunst/dunstrc
 }
 
 nvim_theme_switcher(){
@@ -132,14 +133,9 @@ qtile_theme_switcher(){
 #
 # }
 
-# TODO: Implement 
-# gtk_theme_switcher(){
-#
-# }
-
 theme_switch_launcher(){
-    selected=$( printf "%s\n" "${themes[@]}" | sort | rofi -dmenu)
-    [[ -n "$selected" ]] &&  theme_switcher "$selected"
+    selected=$( printf "%s\n" $themes | sort | rofi -dmenu)
+    [ -n "$selected" ] && echo " $theme " | grep -q " $selected " && theme_switcher "$selected"
 }
 
 theme_switcher(){

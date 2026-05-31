@@ -1,9 +1,9 @@
-#!/usr/bin/env bash
+#!/usr/bin/env sh
 
-source "$SCRIPTS/tmux.sh"
-source "$SCRIPTS/book.sh"
-source "$SCRIPTS/autoswitch_env.sh"
-source "$SCRIPTS/gh.sh"
-source "$SCRIPTS/nightlight.sh"
-source "$SCRIPTS/theme_switcher.sh"
-source "$SCRIPTS/powermenu.sh"
+. "$SCRIPTS/tmux.sh"
+. "$SCRIPTS/book.sh"
+. "$SCRIPTS/autoswitch_env.sh"
+. "$SCRIPTS/gh.sh"
+. "$SCRIPTS/nightlight.sh"
+. "$SCRIPTS/theme_switcher.sh"
+. "$SCRIPTS/powermenu.sh"

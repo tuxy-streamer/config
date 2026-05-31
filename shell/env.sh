@@ -1,4 +1,5 @@
 set -o vi
+set -o posix
 export CONFIG="$HOME/.config"
 export STORAGE="/storage"
 export SCRIPTS="$CONFIG/shell/scripts"
