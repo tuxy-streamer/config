@@ -1,7 +1,5 @@
 #!/usr/bin/env sh
 
-themes="gruvbox gruvbox-material nord onedark kanagawa everforest dracula catppuccin-mocha alabaster solarized koda"
-
 theme_colors(){
     theme="$1"
     case "$theme" in
@@ -134,6 +132,7 @@ qtile_theme_switcher(){
 # }
 
 theme_switch_launcher(){
+	themes="gruvbox gruvbox-material nord onedark kanagawa everforest dracula catppuccin-mocha alabaster solarized koda"
     selected=$( printf "%s\n" $themes | sort | rofi -dmenu)
     [ -n "$selected" ] && echo " $theme " | grep -q " $selected " && theme_switcher "$selected"
 }
