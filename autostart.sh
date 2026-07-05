@@ -14,14 +14,18 @@ touchpad_setup() {
   xinput set-prop "$touchpad" "libinput Accel Speed" 0.3
 }
 
-touchpad_setup &
 gsettings set org.gnome.desktop.interface color-scheme "prefer-dark" &
 dunst &
-feh --bg-fill --borderless /storage/personal/wallpaper/gruvbox/girl-reading-book.png &
-# hyprpaper &
-# zen-twilight &
-easyeffects &
-setxkbmap -option caps:escape &
-# picom &
-sleep 3 && time_main &
-# syncthing &
+otd-daemon &
+syncthing &
+blanket &
+foot --server &
+
+[[ "$XDG_SESSION_TYPE" == wayland ]] && \
+	awww-daemon & \
+	awww img "$HOME"/Wallpaper/blackmount.png
+[[ "$XDG_SESSION_TYPE" == x11 ]] && \
+  touchpad_setup & \
+  feh --bg-fill --borderless "$HOME"/Wallpaper/blackmount.png & \
+  setxkbmap -option caps:escape & \
+  picom &
