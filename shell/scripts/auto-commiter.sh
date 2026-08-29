@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-tdd_go(){
+ac_go(){
 	pattern="PASS"
 	go test -v
 	while true; do
@@ -14,7 +14,7 @@ tdd_go(){
 	done
 }
 
-tdd(){
+ac(){
 	env=$1
 	case "$env" in
 		go)
@@ -27,8 +27,8 @@ tdd(){
 }
 
 commit_msg_generator() {
-  adds=$(git diff --numstat | awk '{sum+=$1} END {print sum+0}')
-  dels=$(git diff --numstat | awk '{sum+=$2} END {print sum+0}')
+  adds=$(git diff | grep '^+' | grep -v '+++' | grep -Evc '^\+[[:blank:]]*$')
+  dels=$(git diff | grep '^-' | grep -v '^---' | grep -Evc '^-[[:blank:]]*$')
   changed=$((adds + dels))
   [ "$dels" -eq 0 ] && ratio=999 || ratio=$((adds * 100 / dels))
   msg_type="feat"
@@ -38,6 +38,6 @@ commit_msg_generator() {
   [ "$adds" -gt 0 ] && [ "$dels" -eq 0 ] && action="add"
   [ "$adds" -eq 0 ] && [ "$dels" -gt 0 ] && action="delete"
   file=$(git diff --name-only | head -n 1 | xargs basename)
-  [ -z "$file" ] && file="code"
+  [ -n "$file" ] || file="code"
   echo "$msg_type: $action $file"
 }   
