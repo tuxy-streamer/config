@@ -9,7 +9,7 @@ tmux_startup() {
 
 tmux_open() {
 	selected=$1
-	[ -z "$selected" ] && return 1
+	[ -n "$selected" ] || return 1
 	session_name=$(basename "$selected")
 	tmux has-session -t "$session_name" 2>/dev/null &&
 		tmux attach -t "$session_name" ||
@@ -22,8 +22,8 @@ tmux_split() {
 	usage_msg="Usage: tmux_split <direction(h/v)> <cmd>"
 	echo "$direction"
 	echo "$cmd"
-	[ -z "$direction" ] && echo "$usage_msg" && return
-	[ -z "$cmd" ] && echo "$usage_msg" && return
+	[ -n "$direction" ] || echo "$usage_msg" && return
+	[ -n "$cmd" ] || echo "$usage_msg" && return
 	[ "$direction" = "h" ] && tmux split-window -h
 	[ "$direction" = "v" ] && tmux split-window
 	tmux send "$cmd" Enter
