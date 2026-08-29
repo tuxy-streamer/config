@@ -13,3 +13,4 @@
 . "$SCRIPTS/rename_docs.sh"
 . "$SCRIPTS/organize.sh"
 . "$SCRIPTS/auto-commiter.sh"
+. "$SCRIPTS/notes.sh"
