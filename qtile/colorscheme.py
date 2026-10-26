@@ -45,3 +45,15 @@ kanagawa_dark = {
     "cyan": "#7aa89f",
     "white": "#c8c093",
 }
+
+koda = {
+    "background": "#101010",
+    "foreground": "#ffffff",
+    "red": "#ff5733",
+    "green": "#86cd82",
+    "yellow": "#d9ba73",
+    "blue": "#b3b3b3",
+    "magenta": "#f2a4db",
+    "cyan": "#5abfb5",
+    "white": "#a5adce",
+}

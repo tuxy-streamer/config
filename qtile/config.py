@@ -1,4 +1,3 @@
-import re
 import subprocess
 from os.path import expanduser
 
@@ -22,7 +21,7 @@ from libqtile.config import (
 )
 from libqtile.lazy import lazy
 
-from colorscheme import gruvbox
+from colorscheme import koda
 
 
 @hook.subscribe.startup_once
@@ -32,13 +31,13 @@ def autostart() -> None:
     _ = subprocess.call(autostart_script)
 
 
-COLORSCHEME = gruvbox
+COLORSCHEME = koda
 FONT = "Iosevka Nerd Font Mono"
 MOD = "mod1"
 S = "shift"
 C = "control"
-TERMINAL = "xterm"
-FILE_MANAGER = "thunar"
+TERMINAL = "st"
+FILE_MANAGER = "nautilus"
 EMAIL_CLIENT = "betterbird"
 BROWSER = "brave"
 SHELL = "bash"
@@ -186,8 +185,12 @@ groups = [
         label="game",
         matches=[Match(wm_class="steam")],
     ),
-    Group("5", label="passive", matches=[Match(wm_class="easyeffects")]),
-    Group("6", label="virt", matches=[Match(wm_class="virt-manager")]),
+    Group(
+        "5",
+        label="passive",
+        matches=[Match(wm_class="easyeffects"), Match(wm_class="OpenTabletDriver.UX")],
+    ),
+    Group("7", label="virt", matches=[Match(wm_class="virt-manager")]),
 ]
 
 for i in groups:
@@ -230,7 +233,7 @@ groups.append(
             ),
             DropDown(
                 "btop",
-                f"{TERMINAL} -class btop -e btop",
+                f"{TERMINAL} -c btop -e btop",
                 width=0.8,
                 height=0.8,
                 x=0.1,
@@ -391,6 +394,9 @@ bring_front_click = False
 floats_kept_above = True
 cursor_warp = False
 floating_layout = layout.Floating(
+    border_focus=COLORSCHEME["foreground"],
+    border_normal=COLORSCHEME["foreground"],
+    border_width=1,
     float_rules=[
         *layout.Floating.default_float_rules,
         Match(wm_class="confirmreset"),
@@ -399,7 +405,7 @@ floating_layout = layout.Floating(
         Match(wm_class="ssh-askpass"),
         Match(title="branchdialog"),
         Match(title="pinentry"),
-    ]
+    ],
 )
 auto_fullscreen = True
 focus_on_window_activation = "smart"
