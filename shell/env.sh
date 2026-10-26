@@ -2,10 +2,20 @@
 
 set -o vi
 set -o posix
+if [ -f /usr/share/bash-completion/bash_completion ]; then
+    source /usr/share/bash-completion/bash_completion
+	bind '"\t": complete'
+fi
 export CONFIG="$HOME/.config"
 export SCRIPTS="$CONFIG/shell/scripts"
+export EXT_STORAGE="/run/media/tuxy"
+export NOTES="$EXT_STORAGE/notes"
+export MEDIA="$EXT_STORAGE/main/media"
 export ZSH_PLUGINS="$CONFIG/shell/zsh-plugins"
-export BOOK_LIBRARY="$HOME/Notes/library"
+export BOOK_LIBRARY="$EXT_STORAGE/media/library"
+export HISTFILE="$CONFIG/shell/history"
+export HISTSIZE=-1
+export HISTFILESIZE=-1   
 
 # Locale
 export LANG=en_IN.UTF-8
@@ -63,3 +73,9 @@ export PATH="$CONFIG/foundry/bin:$PATH"
 
 # uv
 export PATH="/home/tuxy/.local/share/../bin:$PATH"
+
+# fzf
+eval "$(fzf --bash)"
+
+# hledger
+LEDGER_FILE="$EXT_STORAGE/main/notes/main.journal"

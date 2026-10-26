@@ -1,0 +1,6991 @@
+ls
+lah
+rm -rf .bash_history .bashrc
+clea
+rls
+cat .bash_pro	
+cat .bash_profie
+cat .bash_profile
+rm -rf .bash_profile
+exit
+ls
+cd .config
+ls
+cd shell
+cat history
+ls
+nvim history
+clear
+clear
+ls
+lah
+rm -rf install.sh
+clear
+exit
+clear
+cd .config
+ls
+nvim rofi/config.rasi
+exit
+cd .config
+ls
+cd shell
+cat history
+clear
+exit
+sudo pacman -S opentabletdriver
+cd .config
+ls
+cd ..
+ls
+nvim .bashrc
+exit
+pkill pacman
+sudo pkill pacman
+clear
+cd /var
+fzf
+rm -rf lib/pacman/db.lck
+sudo rm -rf lib/pacman/db.lck
+cd /
+dua
+exit
+curl -fsSL https://christitus.com/linuxdev | sh
+curl -fsSL https://christitus.com/linuxdev | sh
+exit
+cd /dev/linux
+ls
+cd ..
+cd mapper
+ls
+exit
+sudo lvs
+sudo lvcreate -L 50GB -n root-bak linux
+lvs
+sudo lvs
+clear
+sudo lvs
+sudo mkfs.ext4 /dev/linux/root-bak -L root-bak
+clear
+lsblk
+lsblk
+sudo lvs
+clear
+clear
+ls
+clear
+sudo vgdisplay
+sudo lvremove /dev/linux/root-bak
+clear
+sudo lvs
+sudo lvcrate -L +30G --snapshot --name rootbak /dev/mapper/linux-root
+sudo lvcreate -L +30G --snapshot --name rootbak /dev/mapper/linux-root
+suod lvs
+sudo lvs
+sudo nvim /etc/lvm/lvm.conf
+clear
+ls
+sudo lvremove rootbak
+sudo lvremove linux rootbak
+sudo lvremove linux rootbak
+clear
+sudo lvs
+sudo lvs
+sudo lvremove --help
+sudo lvremove linux-root-bak
+clear
+sudo lvs
+sudo gnome-disks
+gnome-disks
+clear
+sudo lvdisplay
+tldr lvremove
+sudo lvremove linux/root-bak
+sudo lvdisplay
+sudo lvremove /dev/linux/rootbak
+sudo lvs
+clear
+df -h
+timeshift
+tldr timeshift
+timeshift --help
+clear
+sudo pacman -S timeshift-autosnap
+sudo nvim /etc/pacman.conf
+clear
+ls
+rm -rf lynis-*
+clear
+exit
+tldr lvcreate
+sudo lvcreate --size 50G -n backup linux
+clear
+exit
+clear
+exit
+sudo pacman -Rcns timeshift-autosnap
+sudo mkfs.ext4 -L backup /dev/linux/backup
+lsblk
+clear
+ls
+lsblk
+umount /run/timeshift/138958/backup
+suod umount /run/timeshift/138958/backup
+sudo umount /run/timeshift/138958/backup
+lsblk
+clear
+lsblk
+sudo systemctl status timeshfit
+exit
+systemctl status cronie
+sudo systemctl status cronie
+sudo systemctl enable --now cronie
+exit
+sudo pacman -S cronie
+files
+nautilus
+clear
+timeshift-gtk
+sudo timeshift-gtk
+sudo pacman -S btop
+sudo pacman -S rocm-smi-lib
+z es-de
+cd .config
+ls
+cd /run/media/tuxy/main
+cd emulators/
+cd es-de
+cd Emulators
+cd ..
+clear
+ls
+./launch.sh
+clear
+ls
+cd /run/media/tuxy/main/notes
+clear
+exit
+exit
+exit
+ls
+clear
+ls
+rm -rf .bash_profile
+cp .bashrc .bash_profile
+clear
+exit
+sudo pacman -Rcsn bash-completion
+sudo pacman -Sy bash-completion
+clear
+clclear
+clear
+exit
+mkdir wallpaper
+cd Downloas
+ls
+cd Downloads
+ls
+mv monochrome-arch.png ../wallpaper
+exit
+cd .config
+./autostart.sh
+clear
+exit
+cd .config
+ls
+nvim autostart.sh
+nvim
+nvim
+mv Downloads/101010.png wallpaper/
+ls
+mv wallpaper wallpapers
+clear
+cd .config
+ls
+nvim autostart.sh
+cd .config
+ls
+cd nvim
+nvim
+exit
+nvim
+exit
+sudo dnf install $lang_js
+sudo pacman -Sy luarocks
+cd .config
+ls
+cd nvim
+nvim
+nvim
+exit
+	awww img "$HOME"/wallpapers/101010.png
+clear
+ls
+clear
+clear
+cd .config
+ls
+clear
+ls
+nvim autostart.sh
+exit
+cd wallpaper
+ls
+cd wallpapers
+ls
+systemctl --user status opentabletdriver
+sudo systemctl daemon-reload
+nvim
+cd .config
+ls
+cd OpenTabletDriver
+ls
+clear
+ls
+cd Preset
+cd Presets
+ls
+cd ..
+clear
+ls
+mkdir Configuration
+mv Configurations Configurations
+mv Configuration Configurations
+cd Configurations
+cp $HOME/Downloads/H640P.json .
+ls
+sudo reboot now
+exit
+clear
+files
+nvim
+pkill tmux
+clear
+exit
+otd-gui
+sudo pacman -Syu vivaldi
+clear
+exit
+cd .local/share
+kls
+clear
+ls
+cd applications
+ls
+nvim
+z es-de
+ls
+cd .config
+ls
+exit
+z es-de
+cd .config
+ls
+clear
+ls
+cd rpcs3
+ls
+fz
+clear
+rm -rf config.yml
+exit
+datetime
+date
+exit
+z es-de
+cd ROMs
+cd switch-upate
+cd switch-updates
+cd switch-update
+ls
+exit
+z es-de
+cd .config/eden
+cd cheats
+ls
+nvim 2CDB9B9D70010E88
+nvim 2CDB9B9D70010E88.txt
+exit
+z cheat
+ls
+nvim 2CDB9B9D70010E88.txt
+exit
+sudo pacman -Ss nbfc
+sudo pacman -S nbfc-gtk
+clear
+fzf
+clear
+fzf
+cear
+clear
+fzf
+clear
+nbfc-gtk
+z es-de
+cd Emualtors
+ls
+cd Emulators
+ls
+./eden-portable.sh
+clear
+./eden-portable.sh
+nbfc-gtk
+sudo nbfc-gtk
+sudo systemctl enable nbfc_linux
+sudo systemctl enable nbfc_server
+sudo systemctl enable nbfc-service
+clear
+sudo pacman -Syu nbfc
+nbfc_service
+sudo systemctl enable nbfc_service
+clear
+sudo systemctl enable --now nbfc_service
+ls
+clear
+sudo systemctl start nbfc_service
+sudo systemctl start nbfc_service
+sudo systemctl reset-failed nbfc_service && sudo systemctl start nbfc_service
+sudo systemctl status nbfc_service.service
+sudo systemctl start nbfc_services
+sudo systemctl start nbfc_service
+clear
+exit
+nbfc-gtk
+sudo nbfc-gtk
+clear
+exit
+exit
+exit
+sudo pacman -Ss zen
+sudo pacman -Ss zen | grep browser
+paru -Ss zen-browser
+paru -S zen-browser-twilight-bin
+sudo pacman -S hunspill-en_US
+sudo pacman -S hunspill
+sudo pacman -S hunspell
+sudo pacman -S librewolf
+sudo pacman -Ss librewolf
+sudo pacman -S librewolf
+sudo pacman -S hunspell-dictionary
+clear
+exit
+brightnessctl
+clear
+sudo pacman -Sy brightnessctl
+clear
+exit
+sudo pacman -S ufw
+clear
+exit
+ufw status verbose
+sudo ufw status verbose
+sudo systemctl enable ufw
+sudo ufw status verbose
+sudo systemctl start ufw
+clear
+sudo ufw status verbose
+clear
+sudo ufw status verbose
+sudo ufw enable
+clear
+sudo ufw app list
+clear
+sudo ufw app list
+sudo ufw deny Yahoo
+sudo ufw status verbose
+tldr ufw
+sudo ufw status verbose
+sudo ufw delete 5050
+clear
+sudo ufw verbose
+tldr ufw
+sudo ufw status numbered
+sudo ufw delete Yahoo
+sudo ufw delet
+sudo ufw status numbered
+sudo ufw delete 8
+clear
+exit
+sudo dnf intall gufw
+sudo pacman -Ss gufw
+sudo pacman -S gufw
+clear
+sudo pacman -Rcns gufw
+exit
+sudo ufw default allow outgoing
+clear
+sudo ufw default deny incoming
+sudo ufw status verbose
+sudo ufw app list | rfzf
+sudo ufw app list | fzf
+sudo ufw app list | fzf
+clear
+exit
+sudo ufw disable
+exit
+sudo pacman -Ss unbound
+sudo pacman -S unbound
+clear
+unbound
+clear
+exit
+sudo systemctl enable --now unbound
+sudo unbound
+clear
+exit
+nvim /etc/unbound/unbound.conf
+exi
+exit
+sudo pacman -S openresolv
+nvim /etc/resolvconf.conf
+sudo nvim /etc/resolvconf.conf
+resolvconf -u
+sudo resolvconf -u
+clear
+curl --output /etc/unbound/root.hints https://www.internic.net/domain/named.cache
+sudo curl --output /etc/unbound/root.hints https://www.internic.net/domain/named.cache
+sudo su
+ls
+clear
+ls
+exit
+unbound
+tld runbound
+tldr unbound
+cd /
+fzf
+sudo nvim /etc/unbound/unbound.conf
+dig google.com
+clear
+tldr unbound
+sudo nvim /etc/unbound/unbound.conf
+cd /etc
+clear
+sudo su
+exit
+sudo pacman -S pihole
+sudo pacman -Ss pihole
+paru -Ss pihole
+clear
+exit
+curl -sSL https://install.pi-hole.net | bash
+sudo pacman -Ss selinux
+sudo pacman -S python-selinux
+curl -sSL https://install.pi-hole.net | bash
+clear
+exit
+clear
+clear
+e
+exit
+exit
+exit
+exit
+clear
+ls
+clear
+ls
+pihole_docker.yml
+nvimpihole_docker.yml
+nvim pihole_docker.yml
+docker compose up -d
+sudo pacman -S docker
+docker compose -d
+docker compose up -d
+clear
+sudo systmctl enable docker
+sudo systemctl enable docker
+docker compose up -d
+clear
+tldr docker compose
+sudo docker compose up -d
+sudo docker compose up -d --file pihole-docker.yml
+clear
+ls
+clear
+ls
+docker run --name pihole -p 53:53/tcp -p 53:53/udp -p 80:80/tcp -p 443:443/tcp -e TZ=Europe/London -e FTLCONF_webserver_api_password="correct horse battery staple" -e FTLCONF_dns_listeningMode=all -v ./etc-pihole:/etc/pihole -v ./etc-dnsmasq.d:/etc/dnsmasq.d --cap-add NET_ADMIN --restart unless-stopped pihole/pihole:latest
+sudo sytemctl start docker
+sudo systemctl start docker
+sudo docker compose up -d --file pihole-docker.yml
+sudo docker compose up --detach --file pihole-docker.yml
+sudo docker compose up --file pihole-docker.yml
+clear
+sudo docker compose up
+sudo docker compose
+docker --help
+sudo pacman -Ss docker | grep compose
+sudo pacman -S docker-compose
+sudo docker compose up --file pihole-docker.yml
+sudo docker compose up -d
+sudo docker compose up -d
+tldr docker compose up
+sudo docker compose --file pihole_docker.ymlup --detach
+sudo docker compose --file pihole_docker.yml up --detach
+sudo docker exec pihole setpassword
+clear
+exit
+sudo docker exec pihole pihole setpassword
+echo $(fz)
+echo $(fzf)
+nvim $(fzf)
+cd /home/tuxy
+sudo docker compose -f pihole_docker.yml down
+sudo docker compose -f pihole_docker.yml up -d --force-recreate
+sudo docker inspect pihole   --format '{{range .Config.Env}}{{println .}}{{end}}' |   grep '^FTLCONF_webserver_api_password='
+clear
+exit
+cd /home/tuxy
+sudo docker compose -f pihole_docker.yml down
+sudo cp -a etc-pihole/gravity.db   "etc-pihole/gravity.db.backup.$(date +%F-%H%M%S)"
+sudo rm -f etc-pihole/gravity.db etc-pihole/gravity.db_temp
+sudo docker compose -f pihole_docker.yml up -d
+nvim pihole_docker.yml
+sudo docker compose -f pihole_docker.yml down
+sudo docker compose -f pihole_docker.yml up -d
+clear
+exit
+sudo su
+sudo nft list ruleset
+sudo ufw status
+sudo nft list ruleset
+sudo ufw status
+sudo ufw allow 53/tcp
+sudo ufw allow 53/udp
+docker port pihole
+sudo ss -lntup | grep ':53'
+dig @DOCKER_HOST_LAN_IP example.com
+sudo pacman -S bind
+sudo docker port pihole
+dig @127.0.0.1 example.com
+sudo docker port pihole
+dig @127.0.0.1 example.com
+ip -4 route get 1.1.1.1
+dig @192.168.1.50 example.com
+sudo resolvectl dns <network-interface> 127.0.0.1
+sudo resolvectl domain <network-interface> '~.'
+ip link
+sudo resolvectl dns wlan0 127.0.0.1
+sudo resolvectl domain wlan0 '~.'
+resolvectl status
+dig example.com
+dig @192.168.29.242 example.com
+sudo resolvectl dns eno1 127.0.0.1
+sudo resolvectl domain eno1 '~.'
+sudo resolvectl dns wlo1 127.0.0.1
+sudo resolvectl domain wlo1 '~.'
+resolvectl status
+dig example.com
+nmcli connection show
+sudo nmcli connection modify "Wired connection 1"   ipv4.ignore-auto-dns yes   ipv4.dns "127.0.0.1"   ipv4.dns-priority -50   ipv6.ignore-auto-dns yes   ipv6.dns-priority -50
+sudo nmcli connection modify "subham 5G"   ipv4.ignore-auto-dns yes   ipv4.dns "127.0.0.1"   ipv4.dns-priority -50   ipv6.ignore-auto-dns yes   ipv6.dns-priority -50
+sudo nmcli connection down "Wired connection 1"
+sudo nmcli connection up "Wired connection 1"
+sudo nmcli connection down "subham 5G"
+sudo nmcli connection up "subham 5G"
+sudo nmcli connection down "Wired connection 1"
+sudo nmcli connection up "Wired connection 1"
+sudo nmcli connection down "subham 5G"
+sudo nmcli connection up "subham 5G"
+resolvectl status
+dig example.com
+dig @192.168.29.242 example.com
+sudo resolvectl dns eno1 127.0.0.1
+sudo resolvectl domain eno1 '~.'
+sudo resolvectl dns wlo1 127.0.0.1
+sudo resolvectl domain wlo1 '~.'
+dig example.com
+sudo docker inspect -f '{{range .Mounts}}{{println .Source "->" .Destination}}{{end}}' pihole
+sudo docker exec pihole sh -c '
+ls -lah /etc/pihole/pihole-FTL.db /etc/pihole
+df -h /etc/pihole
+df -i /etc/pihole
+'
+sudo docker logs --tail 200 pihole 2>&1 | grep -iE 'database|sqlite|permission|readonly|locked|disk'
+sudo docker restart pihole
+\
+sudo docker restart pihole
+sudo docker stop pihole
+sudo docker cp pihole:/etc/pihole/pihole-FTL.db   ./pihole-FTL.db.backup
+sudo docker start pihole
+sudo docker exec pihole sh -c '
+ls -l /etc/pihole/pihole-FTL.db
+id
+'
+sudo
+clewar
+exit
+sudo docker stop pihole
+sudo mv /home/tuxy/etc-pihole/pihole-FTL.db   /home/tuxy/etc-pihole/pihole-FTL.db.corrupt
+sudo docker start pihole
+sudo docker exec pihole sh -c   'ls -lh /etc/pihole/pihole-FTL.db'
+sudo docker logs --tail 100 pihole
+\
+sudo docker exec pihole sh -c   'ls -lh /etc/pihole/pihole-FTL.db'
+sudo docker logs --tail 100 pihole
+sudo docker logs --tail 200 pihole 2>&1 | grep -iE 'database|sqlite|permission|readonly|locked|disk'
+sudo docker logs --tail 10 pihole
+sudo docker exec pihole sh -c   'ls -lh /etc/pihole/pihole-FTL.db'
+sudo docker logs pihole 2>&1 | grep -iE 'database|sqlite|readonly|locked|no such table'
+dig @127.0.0.1 example.com
+sudo docker exec pihole pihole status
+cd z
+clear
+ls
+clear
+ls
+clear
+z switch
+clear
+ls
+cd ..
+z cheat
+ls
+nvim
+exit
+echo $EXT_STORAGE
+clear
+exit
+z Emulators
+ls
+cd .config
+ls
+cd ..
+cd .config
+ls
+lah azahar-emu
+cd retroarch
+ls
+fzf
+cd Citra
+ls
+cd config/Citra
+ls
+fzf
+cd ..
+fzf
+cd ..
+fzf
+cd saves/Citra/Citra/
+ls
+fzf
+cp * /run/media/tuxy/main/emulators/es-de/.local/share/azahar-emu
+cp -r * /run/media/tuxy/main/emulators/es-de/.local/share/azahar-emu
+exit
+z .config/retroarch
+cd ..
+clear
+ls
+cd azahar-emu
+ls
+cd custom
+ls
+clear
+ls
+cd ..
+cd ..
+cd ..
+cd .local
+ls
+fzf
+cd share/azahar
+ls
+clear
+ls
+cd share
+cd azahar-emu
+ls
+clear
+ls
+ls
+cd sdmc
+ls
+clear
+ls
+cd Nintendo\3DS
+ls
+cd $(fzf)
+cd $(fzf)
+clear
+exit
+z Emu
+ls
+./azahar-emu-portable
+./azahar-emu-portable.sh
+./azahar-portable.sh
+clear
+clear
+ls
+./86Box-portable.sh
+./86box-portable.sh
+clear
+ls
+clear
+ls
+./supermodel-potable.sh
+./supermodel-portable.sh
+clear
+pacman -Syu
+clear
+exit
+ls
+cearl
+clear
+ls
+clear
+ls
+cd etc-pihole
+ls
+clear
+ls
+cd ..
+clear
+ls
+exit
+ls
+clear
+ls
+z Emu
+ls
+clear
+ls
+cd ..
+./update.sh
+./update.sh
+nvim
+sudo docker ps
+exit
+ping google.com
+clear
+exit
+sudo pacman -Ss heliumn
+sudo pacman -Ss helium
+paru -Ss helium
+sudo pacman -Ss helium-browser-bin
+sudo pacman -S helium-browser-bin
+sudo pacman -S helium-browser-bin
+sudo pacman -Sy helium-browser-bin
+sudo pacman -S qbittorrent
+sudo pacman -Syu steam
+exit
+sudo pacman -Syu
+sudo pacman -Syu steam
+sudo pacman -S lib32-pipewire-jack lib32-pipewire-netjack2 lib32-pipewire-v4l2
+clear
+exit
+https://gds.google.com/web/landing?ep=p&gdsid=1802134763&tda=CAA&gm3e=false&authuser=0&hl=en&continue=https://accounts.google.com/ServiceLogin?continue%3Dhttps://accounts.google.com/gsi/select?client_id%253D990339570472-k6nqn1tpmitg8pui82bfaun3jrpmiuhs.apps.googleusercontent.com%2526auto_select%253Dtrue%2526ux_mode%253Dpopup%2526ui_mode%253Dcard%2526context%253Dsignin%2526hl%253Den-US%2526as%253DcPmJGGo5nF9wsjSJ99BbrQ%2526feature%253DcancelableAutoSelect%2526channel_id%253D4626c5d0372d573173861ebe272844d27ac1320b4cabc02e671b0adc8539ef07%2526origin%253Dhttps://www.linkedin.com%26hl%3Den%26authuser%3D0%26passive%3Dtrue%26sarp%3D1%26aodrpl%3D1%26checkedDomains%3Dyoutube%26pstMsg%3D1%26faa%3D1&rapt=AEjHL4PcPIocWUh16YIAKVl2K_f9shbguQOQn58nHx3Dd_yI2UgC2hiKMXdoK9ow17qXm4i0g8PstOaRYhFqvzIDw_wMzAPLQQ&pli=1
+https://gds.google.com/web/landing?ep=p&gdsid=1802134763&tda=CAA&gm3e=false&authuser=0&hl=en&continue=https://accounts.google.com/ServiceLogin?continue%3Dhttps://accounts.google.com/gsi/select?client_id%253D990339570472-k6nqn1tpmitg8pui82bfaun3jrpmiuhs.apps.googleusercontent.com%2526auto_select%253Dtrue%2526ux_mode%253Dpopup%2526ui_mode%253Dcard%2526context%253Dsignin%2526hl%253Den-US%2526as%253DcPmJGGo5nF9wsjSJ99BbrQ%2526feature%253DcancelableAutoSelect%2526channel_id%253D4626c5d0372d573173861ebe272844d27ac1320b4cabc02e671b0adc8539ef07%2526origin%253Dhttps://www.linkedin.com%26hl%3Den%26authuser%3D0%26passive%3Dtrue%26sarp%3D1%26aodrpl%3D1%26checkedDomains%3Dyoutube%26pstMsg%3D1%26faa%3D1&rapt=AEjHL4PcPIocWUh16YIAKVl2K_f9shbguQOQn58nHx3Dd_yI2UgC2hiKMXdoK9ow17qXm4i0g8PstOaRYhFqvzIDw_wMzAPLQQ&pli=1
+curl -L https://github.com/iw4x/iw4x-client/releases/latest/download/iw4x.dll -o iw4x.dll
+ls
+mkdir iw4x
+mv iw4x.dll iw4x
+clear
+lws
+cd iw4x
+clear
+ls
+curl -L https://github.com/iw4x/iw4x-rawfiles/releases/latest/download/release.zip -o release.zip
+ls
+unzip release.zip
+clear
+ls
+./iw4x.exe
+clear
+wine iw4x.exe
+sudo pacman -S wine
+sudo pacman -Ss proton
+tldr lvextend
+sudo lv
+sudo lvs
+clear
+sudo lvs
+sudo lvextend -r --size 20G home
+sudo lvextend -r --size 20G linux/home
+clear
+lsblk
+sudo lvextend -r --size 20G /dev/linux/home
+sudo lvextend -r --size 20G linux --name home
+tldr lvextend
+sudo lvextend -r --size 20G home
+sudo lvextend -r --size 20G /dev/mapper/linux-home
+sudo lvextend -rl +20G /dev/linux/home
+sudo lvextend -rl +50% /dev/linux/home
+sudo lvextend -rl +40GFREE /dev/linux/home
+sudo lvextend -rl +40%FREE /dev/linux/home
+lslbk
+clear
+lsblk
+z down
+ls
+clear
+lah
+clear
+lah
+dua
+cd ..
+clear
+ls
+dua
+rm -rf iw4x
+clear
+ls
+clear
+cd .config
+ls
+dua
+rm -rf BraveSoftware
+cd .git
+ls
+dua
+cd objects
+dua
+ls
+cd pack
+dua
+nvim
+clear
+exit
+z main
+cd emulators
+exit
+z ps4
+z Roms
+ls
+cd ps4
+ls
+z ps4
+ls
+dua
+ls
+exit
+cd Downloads
+ls
+cd $(fzf)
+cd $(ls | grep blood)
+cd $(ls | grep B)
+ls | grep B
+ls | grep 'B'
+ls | grep -e "b"
+ls | grep -e "B"
+ls | grep -e "Blood"
+ls | grep -e "lood"
+clear
+ls
+cd Donwloads
+ls
+clear
+ls
+cd Downloads
+ls
+clear
+ls
+cd Blood
+ls | grep B
+cd $(ls | grep B)
+cd "$(ls | grep B)"
+ls
+clear
+ls
+clear
+ls
+mv * /run/media/tuxy/main/emulattion/es-de/ROMs/ps4/
+mv * /run/media/tuxy/main/emulators/es-de/ROMs/ps4/
+z ps4
+z emulators
+ls
+cd es-de/Emulations
+ls
+cd es-de/Emulators
+ls
+clear
+ls
+clear
+ls
+./shadps4
+./shadps4-portable.sh -b
+ls
+exit
+z ps4
+ls
+mv up9000-CUSA00900_00-BLOODBORNE000000-A0109-V0100.pkg bloodborne.pkg
+nvim
+exit
+z ps4
+ls
+exit
+exit
+ls
+clear
+ls
+exit
+ls
+exit
+z ps4
+ls
+exit
+z ROMs
+l;s
+clear
+ls
+cd ..
+cd ..
+clear
+ls
+./shadps4-pkg-extractor.AppImage
+./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/es-de/ROMs/ps4/bloodborne.pkg
+ls
+rm -rf CUSA00900-patch
+./shadps4-pkg-extractor.AppImage --hep
+./shadps4-pkg-extractor.AppImage -h
+nvim
+clear
+nvim
+./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/es-de/ROMs/ps4/bloodborne.pkg && ./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/es-de/ROMs/ps4/bloodborne-update.pkg &&./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/es-de/ROMs/ps4/bloodborne-dlc-1.pkg &&./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/es-de/ROMs/ps4/bloodborne-dlc-2.pkg &&./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/es-de/ROMs/ps4/bloodborne-dlc-3.pkg
+ls
+./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/ROMs
+./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/ROMs/ps4/bloodborne-dlc-2.pkg
+./shadps4-pkg-extractor.AppImage /run/media/tuxy/main/emulators/ROMs/ps4/bloodborne-dlc2.pkg
+exit
+exit
+ls
+clear
+exit
+exit
+cd /usr/share/completion
+cd /usr/share
+ls
+fzf
+cd bash-completions
+ls
+cd bash-completion
+ls
+lah
+./bash_completion
+sudo ./bash_completion
+clear
+exit
+exit
+if [ -f /usr/share/bash-completion/bash_completion ]; then     . /usr/share/bash-completion/bash_completion; fi
+exit
+exit
+find /usr -name "bash_completion" 2>/dev/null
+[200~https://duck.ai/
+. /usr/share/bash-completion/bash_completion
+bind '"\t": complete'
+clear
+exit
+z bashrc
+z shell
+ls
+nvim
+exit
+z shell
+nvim
+exit
+z es-de
+ls
+cd ..
+ls
+mv CUSA00900 bloodborne
+mv CUSA00900-patch bloodborne-patch
+mv blood* es-de/ROMs/ps4/
+z ps4
+ls
+exit
+z Downloads
+ls
+cd iw4x_full_game/
+ls
+clear
+ls
+cd Redist
+ls
+wine VC_redist.x64.exe 
+clear
+z Downloads
+ls
+cd iw4x_full_game/
+ls
+cat localization.txt 
+clear
+ls
+nvim localization.txt 
+cd main
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd main
+ls
+cd ..
+fzf
+clear
+ls
+ls
+curl -L https://github.com/iw4x/iw4x-client/releases/latest/download/iw4x.dll -o iw4x.dll
+ls
+fzf
+f://github.com/iw4x/iw4x-rawfiles/releases/latest/download/release.zip -o release.ziPf
+curl -L https://github.com/iw4x/iw4x-rawfiles/releases/latest/download/release.zip -o release.zip
+unzipi release.zip 
+unzip release.zip 
+clear
+ls
+clear
+ls
+sudo pacman -Syu
+date
+pkill steam
+exit
+sudo pacman -
+cclear
+clear
+sudo pacman -S blueman
+bluemoon
+clear
+sudo blueman
+lsblk
+clear
+lsblk
+clear
+lsblk
+clear
+sudo dmesg --watch
+tldr dmesg
+sudo dmesg --human --follow
+lsblk
+clear
+sudo gnome-disks
+gnome-disks
+sudo dmesg --human --follow
+sudo dmesg --human --follow
+clear
+exit
+nvim
+exit
+hlegder --help
+sudo pacman -S hledger
+hledger --help
+hledger add
+rm -rf /home/tuxy/.hledger*
+ls
+hledger --hel
+clear
+tldr hledger
+man hledger
+clear
+man man
+exit
+hledger --tlddr
+hledger --tldr
+clear
+exit
+hledger --help
+hledger add
+clear
+ls
+echo $LEDGER_FILE
+hledger --file /run/media/tuxy/main/notes/main.journal
+clear
+man hledger
+clear
+echo $LEDGER_FILE
+hledger add -f /run/media/tuxy/main/notes/main.journal
+hledger add -f /run/media/tuxy/main/notes/main.journal
+clear
+exit
+hledger --help
+tldr hledger
+hledger print
+hledger -f $EXT_STORAGE/main/notes/main.journal print
+hledger print -f $EXT_STORAGE/main/notes/main.journal
+hledger print -f /run/media/tuxy/main/notes/main.journal
+hledger print -f /run/media/tuxy/main/notes/main.journal
+clear
+tldr hledger
+hledger balancesheet
+clear
+ls
+clear
+lah
+hleger balancesheet
+clear
+hledger balancesheet
+hledger balancesheet -f /run/media/tuxy/main/notes/main.journal
+clear
+lah
+z notes
+nvim
+exit
+sudo pacman -S onlyoffice
+sudo pacman -S onlyoffice
+sudo pacman -S gst-libav
+nvim
+exit
+sudo lvextend -rL 10G -n swap linux
+sudo lvextend -rL 10G -n linux-swap
+sudo lvextend -rL 10G -n linux/swap
+clear
+exit
+sudo dd if=/dev/zero of=/swapfile bs=1G count=10
+ls
+cd /
+ls
+clear
+ls
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+clear
+exit
+cd /
+clear
+ls
+clear
+ls
+cd Downloads
+ls
+ls
+exit
+sudo pacman -Rcns brave-browser vivaldi zen-twilight-browser
+sudo pacman -Rcns brave vivaldi zen-twilight-browser
+sudo pacman -Ss brave
+sudo pacman -Rcns brave-bin vivaldi zen-browser-twilight
+sudo pacman -Rcns brave-bin vivaldi zen-browser-twilight
+sudo pacman -Rcns brave-bin vivaldi
+clear
+ls
+cd /
+dua
+clear
+sudo swapon /swapfile
+clear
+exit
+lsblk
+clear
+exit
+sudo ntfsfix /dev/sda1
+exit
+lsblk
+mount /dev/sda1 /run/media/tuxy/main
+sudo mount /dev/sda1 /run/media/tuxy/main
+mkdir /run/media/tuxy/main
+exit
+sudo ntfsfix -d /dev/sda1
+clear
+exit
+cd .config
+btop
+cd /
+dua
+cd usr
+ols
+dua
+clear
+exit
+cd home
+dua
+cd Downloads
+ls
+dua
+mv iw4x_full_game /run/media/tuxy/main/
+clear
+sudo lvextend -r --size 20G /dev/linux/root
+clear
+exit
+cd /
+dua
+clear
+exit
+cd /run
+dua
+cd /media/tuxy
+ls
+cd media
+ls
+cd tuxy
+dua
+dua
+cd main
+dua
+cd emulators
+dua
+cd es-de
+dua
+cd ROMs
+ls
+sudo pacman -Syu
+btop
+exit
+lsblk -f
+cd /
+ls
+dua
+rm -rf swapfile
+sudo rm -rf swapfile
+sudo swapoff /swapfile
+sudo rm -rf swapfile
+clear
+sudo lvextend -r --size 10G /dev/linux/swap
+clear
+exit
+pkilil cs2
+pkill cs2
+exit
+ping
+clear
+ping google.com
+sudo reboot now
+pkill steam
+pkill steam
+clear
+exit
+pkill steam
+pkill cs
+tldr swapoff
+sudo swapoff -L swap
+sudo swapoff -L linux-swap
+sudo swapoff -L swap
+sudo swapoff -L swap
+swapoff --help
+sudo swapoff -v /dev/linux/swap
+sudo swapoff -v /dev/linux-swap
+clear
+sudo swapoff -L swap
+cat /proc/swaps
+sudo swapoff -a
+sudo lvextend -L +5GB /dev/linux/swap
+lsblk
+sudo lvextend -L +1GB /dev/linux/swap
+sudo lvextend -r -L +1GB /dev/linux/swap
+clear
+ls
+sudo swapon -L swap
+lsblk
+clear
+exit
+pkill steam
+pkill steam
+exit
+sudo lvs
+clear
+exit
+paru -Syu
+paru -Syu
+exit
+sudo swapoff -a
+sudo lvremove --help
+tldr lvremove
+sudo lvremove linux/swap
+sudo lvcreate --help
+tldr lvcreate
+sudo lvcreate --size 15G --name linux swap
+sudo lvcreate --size 15G --name swap
+sudo lvcreate --size 15G linux --name swap
+sudo lvs
+tldr mkswap
+sudo mkswap -L swap /dev/linux/swap
+sudo swapon /dev/linux/swap
+lslbk
+lsblk
+clear
+exit
+sudo lsv
+sudo lvs
+clear
+ls
+sudo timeshift
+sudo timeshift-gui
+sudo timeshift-tk
+sudo timeshift-gtk
+sudo timeshift-gtk
+sudo pacman -Syu
+htop
+ckear
+exit
+sudo pacman -Syu
+clear
+exit
+paru -S nbfc-linux
+sudo nbfc-gtk 
+sudo systemctl enable nbfc_service
+sudo systemctl enable --now nbfc_service
+sudo sytemctl start nbfc_service
+sudo systemctl start nbfc_service
+clear
+sudo nbfc
+sudo nbfc start
+clear
+sudo nbfc start
+tldr nbfc
+clear
+exit
+exit
+z emulators
+cd es-de/Emulators
+./shadps4-portable.sh 
+./shadps4-portable.sh --set-addon-folder dlc:/run/media/tuxy/main/emulators/es-de/ROMs/ps4/
+./shadps4-portable.sh --set-addon-folder /run/media/tuxy/main/emulators/es-de/ROMs/ps4/
+clear
+exit
+z es-de
+cd .config
+ls
+clear
+ls
+cd ..
+fzf
+cd Emulators/shadps4
+ls
+cd Emulators
+ls
+cd ..
+fzf
+cd .local/share/shadps4
+ls
+cd .local
+cd share
+l
+ls
+cd shadPS4/
+clear
+ls
+fzf
+nvim config.json
+ls
+cd ..
+cd ..
+cd ..
+cealr
+clear
+ls
+cd Emulators
+ls
+./shadps4-portable.sh 
+./shadps4-portable.sh -v
+./shadps4-portable.sh --version
+z main
+dua
+cd emulators
+dua
+cd es-de
+clear
+ls
+dua
+cd ROMs
+dua
+cd ps4
+ls
+dua
+rm -rf GOT_13323_FULLGAME_v2.24_\[9.00-11.00\]_OPOISSO893
+rm -rf bloodborne-files
+rm -rf GOT*
+duya
+clea
+clear
+dua
+rm -rf ghost*
+dua
+clear
+ls
+dua
+cd bloodborne
+ls
+cd bloodborne.pkg/
+ls
+cd ..
+clear
+ls
+lah
+clear
+lah
+mv CUSA13323-update bloodborne-update.pkg
+clear
+cd ..
+cd ..
+ls
+./upate.sh
+clear
+./update
+./update.sh
+./update.sh
+./update.sh
+sudo pacman -S gamemode
+z ps4
+ls
+dua
+clear
+ls
+dua
+cd ..
+dua
+cd swtich
+clear
+cd switch
+da
+dua
+cd ..
+clear
+ls
+fzf
+fzf
+clear
+find -type f
+find -type f | grep realm
+clear
+clear
+clear
+   clear
+clear
+ls
+find
+find -type f | grep realm
+rm -rf $(find -type f | grep realm)
+fzf
+clear
+ls
+cd ..
+cd ..
+cd ..
+dau
+dua
+rm -rf bios
+clear
+ls
+dua
+rm -rf '$RECYCLE.BIN'/
+rm -rf System\ Volume\ Information/
+rm -rf found.000/
+clear
+lah
+clear
+lah
+clear
+ls
+cd documents
+ls
+cd ..
+clear
+ls
+rm -rf Fedora-Workstation-Live-44-1.7.x86_64
+ls
+clear
+ls
+cd projects
+ls
+cd ..
+cd emulators
+cd es-de
+dua
+cd Emulators
+dua
+cd PCSX2/
+ls
+dua
+cd textures
+ls
+dua
+cd ..
+ls
+dua
+rm -rf textures
+mkdir textures
+cd ..
+clear
+ls
+dua
+cd ..
+dua
+cd ROMs
+dua
+cd switch
+dua
+clear
+dua
+rm -rf nsuns
+cd ..
+cd ..
+fzf
+clear
+ls
+clear
+ls
+rm -rf $(find -type f | grep witcher)
+fzf
+clear
+ls
+dua
+cd ROMs
+dua
+cd ps3
+ls
+rm -rf castlevania-lords-of-shadow.iso dragon-age-origins.iso dark-souls.iso/
+dua
+rm -rf dark-souls.iso/
+sudo rm -rf dark-souls.iso/
+ls
+cd ..
+clear
+dua
+cd ps4
+ls
+cd ..
+ls
+clear
+dua
+cd switch
+dua
+rm -rf nsuns-trilogy.nsp 
+rm -rf dying-light.nsp 
+rm- rf tes-v-skyrim.nsp 
+rm -rf tes-v-skyrim.nsp 
+rm -rf xenoblade-chronicles.nsp 
+rm -rf resident-evil-0.nsp 
+clear
+exit
+z main
+dua
+cd SteamLibrary
+dua
+clear
+ls
+cd steamapps
+exit
+paru -Syu
+date
+pkill steam
+pkill steam
+cd .config
+cd hypr
+ls
+nvim
+date
+exit
+sudo pacman -Syu
+sudo pacman -S pipewire
+date
+pkill steam
+clear
+exit
+pkill steam
+lsblk
+clear
+lsblk
+lsblk
+lwsblk
+lsblk
+lsblk
+clear
+exitg
+lsblk
+exit
+sudo pacman -Ss rdp
+sudo pacman -Ss remina
+paru -Ss remina
+sudo pacman -S xrdp
+sudo pacman -S tigervnc
+exit
+exit
+sudo nmap -Pn -F -sV 192.168.29.173
+sudo nmap -Pn -p 22 192.168.29.173
+tldr xfreedp3
+tldr xfreedp
+xfreerdp3 
+tldr xfreerdp
+tldr xfreerdp3
+xfreerdp3 /u:DESKTOP-E3244Q2 /p:2004
+xfreerdp3 /u:DESKTOP-E3244Q2 /p:2004
+ipadd
+clear
+ipconfig
+ipcs
+clear
+# Find your own subnet (e.g. 192.168.1.0/24)
+ip -4 addr show | grep -oP '(?<=inet\s)\d+\.\d+\.\d+\.\d+/\d+'
+# Scan the subnet for port 3389
+sudo nmap -p 3389 --open -sV 192.168.1.0/24
+sudo pacman -S nmap
+ip -4 addr show | grep -oP '(?<=inet\s)\d+\.\d+\.\d+\.\d+/\d+'
+sudo nmap -p 3389 --open -sV 192.168.1.0/24
+sudo nmap -p 3389 --open -sV 192.168.29.0/24
+sudo pacman -S arp-scan
+sudo arp-scan --localnet
+# Full‑range scan (all ports) on the suspected IP
+sudo nmap -Pn -p- -sV 192.168.29.173 | grep -iE '3389|rdp|xrdp|ms-wbt'
+clear
+xfreerdp /v:192.168.29.173 /u:DESKTOP-E3244Q2 /p:2004 +clipboard +fonts
+xfreerdp3 /v:192.168.29.173 /u:DESKTOP-E3244Q2 /p:2004 +clipboard +fonts
+# Full‑range scan (all 65535 ports) – skips host discovery, so it works even if the box blocks ICMP
+sudo nmap -Pn -p- -sV 192.168.29.173 | tee ~/nmap-173.txt
+xfreerdp3 /v:192.168.29.173 /u:DESKTOP-E3244Q2 /p:2004 +clipboard +fonts
+clear
+exit
+sudo nmap -Pn -p 3389 -T4 192.168.29.173
+# Scan every TCP port, but give up quickly on silent hosts
+sudo nmap -Pn -p- -T4 --max-retries 1 --host-timeout 5s 192.168.29.173 | tee ~/rdp‑scan.txt
+# 22 – SSH
+sudo nmap -Pn -p 22 -T5 --max-retries 0 192.168.29.173
+# 3389 – default RDP
+sudo nmap -Pn -p 3389 -T5 --max-retries 0 192.168.29.173
+# 3390 – a typical “moved RDP” port
+sudo nmap -Pn -p 3390 -T5 --max-retries 0 192.168.29.173
+clear
+xfreerdp3 /v:localhost /u:DESKTOP-E3244Q2 /p:2004 +clipboard +fonts
+xfreerdp3 /v:localhost /u:Administrator /p:2004 +clipboard +fonts
+xfreerdp3 /v:localhost /u:Administrator /p:2004 +clipboard +fonts
+clear
+xfreerdp3 /v:localhost /u:DESKTOP-E3244Q2 /p:2004 /cert:ignore +clipboard +fonts
+exit
+tldr xfreerdp3
+exit
+nmap
+clear
+tldr nmap
+clear
+exit
+tldr nmap
+nmap -v 
+nmap
+nmap -v
+clear
+exit
+cd /etc/
+ls
+clear
+exit
+sudo nmap -Pn -p 3389 -T5 --max-retries 0 192.168.29.173
+sudo nmap -Pn -p 3389 -T5 --max-retries 10 192.168.29.173
+xfreerdp3 /v:192.168.29.173 /u:<ADMIN_USER> /p:<ADMIN_PASSWORD> +clipboard +fonts
+xfreerdp3 /v:192.168.29.173 /u:Administrator /p:2004 +clipboard +fonts
+xfreerdp3 /v:192.168.29.173 /u:Administrator /p:2004 +clipboard +fonts
+xfreerdp3 /v:192.168.29.173 /u:Administrator /p:2004 +clipboard +fonts
+xfreerdp3 /v:localhost /u:Administrator /p:2004 +clipboard +fonts
+clear
+exit
+ssh DESKTOP-E3244Q2@192.168.29.173
+clear
+sudo systemctl enable xrdp
+clear
+sudo systemctl start xrdp
+clear
+ssh DESKTOP-E3244Q2@192.168.29.173
+ssh Administrator@192.168.29.173
+tldr ssh
+clear
+ssh DESKTOP-E3244Q2@192.168.29.173
+ssh -N -R 3389:localhost:3389 DESKTOP-E3244Q2@192.168.29.173
+ssh localhost@192.168.29.173
+ssh -N -R 3389:localhost:3389 Administrator@192.168.29.173
+tldr ssh
+man ssh
+ssh Administrator@192.168.29.173
+clear
+exit
+paru -Ss remina
+clear
+paru -Ss remmina
+sudo pacman -S remmina
+tldr nmap
+clear
+exit
+--dns-server
+man nmap
+exit
+sudo nmap -PN -p- -T4 --max-retries 1 --host-timeout 5s 192.168.29.173 | tee ~/rdp‑scan.txt
+ls
+cat rdp‑scan.txt 
+rm -rf rdp‑scan.txt 
+exit
+cd /etc/
+fzf
+cat resolv.conf
+cat resolv.conf
+ls
+clear
+lah
+cd resolv
+ls
+cd resolv
+clear
+fzf
+rm -rf resolv*
+sudo rm -rf resolv*
+clear
+exit
+sudo nmap 192.148.29.1
+sudo nmap 192.148.29.1 -Pn
+sudo nmap 192.148.29.173 -Pn
+sudo nmap 192.148.29.173 -sS
+sudo nmap 192.148.29.173 -PnsS
+sudo nmap 192.148.29.173 -Pn
+sudo nmap 192.148.29.173 -Pn --system-dns
+sudo nmap 192.148.29.173 -Pn --system-dns
+sudo nmap 192.148.29.173 -Pn --system-dns
+sudo nmap 192.148.29.173 -Pn --dns-servers
+man nmap
+sudo nmap 192.148.29.173 -Pn --dns-servers 1.1.1.1
+sudo nmap 192.148.29.173 -Pn --dns-servers 8.8.8.8
+sudo ntfsfix -d /dev/sda1
+sudo nmap -PN -p- -T4 --max-retries 1 --host-timeout 5s 192.168.29.173 --dns-servers 8.8.8.8
+sudo nmap -Pn -p- -T4 --max-retries 1 --host-timeout 5s 192.168.29.173 --dns-servers 8.8.8.8
+sudo nmap -Pn -p- -T4 --max-retries 1 --host-timeout 5s 192.168.29.173 --dns-servers 8.8.8.8
+sudo nmap -Pn -p- -T4 --max-retries 1 --host-timeout 5s 192.168.29.173 --dns-servers 8.8.8.8
+clear
+exit
+sudo arp-scan --localnet
+clear
+sudo arp-scan --localnet
+sudo arp-scan --localnet
+exit
+sudo nmap
+sudo nmap -l
+clear
+tldr arp
+sduo arp
+sudo arp
+sudo arp -a
+clear
+arp
+sudo arp-scan --localnet
+clear
+tldr arp-scan
+sudo arp-scan --localnet
+sudo arp-scan 192.168.29.1
+sudo nmap -Pn -p- -T4 --max-retries 1 --host-timeout 5s 192.168.29.1 --dns-servers 8.8.8.8
+exit
+tldr
+clear
+lsblk
+clear
+lsblk
+exit
+lsblk
+clear
+exit
+paru -S jellyfind
+paru -S jellyfin
+sudo pacman -S jellyfin
+sudo pacman -Ss jellyfin
+sudo pacman -S jellyfin-desktop-git
+sudo pacman -S jellium-desktop-git
+sudo pacman -S jellium-desktop-git jellyfin-server
+sudo pacman -S opencl-amd
+clear
+pkill jellium
+jellyfin
+sudo pacman -Ss dotnet
+sudo pacman -S dotnet
+sudo pacman -S dotnet-sdk
+clear
+jellyfin 
+tldr jellyfin
+jellyfin
+clear
+paru -S jellyfin
+clear
+exit
+sudo pacman -Syu dotnet-runtime
+sudo pacman -Sy dotnet-runtime
+paru -S lttng-ust
+clear
+exit
+ls
+nvim jellyfin_docker.yml
+clear
+exit
+sudo pacman -Ss dotnet | grep 10
+clear
+jellyfin
+dotnet
+dotnet --info
+clear
+jellyfin
+clear
+man jellyfin
+jellyfin
+clear
+$USER
+clear
+dxit
+exit
+lslogins
+lslogins | grep jellyfin
+clear
+exit
+exit
+exit
+z main
+clear
+eixt
+z main
+ls
+clear
+ls
+mkdir media
+clear
+ls
+clear
+cd media
+clear
+ls
+cd ..
+clear
+ls
+sudo chown jellyfin media
+exit
+
+lslogins | fzf
+exit
+lslogins | fzf
+exit
+nvim jellyfin_docker.yml 
+nvim jellyfin_docker.yml 
+exit
+tldr docker compose
+docker compose up --file jellyfin_docker.yml 
+docker compose up --file jellyfin_docker.yml 
+tldr docker
+tldr docker compose
+docker compose --file jellyfin_docker.yml up
+sudo docker compose --file jellyfin_docker.yml up
+sudo docker compose --file jellyfin_docker.yml up
+sudo docker compose --file jellyfin_docker.yml up
+lslogins | fzf
+nvim jellyfin_docker.yml 
+sudo docker compose --file jellyfin_docker.yml up
+sudo docker ps
+clear
+sudo docker compose --file jellyfin_docker.yml up
+sudo docker compose --file pihole_docker.yml up -d
+sudo docker compose --file jellyfin_docker.yml up
+sudo docker compose --file jellyfin_docker.yml up -d
+clear
+nvim jellyfin_docker.yml 
+sudo docker compose --file jellyfin_docker.yml up -d
+nvim jellyfin_docker.yml 
+nvim jellyfin_docker.yml 
+sudo docker compose --file jellyfin_docker.yml up -d
+clear
+clear
+ls
+clear
+exit
+pkill jellium
+jellium
+clear
+jellium-desktop 
+jellium-desktop 
+clear
+cd $EXT_STORAGE
+ls
+cd /run/media/tuxy
+ls
+cd main
+clear
+ls
+nvim jellyfin_docker.yml 
+tldr docker compose
+sudo docker compose down jellyfin_docker.yml 
+sudo docker ps
+sudo docker down jellyfin
+sudo docker compose down jellyfin
+sudo docker compose down
+man
+man docker compose
+man docker
+clear
+docker compose --help
+docker compose down --help
+sudo docker compose down --dry-run
+sudo docker compose down --dry-run --file jellyfin_docker.yml 
+clear
+exit
+clea
+exit
+sudo docker restart jellyfin
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker rm -f jellyfin 2>/dev/null
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker rm -f jellyfin 2>/dev/null
+sudo docker ps
+clear
+exit
+sudo docker ps
+clear
+ls
+nvim jellyfin_docker.yml 
+nvim jellyfin_docker.yml 
+mkdir -p "$HOME/.config/jellyfin"
+mkdir -p "$HOME/.cache/jellyfin"
+exit
+sudo docker compose -f jellyfin_docker.yml config
+sudo docker compose -f jellyfin_docker.yml up
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml config
+sudo docker volume ls
+exit
+sudo docker volume ls
+sudo docker ps
+clear
+exit
+docker inspect jellyfin --format '{{range .Mounts}}{{println .Source "->" .Destination}}{{end}}'
+sudo docker inspect jellyfin --format '{{range .Mounts}}{{println .Source "->" .Destination}}{{end}}'
+clear
+cd Downloads
+ls
+cd Mr.Bean\ Holiday\ \(2007\)\ \[Rowan\ Atkinson\]\ 1080p\ BluRay\ H264\ DolbyD\ 5.1\ +\ nickarad/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+z main
+sudo chown tuxy media
+exit
+ls
+cledar
+ls
+clea
+rls
+clear
+ls
+clear
+ls
+cd Downloads/
+ls
+cd Mr.Bean\ Holiday\ \(2007\)\ \[Rowan\ Atkinson\]\ 1080p\ BluRay\ H264\ DolbyD\ 5.1\ +\ nickarad/
+ls
+clear
+ls
+nvim
+clear
+ls
+mv mr-bean-holiday\(2007\)* /run/media/tuxy/main/media/
+mv mr-bean-holiday\(2007\)* /run/media/tuxy/main/media/
+z media
+ls
+mkdir movies
+mv *.* movies/
+ls
+cd movies
+ls
+exit
+z media
+ls
+cd movies/
+ls
+clear
+exit
+nvim jellyfin_docker.yml 
+clear
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+z media
+ls
+clear
+ls
+ls
+clea
+rls
+exit
+z media
+ls
+mv *png movies
+clear
+ls
+exit
+z mr
+dua
+dua
+clear
+ls
+dua
+exit
+cd Downloads
+ls
+cd Mr.Bean\ \(1997\)\ \[Rowan\ Atkinson\]\ 1080p\ BluRay\ H264\ DolbyD\ 5.1\ +\ nickarad/
+ls
+mv Mr.Bean\ \(1997\)\ 1080p\ BluRay\ H264\ DolbyD\ 5.1\ +\ nickarad.en.srt mr-bean(1997).en.srt
+clear
+ls
+nvim
+ls
+mv mr-bean\(1997\)* /run/media/tuxy/main/media/
+clear
+ls
+exit
+z media
+ls
+mv *.* movies
+exit
+jellium-desktop 
+jellium-desktop 
+clear
+exit
+getent hosts google.com
+clear
+exit
+sudo pacman -S unbound
+clear
+exit
+exit
+sudo nvim /etc/unbound/unbound.conf 
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker exec -it jellyfin sh
+cat /etc/resolv.conf
+exit
+sudo systemctl enable --now unbound
+exit
+ls -l /etc/resolv.conf
+systemctl is-active systemd-resolved
+systemctl is-active NetworkManager
+systemctl is-active systemd-networkd
+nmcli dev show | grep -E 'GENERAL.DEVICE|IP4.DNS'
+cat /etc/resolv.conf
+clear
+sudo sh -c 'printf "nameserver 127.0.0.1\n" > /etc/resolv.conf'
+exit
+getent hosts archlinux.org
+tldr getnet
+tldr getent
+getent hosts archlinux.org
+sudo ss -lntup | grep -E ':(53|5335)\b'
+dig @127.0.0.1 archlinux.org
+clear
+dig @127.0.0.1 archlinux.org
+docker inspect $(docker ps -q --filter name=pihole)   --format '{{json .NetworkSettings.Networks}}'
+docker inspect $(docker ps -q --filter name=pihole)   --format '{{json .NetworkSettings.Networks}}'
+ip addr show docker0
+sudo grep -R "^\s*interface:" /etc/unbound/ /etc/unbound.conf 2>/dev/null
+clear
+cat /etc/unbound/unbound.conf
+nvim
+clear
+cat
+clear
+clear
+cat ls
+clear
+sudo nvim /etc/unbound/unbound.conf 
+clear
+sudo systemctl-daemon restart
+sudo systemctl daemon-reload
+exit
+clear
+exit
+ip addr show docker0
+sudo ss -lntup | grep ':5335'
+sudo nano /etc/unbound/unbound.conf
+cat /etc/unbound/unbound.conf 
+sudo unbound-checkconf
+sudo systemctl restart unbound
+dig @127.0.0.1 -p 5335 archlinux.org
+docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Ports}}'
+clear
+sudo docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Ports}}'
+sudo docker inspect pihole   --format '{{range .NetworkSettings.Networks}}{{.NetworkID}} {{.IPAddress}} -> {{.Gateway}}{{println}}{{end}}'
+sudo nvim /etc/unbound/unbound.conf
+sudo systemctl daemon-reload
+sudo systemctl restart unbound
+clear
+sudo ss -lntup | grep ':5335'
+sudo docker exec pihole sh -c 'command -v dig'
+sudo docker exec pihole dig @172.18.0.1 -p 5335 archlinux.org
+cat /etc/unbound/unbound.conf 
+sudo nvim /etc/unbound/unbound.conf
+sudo systemctl restart unbound
+sudo docker exec pihole dig @172.18.0.1 -p 5335 archlinux.org
+sudo grep -RniE 'access-control|include:' /etc/unbound/
+sudo unbound-checkconf /etc/unbound/unbound.conf
+sudo systemctl status unbound --no-pager -l
+sudo journalctl -u unbound -f
+clear
+sudo nvim /etc/unbound/unbound.conf
+sudo systemctl restart unbound
+sudo docker exec pihole dig @172.18.0.1 -p 5335 archlinux.org
+sudo pacman -Ss netbird
+paru -S netbird-server
+paru -S redis
+netbird --help
+tldr netbird
+netbird-server 
+clear
+paru -Rcns netbird-server
+clear
+paru -S netbird
+netbird up
+sudo netbird up
+paru -Rcns netbird
+clea
+rexit
+exit
+sudo docker exec -it jellyfin curl -I https://api.themoviedb.org
+cat /etc/resolv.conf
+getent hosts api.themoviedb.org
+getent hosts api.themoviedb.org
+→ returns IPv6 addresses
+sudo docker exec jellyfin cat /etc/resolv.conf
+clear
+ipconfig
+clear
+ipaddr
+clear
+sudo docker inspect pihole --format '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
+sudo docker exec jellyfin nvim /etc/resolv.conf
+sudo docker exec jellyfin nano /etc/resolv.conf
+ls -l /etc/resolv.conf
+nvim jellyfin_docker.yml 
+nvim jellyfin_docker.yml 
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose up -d --force-recreate jellyfin
+sudo docker compose up -d --force-recreate jellyfin
+clear
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+clear
+sudo docker exec jellyfin cat /etc/resolv.conf
+sudo docker exec jellyfin getent hosts api.themoviedb.org
+sudo docker exec jellyfin curl -I https://api.themoviedb.org
+clear
+clear
+nvim jellyfin_docker.yml 
+exit
+dig @172.18.0.2 api.themoviedb.org
+sudo docker exec jellyfin curl -I https://api.themoviedb.org
+sudo docker exec jellyfin which nslookup
+sudo docker inspect pihole --format '{{range $name, $net := .NetworkSettings.Networks}}{{$name}} = {{$net.IPAddress}}{{"\n"}}{{end}}'
+sudo docker inspect jellyfin --format '{{range $name, $net := .NetworkSettings.Networks}}{{$name}} = {{$net.IPAddress}}{{"\n"}}{{end}}'
+sudo docker exec jellyfin sh -c 'echo > /dev/tcp/172.18.0.2/53' 
+sudo docker exec jellyfin sh -c 'echo > /dev/tcp/172.18.0.2/53' 
+sudo docker exec pihole ss -lnup | grep ':53'
+sudo docker logs -f pihole
+clear
+sudo docker exec jellyfin getent hosts api.themoviedb.org
+sudo docker run --rm --network tuxy_default alpine:latest nslookup api.themoviedb.org 172.18.0.2
+sudo docker run --rm --network tuxy_default alpine:latest nslookup api.themoviedb.org 172.18.0.2
+clear
+nvim jellyfin_docker.yml 
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose up -d --force-recreate jellyfin
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker exec jellyfin getent hosts api.themoviedb.org
+clear
+exit
+sudo docker exec jellyfin getent hosts api.themoviedb.org
+sudo docker exec jellyfin curl -I https://api.themoviedb.org
+cd Downloads
+ls
+clear
+ls
+ls
+clear
+ls
+cd Downloads
+ls
+mv \[SolidAce\]\ -\ The\ Last\ -Naruto\ The\ Movie-\]\[1080p\]\[bdrip\]\[x264\ AAC\].mp4 naruto-the-last.mp4
+mv naruto-the-last.mp4 /run/media/tuxy/main/media/movies/
+exit
+sudo pacman -S tailscale
+exit
+tailscale serve status
+sudo systemctl enable --now tailscaled
+clear
+sudo tailscale up
+tailscale ip -4
+curl http://172.18.0.2:8096
+curl http://172.18.0.2:53
+clear
+sudo arp-scan --localnet
+clear
+curl http://172.18.0.3:8096
+clear
+ss -lntp | grep 8096
+tailscale ip -4
+ss -lntp | grep 8096
+curl http://100.105.224.85:8096
+docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Ports}}'
+sudo docker ps --format 'table {{.Names}}\t{{.Image}}\t{{.Ports}}'
+curl -v http://127.0.0.1:8096
+curl -v http://100.105.224.85:8096
+clear
+sudo tailscale serve --bg http://127.0.0.1:8096
+tailscale serve status
+clear
+tailscale serve status
+sudo tailscale serve status
+clear
+exi
+exit
+tailscale serve status
+sudo tailscale serve --bg http://127.0.0.1:8096
+clear
+tailscale serve --bg http://127.0.0.1:8096
+sudo tailscale serve --bg http://127.0.0.1:8096
+clear
+exit
+curl -vkI https://archlinux.tailef68e6.ts.net
+clear
+exit
+tailscale serve status
+curl -I https://archlinux.tailef68e6.ts.net
+tailscale status
+tailscale dns status
+clear
+tailscale serve status --json
+tailscale cert archlinux.tailef68e6.ts.net
+sudo tailscale cert archlinux.tailef68e6.ts.net
+sudo tailscale cert archlinux.tailef68e6.ts.net
+openssl x509 -in archlinux.tailef68e6.ts.net.crt -noout -subject -issuer -dates
+clear
+curl -vkI https://archlinux.tailef68e6.ts.net
+sudo ss -lntp | grep ':443'
+sudo tailscale serve reset
+sudo tailscale serve --bg --https=8443 http://127.0.0.1:8096
+sudo tailscale serve status
+curl -I https://archlinux.tailef68e6.ts.net:8443
+sudo tailscale serve status
+paru -Ss davinci
+paru -Ss davinci | grep resolv
+paru -S davinci-resolve
+paru -S avisynthplus ladspa
+paru -S devil
+paru -S jasper-doc
+clear
+exit
+paru -Syu
+paru -S davinci-resolv
+paru -S davinci-resolve
+pacman -Ss davinci
+sudo pacman -Ss davinci
+sudo pacman -Ss davinci
+paru -Ss davinci
+paru -S davinci-resolve
+clear
+exit
+clear
+exit
+clear
+exit
+exit
+z media
+cd tuxy'
+clear
+ls
+clear
+clear
+ln -s /run/media/tuxy/main/notes/library/
+exit
+z media
+ls
+tailscale serve status
+exit
+z media
+sudo chown jellyfin library
+lah 
+clear
+exit
+exit
+z shell
+nvim
+clear
+z media
+clea
+rls
+clear
+ls
+exit
+z media
+ls'
+clear
+ls
+cd library
+ls
+cd ..
+cd library
+cd ..
+sudo chown -R jellyfin *
+cd library
+ls
+cd ..
+clear
+ls
+clear
+ls
+clear
+ls
+rm -rf library
+mkdir library
+cd ..
+clear
+ls
+cd notes
+ls
+clear
+ls
+cd library
+ls
+cd ..
+sudo chown -R tuxy *
+cd library
+ls
+cd ..
+cd ..
+ls
+cd media
+ls
+cd library
+ls
+clear
+cd ..
+rm -rf 
+rm -rf library/
+ln -s /run/media/tuxy/main/notes/library/
+rm -rf library
+mv /run/media/tuxy/main/notes/library .
+ls
+clear
+ls
+exit
+z main
+ls
+cd media
+ls
+cd library
+ls
+clear
+l;s
+clear
+ls
+z library
+clear
+exit
+exit
+sudo docker attach --help
+sudo docker attach jellyfin
+sudo docker ps
+clear
+sudo docker ps
+sudo docker ps | fzf
+clear
+exit
+docker logs -f jellyfin 2>&1 | grep -iE "openlibrary|exception|error|failed"
+docker logs -f jellyfin 2>&1 | grep -iE "openlibrary|exception|error|failed"
+docker logs -f jellyfin 2>&1 | grep -iE "openlibrary|exception|error|failed"
+clear
+exit
+ping openlibrary.org
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+docker exec -it jellyfin bash
+sudo docker exec -it jellyfin bash
+exit
+sudo docker exec -it jellyfin bash
+sudo docker exec jellyfin jellyfin --version
+sudo docker logs jellyfin 2>&1 | grep -i "Jellyfin version" | head
+sudo docker logs jellyfin 2>&1 | grep -i "OpenLibrary" | tail -30
+sudo docker logs jellyfin 2>&1 | grep -iE "OpenLibrary|Exception|error|timeout|failed" | tail -100
+curl -s "https://openlibrary.org/search.json?title=Design%20Patterns"
+curl -s "https://openlibrary.org/search.json?title=Design%20Patterns"
+sudo docker exec jellyfin cat /config/plugins/OpenLibrary_1.0.0.0/meta.json
+sudo docker logs -f jellyfin | grep -iE "OpenLibrary|HttpClient|TaskCanceled|OperationCanceled|Timeout|Exception"
+sudo docker exec jellyfin strings /config/plugins/OpenLibrary_1.0.0.0/Jellyfin.Plugin.OpenLibrary.dll | grep -iE "openlibrary|search.json|api"
+clear
+exit
+z movies
+ls
+clear
+ls
+cd ..
+ls
+cd library
+ls
+cd ..
+sudo chown -R jellyfin movies
+cd movies
+ls
+clear
+ls
+ls
+clear
+z main
+sudo chown -R tuxy *
+z movies
+ls
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+exit
+sudo docker ps
+exit
+sudo docker ps
+cd .config
+ls
+cd ..
+dua
+clear
+exit
+lsblk
+clear
+exit
+sudo lvextend -r --size 20G /dev/linux/root
+exit
+lsblk
+clear
+exit
+paru -Syu
+paru -Rcns zen-browser-twilight
+paru -Rcns zen-browser-twilight-bin
+paru -Syu
+clear
+exit
+helium-browser 
+sudo pacman -Syu
+clear
+sudo reboot now
+sudo docker ps
+clear
+tailscale serve status
+clear
+exit
+qbittorrent 
+z media
+cd ..
+ls
+clear
+ls
+cd ..
+cd ..
+sudo chown -R tuxy tuxy
+cd tuxy
+exit
+clear
+ls
+clear
+ls
+clear
+ls
+z main
+ls
+clear
+dua
+cd media
+cd ..
+cd ..
+dua
+cd main
+dua
+clear
+ls
+exit
+cd tuxy
+ls
+clear
+ls
+cd /run/media
+cd tuxy
+dua
+cleda
+exit
+z main
+ls
+cd media
+ls
+cd anime
+ls
+cd death-note/
+ls
+dua
+clear
+ls
+dua
+nvim
+clear
+ls
+dua
+mv death-note-e06.mkv death-note-e04.mkv death-note-e24.mkv death-note-e16.mkv death-note-e33.mkv death-note-e02.mkv death-note-e28.mkv ../../../../main1/media/anime/death-note/
+clear
+exit
+ls
+cd Downloads
+ls
+cd '[Reaktor] Death Note - Complete [1080p][x265][10-bit][Dual-Audio]'/
+ls
+clear
+ls
+nvim
+clear
+ls
+clear
+ls
+mkdir anime
+ls
+mkdir death-note
+mv death-note*.* death-note
+mv death-note anime/
+ls
+clear
+ls
+mv anime /run/media/tuxy/main/media/
+mv anime /run/media/tuxy/main/media/
+mv anime /run/media/tuxy/main/media/
+ls
+clear
+ls
+cd anime
+ls
+clear
+ls
+cd ..
+ls
+mv anime /run/media/tuxy/main1/media/
+clear
+exit
+ z mian
+z main
+ls
+cd ..
+rm -rf main
+sudo umount main1
+clear
+exit
+z main
+ls
+clear
+exit
+z movies
+dua
+clear
+exit
+z downloads
+ls
+cd Johnny.English.Reborn.2011.1080p.BRRip.x264.AAC-Ozlem/
+ls
+dua
+clear
+exit
+cd Downloads
+ls
+cd Johnny\ English\ \(2003\)\ \[1080p\]\ \[YTS.AG\]/
+ls
+mv Johnny.English.2003.1080p.BluRay.x264-\[YTS.AG\].mp4 johnny-english(2003).mp4
+ls
+mv Johnny.English.2003.1080p.BluRay.x264-\[YTS.AG\].mp4 johnny-english(2003).mp4
+mv Johnny.English.2003.1080p.BluRay.x264-\[YTS.AG\].mp4 johnny-english\(2003\).mp4
+ls
+mv johnny-english\(2003\).mp4 /run/media/tuxy/main/media/movies/
+cd ..
+cd Johnny\ English\ Reborn\ \(2011\)\ \[1080p\]\ \[BluRay\]\ \[5.1\]\ \[YTS.MX\]/
+ls
+clear
+ls
+mv Johnny.English.Reborn.2011.1080p.BluRay.x264.AAC5.1-\[YTS.MX\].mp4 johnny-english-reborn\(2011\).mp4
+ls
+mv johnny-english-reborn\(2011\).mp4 /run/media/tuxy/main/media/movies/
+cd ..
+cd Johnny.English.Reborn.2011.1080p.BRRip.x264.AAC-Ozlem/
+ls
+cd ..
+clear
+ls
+cd Johnny.English.Strikes.Again.2018.1080p.BluRay.H264.AAC-RARBG/
+ls
+mv Johnny.English.Strikes.Again.2018.1080p.BluRay.H264.AAC-RARBG.mp4 johnny-english-strikes-again\(2018\).mp4
+mv johnny-english-strikes-again\(2018\).mp4 /run/media/tuxy/main/media/movies/
+exit
+z Downloads
+z moview
+z mov
+ls
+clear
+ls
+clear
+ls
+mkdir johnny-english
+mv johnny-english*.* johnny-english
+clear
+ls
+mkdir mr-bean
+mv mr-bean*.* mr-bean
+ls
+clear
+ls
+exit
+z anime
+ls
+cd death-note/
+ls
+clear
+ls
+nvim
+clear
+clear
+ls
+mkdir part-1
+mkdir part-2
+nvim
+clear
+ls
+rm -rf *.trickplay
+sudo rm -rf *.trickplay
+clear
+nvim
+exit
+z movies
+ls
+mkdir hera-pheri
+mv hera-pheri*.* hera-pheri
+ls
+clear
+ls
+exit
+ls
+cd Downloas
+ls
+z down
+ls
+cd Hera\ Pheri\ \(2000\)\ Hindi\ \(1080p\ WEBRip\ x265\ 10bit\)\ -\ \[Musafirboy\]/
+ls
+clear
+ls
+mv Hera\ Pheri\ \(2000\)\ Hindi\ \(1080p\ WEBRip\ x265\ 10bit\)\ -\ \[Musafirboy\].mkv hera-pheri\(2000\).mkv
+clear
+ls
+mv hera-pheri\(2000\).mkv /run/media/tuxy/main/media/movies/
+clear
+clear
+exit
+z down
+exit
+exit
+z down
+ls
+cd post-malone/
+ls
+clear
+ls
+cd hollywoods-bleeding/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+nvim
+exit
+z donwl
+ls
+z down
+ls
+cd Post\ Malone\ -\ F-1\ Trillion_\ Long\ Bed\ \(2024\)\ Mp3\ 320kbps\ \[PMEDIA\]\ ⭐️/
+ls
+clear
+clear
+ls
+cd CD1
+ls
+clear
+ls
+nvim
+clear
+clear
+l
+ls
+clear
+ls
+cd ..
+ls
+clear
+cd ..
+exit
+z down
+ls
+cd Phir\ Hera\ Pheri\ \(2006\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/
+ls
+clear
+ls
+nvim
+mv phir-hera-pheri\(2006\).* /run/media/tuxy/main/media/movies/hera-pheri/
+clear
+cd ..
+ls
+exit
+z down
+ls
+cd Post\ Malone\ -\ AUSTIN\ \(2023\)\ Mp3\ 320kbps\ \[PMEDIA\]\ ⭐️/
+ls
+clear
+nvim
+cd ..
+ls
+clear
+z media
+ls
+mkdir music
+clear
+exit
+z down
+ls
+clear
+ls
+cd Phir\ Hera\ Pheri\ \(2006\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/
+ls
+cd ..
+rm -rf Phir\ Hera\ Pheri\ \(2006\)\ \[1080p\]\ \[WEBRip\]\ \[5.1\]\ \[YTS.MX\]/
+clear
+ls
+cd Bloodborne\ -\ Complete\ Edition\ v1.09\ \(CUSA00900\)\ \[AUCTOR.TV\]/
+ls
+cd ..
+rm -rf Bloodborne\ -\ Complete\ Edition\ v1.09\ \(CUSA00900\)\ \[AUCTOR.TV\]/
+clear
+ls
+mv bruno-mars post-malone /run/media/tuxy/main/media/music/
+ls
+rm -rf rendering-engine-*
+clear
+ls
+rm -rf *.pdf *.pptx
+clear
+ls
+rm -rf H640P.json qr-url.svg 
+clear
+ls
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sclear
+clear
+ls
+clear
+lsblk
+clear
+lsblk
+sudo swapon /dev/linux-swap
+sudo swapon /dev/linux/swap
+clear
+sudo docker ps
+clear
+exit
+cd Downloads
+ls
+cd Khatta\ Meetha\ 2010\ Hindi\ DVDRip\ XviD\ E-SuB\ xRG/
+ls
+nvim
+mv khatta-meetha.* /run/media/tuxy/main/media/movies/
+z movi
+ls
+exit
+z movies
+ls
+cd hera-pheri/
+ls
+clear
+ls
+cd ..
+clear
+ls
+rm -rf khatta*
+sudo rm -rf khatta-meetha*
+clear
+ls
+rm -rf naruto-the-last-*
+ls
+rm -rf naruto-the-last.trickplay/
+rm -rf naruto-the-last.nfo
+clear
+ls
+cd johnny-english/
+ls
+nvim
+clear
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd pirates-of-the-caribbean/
+ls
+mv dead-men-tell-no-tales.mp4 dead-men-tell-no-tales\(2017\).mp4 
+clear
+ls
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd hera-pheri/
+ls
+cd ..
+ls
+clear
+ls
+mv naruto-the-last.mp4 naruto-the-last\(2014\).mp4 
+clear
+ls
+clear
+ls
+exit
+z down
+ls
+mkdir pirates-of-the-caribbean
+cd Pirates.Of.The.Caribbean.
+cd Pirates.Of.The.Caribbean.The.Curse.Of.The.Black.Pearl.2003.1080p.BluRay.H264.AAC-LAMA\[TGx\]/
+ls
+clear
+ls
+nvim
+cd ..
+mv pirates-of-the-caribbean /run/media/tuxy/main/media/movies
+clear
+ls
+clear
+ls
+exit
+clear
+ls
+clear
+exit
+cd .config
+clear
+ls
+clear
+exit
+clear
+ls
+zexit
+exit
+z down
+ls
+cd PIRATES_OF_THE_CARRIBEAN/
+ls
+clear
+ls
+clear
+ls
+clea
+rls
+dua
+clear
+ls
+cd ..
+ls
+rm- rf PIRATES_OF_THE_CARRIBEAN/
+ls
+clear
+ls
+rm -rf PIRATES_OF_THE_CARRIBEAN/
+clear
+ls
+clear
+ls
+unzip khatta-meetha-1080p-2010-1080p.zip 
+nvim
+clear
+mv khatta-meetha\(2010\).* /run/media/tuxy/main/media/movies/
+ls
+rm -rf khatta-meetha-1080p-2010-1080p*
+clear
+ls
+clear
+ls
+rm -rf Khatta\ Meetha\ 2010\ Hindi\ DVDRip\ XviD\ E-SuB\ xRG/
+clear
+ls
+rm -rf *.jpg
+clear
+ls
+cd Pirates.Of.The.Caribbean.
+cd Pirates.Of.The.Caribbean.The.Curse.Of.The.Black.Pearl.2003.1080p.BluRay.H264.AAC-LAMA\[TGx\]/
+ls
+clea
+rls
+cd ..
+clear
+ls
+rm -rf Pirates.Of.The.Caribbean.The.Curse.Of.The.Black.Pearl.2003.1080p.BluRay.H264.AAC-LAMA\[TGx\]/
+clea
+rls
+clear
+dua
+clear
+ls
+cd downl
+ls
+z down
+ls
+cd Pirates.Of.The.Caribbean.Dead.M
+cd Pirates.Of.The.Caribbean.Dead.Mans.Chest.2006.1080p.BluRay.H264-RBG
+ls
+clear
+ls
+cd ..
+ls
+rm -rf Pirates.Of.The.Caribbean.*
+clear
+ls
+z down
+ls
+cd Pirates.Of.The.Caribbean.At.Worlds.End.2007.1080p.BluRay.H264.-RBG/
+ls
+clea
+rls
+mv Pirates.Of.The.Caribbean.At.Worlds.End.2007.1080p.BluRay.H264.-RBG.mp4 at-the-worlds-end\(2007\).mp4
+clear
+ls
+mvmv at-the-worlds-end\(2007\).mp4 /run/media/tuxy/main/media/movies/pirates-of-the-caribbean/
+cd ..
+ls
+cd Pirates.Of.The.Caribbean.Dead.Mans.Chest.2006.1080p.BluRay.H264-RBG/
+ls
+clear
+ls
+mv Pirates.Of.The.Caribbean.Dead.Mans.Chest.2006.1080p.BluRay.H264-RBG.mp4 dead-mans-chest.mp4
+ls
+mv English.srt dead-mans-chest.srt
+mv dead-mans-chest.* /run/media/tuxy/main/media/movies/pirates-of-the-caribbean/
+ls
+clear
+ls
+cd ..
+ls
+cd Pirates.Of.The.Caribbean.At.Worlds.End.2007.1080p.BluRay.H264.-RBG/
+ls
+mv English\ \(SDH\).srt at-the-worlds-end\(2007\).srt
+clear
+ls
+mv at-the-worlds-end\(2007\).* /run/media/tuxy/main/media/movies/pirates-of-the-caribbean/
+z main
+ls
+clear
+ls
+z media
+ls
+clea
+rls
+ls
+cd movies
+ls
+cd pirates-of-the-caribbean/
+ls
+nvim
+ls
+sudo rm -rf dead-mans-chest.trickplay/
+clea
+rls
+clear
+ls
+exit
+z down
+ls
+clear
+ls
+exit
+cd Downloads
+ls
+cd PK\ \(2014\)\ 1080p\ 5.1ch\ BRRip\ AAC\ x264\ -\ \[GeekRG\]/
+ls
+clear
+ls
+mv PK\ \(2014\)\ 1080p\ 5.1ch\ BRRip\ AAC\ x264\ -\ \[GeekRG\].mp4 pk.mp4
+mv pk.mp4 pk\(2014\).mp4
+ls
+mv pk\(2014\).mp4 /run/media/tuxy/main/media/movies/
+ls
+cd ..
+cd Downloads
+ls
+mv Guide.1965.1080p.DVDRip.AVC.DD5.1.ESUBS\ DusIcTv.mp4 guide\(1965\).mp4
+mv guide\(1965\).mp4 /run/media/tuxy/main/media/movies/
+clear
+ls
+clear
+ls
+clear
+ls
+ls
+z main1
+ls
+clear
+cd /run/media/tuxy/main1
+ls
+clea
+rl
+sls
+cd /run/media/tuxy
+ls
+lah
+cd main1
+ls
+sudo cd main1
+ls
+clear
+ls
+sudo su
+cd Downloads
+ls
+mv Ikigai\ The\ Japanese\ Secret\ to\ a\ Long\ and\ Happy\ Life\ 2017.m4b ikigai-the-japanese-art.m4b
+clear
+ls
+clear
+ls
+mv ikigai-the-japanese-art.m4b /run/media/tuxy/main/media/library/
+clear
+ls
+clear
+ls
+clear
+ls
+z library
+ls
+clear
+ls
+mv ikigai-the-japanese-art.m4b ../
+cd ..
+ls
+mkdir audiobook
+mv ikigai-the-japanese-art.m4b audiobook/
+clear
+ls
+exit
+cd Downloads
+ls
+cd Ikigai\ The\ Japanese\ Art\ for\ Finding\ Happiness\ and\ the\ Meaning\ of\ Life/
+ls
+clear
+ls
+clear
+lah
+clear
+ls
+cd Ikigai\ The\ Japanese\ Art\ for\ Finding\ Happiness\ and\ the\ Meaning\ of\ Life/
+ls
+clear
+ls
+mv \[BookRAR.net\]\ -\ Ikigai\ The\ Japanese\ Art\ for\ Finding\ Happiness\ and\ the\ Meaning\ of\ Life.epub ikigai-the-japanese-art.epub
+mv ikigai-the-japanese-art.epub /run/media/tuxy/main/media/library/
+lsblk
+clear
+z amin
+clear
+ls
+z amin
+main
+clear
+ls
+z main
+ls
+clear
+ls
+dua
+cd steam
+clear
+ls
+cd emulators
+ls
+clear
+ls
+cd es-de
+ls
+clea
+r
+clear
+ls
+cd ROMS
+cd ROMs
+ls
+dua
+cd ps4
+ls
+tldr rm
+man rm
+man command
+clear
+man comand
+clear
+command --help
+clear
+command -x rm -- !(*.txt)
+command --helpc
+clear
+exit
+find
+clear
+find -mindepth 1 -maxdepth 1
+find -mindepth 1 -maxdepth 1 -type f
+find -mindepth 1 -maxdepth 1 -type f ! -name *.txt
+z rom
+find -mindepth 1 -maxdepth 1 -type f ! -name *.txt
+find -mindepth 1 -maxdepth 1 -type f !
+find -mindepth 1 -maxdepth 1 -type f
+cd ps4
+find -mindepth 1 -maxdepth 1 -type f ! -name *.txt
+find -mindepth 1 -maxdepth 1 -type f ! -name system.txt
+find -mindepth 1 -maxdepth 1 -type f ! -name systeminfo.txt 
+ls
+clear
+ls
+find -mindepth 1 -maxdepth 1 -type f ! -name systeminfo.txt .
+find . -mindepth 1 -maxdepth 1 -type f ! -name systeminfo.txt
+find .
+find . -mindpath 1 -maxdepth 1 -name "test"
+find . -mindpath 1 -maxdepth 1 -name systeminfo.txt 
+find . -mindpath 1 -maxdepth 1 -name systeminfo.txt
+find . -minpath 1 -maxdepth 1 -name systeminfo.txt
+find . -mindepth 1 -maxdepth 1 ! -name systeminfo.txt 
+find . -mindepth 1 -maxdepth 1 ! -name *.txt
+rm -rf $(find . -mindepth 1 -maxdepth 1 ! -name *.txt
+rm -rf $(find . -mindepth 1 -maxdepth 1 ! -name *.txt)
+ls
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd ps4
+ls
+clear
+ls
+ls
+clear
+ls
+cd ..
+cd ..
+clear
+ls
+z down
+clear
+ls
+z roms
+cd ps4
+ls
+clear
+ls
+exit
+z roms
+ls
+cd ps4
+ls
+clea
+rls
+exit
+z download
+cd Downloads
+ls
+clear
+ls
+cd Pirates.Of.The.Caribbean.On.Stranger.Tides.2011.1080p.BluRay.H264-RBG/
+ls
+clear
+ls
+mv Pirates.Of.The.Caribbean.On.Stranger.Tides.2011.1080p.BluRay.H264-RBG.mp4 on-stranger-tides.mp4
+ls
+mv on-stranger-tides.mp4 /run/media/tuxy/main/media/movies/
+ls
+z movi
+ls
+mv on-stranger-tides.mp4 on-stranger-tides\(2011\).mp4
+mv on-stranger-tides\(2011\).mp4 pirates-of-the-caribbean/
+clear
+ls
+exit
+fastfetch
+clear
+exit
+z movies
+ls
+mkdir hitman
+exit
+z down
+ls
+cd Hitman\ Agent\ 47\ 2015\ 1080p\ BluRay\ x264\ DTS-JYK/
+ls
+mv Hitman\ Agent\ 47\ 2015\ 1080p\ BluRay\ x264\ DTS-JYK.mkv agent-47\(2015\).mkv
+clear
+ls
+mv agent-47\(2015\).mkv $EXT_STORAGE/main/media/movies/hitman/
+clear
+ls
+clear
+exit
+z down
+ls
+cd Hitman.2007.1080p.BluRay.DDP5.1.x265.10bit-GalaxyRG265\[TGx\]/
+ls
+mv Hitman.2007.1080p.BluRay.DDP5.1.x265.10bit-GalaxyRG265.mkv hitman\(2007\).mkv
+mv hitman\(2007\).mkv $EXT_STORAGE/main/media/movies/hitman/
+cd ..
+rm -rf Hitman*
+clear
+ls
+rm -rf I*
+rm -rf P*
+rm -rf w*
+clear
+ls
+exit
+clear
+exit
+exit
+clear
+exit
+z main
+ls
+clear
+ls
+mv Fedora-Workstation-Live-44-1.7.x86_64.iso fedora-44.iso
+clear
+ls
+clear
+ls
+exit
+ps
+clear
+ls
+tailscale serve status
+clea
+rls
+clear
+fzf
+cd /etc
+ls
+cd unbound
+ls
+cat unbound.conf 
+clear
+exit
+z movies
+ls
+mkdir harry-potter
+clear
+ls
+clear
+ls
+clear
+z main
+dua
+clear
+exit
+pkill steam
+clear
+exit
+ttyper
+cldar
+exit
+z movies
+dua
+cd ..
+dua
+clear
+ls
+dua
+cd ..
+dua
+clear
+exit
+z downl
+ls
+clear
+ls
+cd Harry\ Potter\ and\ the\ 
+cd Harry\ Potter\ and\ the\ Sorcerers\ Stone\ \(2001\)\ \[1080p\]/
+ls
+nvim
+ls
+mv * /run/media/tuxy/main/media/movies/harry-potter/
+z media
+dua
+cd movies
+dua
+clear
+exit
+exit
+sudo docker ps
+ps
+sudo reboot now
+sudo envycontrol
+sudo pacman -Sy envycontrol
+clear
+exit
+sudo envycontrol --help
+sudo envycontrol -q
+sudo envycontrol -s integratedf
+sudo envycontrol -s integrated
+sudo envycontrol -s hybrid
+sudo reboot now
+sudo tailscale serve status
+clear
+exit
+rm -rf ~/.config/chromium/ GPUCache
+rm -rf ~/.config/chromium/ ShaderCache
+cd .config
+ls
+cd helium
+ls
+cd ..
+fzf
+cd .config/net.imput.helium/
+ls
+fzf
+cd ..  
+clear
+ls
+cd ..
+fzf
+rm -rf .config/net.imput.helium/Default/GPUCache/
+fzf
+clear
+exit
+vainfo --display wayland
+sudo pacman -S vainfo
+sudo pacman -Ss vainfo
+sudo pacman -Ss libav
+sudo pacman -S libva-utils
+vainfo 
+vainfo --display wayland
+env -u LIBVA_DRIVER_NAME vainfo --display wayland
+clear
+echo $LIBVA_DRIVER_NAME 
+clear
+exit
+helium-browser 
+clear
+helium-browser 
+helium-browser   --disable-gpu   --disable-gpu-compositing   --disable-gpu-rasterization
+helium-browser 
+helium-browser   --disable-gpu   --disable-gpu-compositing   --disable-gpu-rasterization
+helium-browser   --disable-gpu   --disable-gpu-compositing   --disable-gpu-rasterization
+clear
+exit
+helium-browser 
+clear
+env -u LIBVA_DRIVER_NAME vainfo --display wayland
+env -u LIBVA_DRIVER_NAME helium-browser 
+env -u LIBVA_DRIVER_NAME helium-browser   --disable-gpu   --disable-gpu-compositing   --disable-gpu-rasterization
+env -u LIBVA_DRIVER_NAME helium-browser
+clear
+ls
+clear
+ls
+fzf
+cd .config/net.imput.helium/
+fzf
+rm -rf Default/GPUCache/
+clear
+z movies
+clea
+exit
+z main
+ls
+cd ..
+ls
+rm -rf main
+clear
+sudo rm -rf main
+exit
+cd .config
+clear
+ls
+cd ..c
+clear
+ce ..
+cd ..
+clear
+ls
+sudo docker compose -f jellyfin_docker.yml down
+lsblk
+sudo docker compose -f jellyfin_docker.yml up
+z main
+ls
+cd ..
+ls
+clear
+ls
+sudo chown -R tuxy main
+ls
+hledger setup
+clear
+exit
+cd shell
+z shell
+nvim env.sh 
+exit
+hleder
+hledger
+hledger add
+clear
+ls
+exit
+echo $LEDGER_FILE 
+exit
+z notes
+exit
+hledger add
+lah
+fzf
+clear
+clear
+ls
+echo $LEDGER_FILE 
+hledger -f /run/media/tuxy/main/notes/main.journal 
+hledger -f /run/media/tuxy/main/notes/main.journal add
+clear
+exit
+nvim
+clear
+nvim
+exit
+clear
+exit
+paru -Syu
+typer
+ps
+clear
+htop
+clear
+exit
+tldr ps
+ps aux
+clear
+ps --help
+clear
+tldr ps
+ps auxww
+clear
+tldr ps
+nvim
+man ps
+exit
+ps --sort=-pcpu
+tldr ps
+ps --sort pcpu
+ps --sort cpu
+ps aux --sort cpu
+ps aux --sort pcpu
+clear |
+ps aux --sort pcpu | head -n 6
+ps aux --sort pcpu | tail
+ps aux --sort pcpu | tail -n 6
+clear
+ps aux --sort pcpu
+ps aux --sort pcpu
+clear
+exit
+df
+clear
+exit
+cd Downloads
+ls
+rm -rf H*
+ls
+rm -rf w*
+clear
+ls
+exit
+sudo pacman -S tor
+sudo pacman -S tor | grep browser
+sudo pacman -Ss tor | grep browser
+sudo pacman -S tor-browser-bin
+sudo pacman -S tor-browser-bin
+sudo pacman -Syu tor-browser-bin
+sudo pacman -Syu tor-browser-bin
+paru -Ss tor-browser
+paru -S tor-browser-bin
+paru -Syu
+paru -Syu
+clear
+ls
+cd .config
+ls
+rm -rf *helium
+sudo docker ps
+clear
+exit
+nvim
+sudo pacman -Syu
+sudo reboot now
+clear
+tldr lvreduce
+sudo lvreduce --size 120G /dev/linux/home
+sudo lvreduce -r --size 120G /dev/linux/home
+tldr
+clear
+lsblk
+clear
+exit
+sudo timeshift
+sudo timeshift-gtk
+sudo timeshift-gtk
+clear
+ls
+dua
+cd .local
+ls
+dua
+cd share
+dua
+cd Steam
+dua
+exit
+clear
+lsblk
+sudo lvreduce -r --size 120G linux/home
+sudo lvreduce -r --size 120G linux/home
+sudo umount /home
+clear
+ls
+clear
+ls
+exit
+sudo su
+exit
+ps aux | grep home
+clear
+sudo su
+exit
+cd /run/media/tuxy
+ls
+rm -rf main
+sudo rm -rf main
+ls
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+sudo tailscale serve status
+exit
+lsblk
+ exit
+findmnt /home
+lvs
+suod lvs
+sudo lvs
+sudo umount /home
+cd /
+sudo umount /home
+clear
+sudo umount /home
+sudo fuser -vm /home
+sudo fuser -vm /home
+clear
+exit
+clear
+exit
+sudo lvresize --resizefs --size 60G /dev/<VG>/<HOME_LV>
+sudo lvresize --resizefs --size 60G /dev/linux/home
+clear
+exit
+lsblk
+clear
+ls
+clea
+clear
+sudo gnome-disks
+gnome-disks
+clear
+exit
+paru -S librewolf
+z librewolf
+fzf
+rm -rf .config/librewolf
+clear
+exit
+exit
+clear
+sudo docker ps
+dig @127.0.0.1 example.com
+dig @127.0.0.1 doubleclick.net
+~ > dig @127.0.0.1 doubleclick.net
+; <<>> DiG 9.20.29 <<>> @127.0.0.1 doubleclick.net
+; (1 server found)
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 30947
+;; flags: qr aa rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 1232
+;; QUESTION SECTION:
+;doubleclick.net.		IN	A
+;; ANSWER SECTION:
+doubleclick.net.	2	IN	A	0.0.0.0
+;; Query time: 11 msec
+;; SERVER: 127.0.0.1#53(127.0.0.1) (UDP)
+;; WHEN: Wed Oct 07 19:12:28 IST 2026
+;; MSG SIZE  rcvd: 60
+ip route get 1.1.1.1
+clear
+ip route get 1.1.1.1
+nslookup example.com 192.168.29.242
+nslookup doubleclick.net 192.168.29.242
+nslookup example.com 192.168.29.242
+nslookup example.com 192.168.29.242
+ps aux | grep librewolf
+clear
+paru -Syu
+clear
+exit
+paru -S mercury
+paru -Ss mercury
+paru -S mercury
+clear
+exit
+paru -Ss waterfox
+paru -S waterfox
+exit
+sudo pacman -S brave
+paru -S libgnome-keyring
+sudo pacamn -S libgnome-keyring
+sudo pacman -S libgnome-keyring
+sudo pacman -Ss libgnome-keyring
+sudo pacman -Ss libgnome
+sudo pacman -Ss keyring
+clear
+exit
+z main
+ls
+cd ..
+ls
+rm -rf main
+sudo rm -rf main
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+sudo docker ps
+clear
+exit
+z main
+clear
+ls
+exit
+sudo docker ps
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml down
+fzf
+fzf
+clear
+ls
+nvim jellyfin_docker.yml 
+cd .config/jellyfin
+ls
+clear
+ls
+cd ..
+clear
+ls
+exit
+df -h
+paru -Rcns librewolf waterfox
+clear
+paru -Rcns helium
+paru -Rcns helium-browser-bin 
+clear
+ls
+clear
+ls
+clear
+paru -Syu
+cd /
+dua
+cd usr
+dua
+ls
+clear
+ls
+df -h
+clear
+ls
+clear
+ls
+rm -rf Waterfox
+clear
+ls
+cd .config
+rm -rf librewolf net.imput.helium/
+ls
+exit
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+lsblk
+clear
+lsblk
+df -h
+sudo vgs
+sudo lvs
+sudo lvextend -r -L 60G /dev/linux/root
+lsblk
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker ps
+clear
+exit
+ip
+ip addr
+ip addr | grep pihole
+ip addr | bat
+ip addr | grep 18.0.2
+ip addr | grep 172
+clear
+docker inspect -f '{{json .NetworkSettings.Networks}}' pihole
+suod docker inspect -f '{{json .NetworkSettings.Networks}}' pihole
+sudo docker inspect -f '{{json .NetworkSettings.Networks}}' pihole
+clear
+ip addr
+tldr ip
+sudo ip route
+sudo docker compose -f pihole_docker.yml down
+sudo docker compose -f pihole_docker.yml up
+exit
+sudo ip route
+ls
+cd Downloads
+ls
+unzip WhatsApp\ Unknown\ 2026-10-07\ at\ 8.42.55\ PM.zip 
+clear
+ls
+ls
+clear
+exit
+clear
+exit
+exit
+z music
+ls
+z me
+ls
+cd music
+ls
+cd post-malone/
+ls
+clear
+ls
+cd stoney
+ls
+exit
+paru -Ss musicbrainz
+paru -Ss lrdb
+paru -Ss lyrics
+paru -Ss lrc-git
+paru -Ss lrc-get
+paru -Ss lrcget
+paru-S lrcget-bin
+paru -S lrcget-bin
+clear
+lrcget
+z down
+ls
+dua
+rm -rf Wh*
+cd Wednesday\ S01\ COMPLETE\ 1080p\ BluRay\ AV1\ Opus\ 5.1\ \[RAV1NE\]/
+ls
+clear
+ls
+nvim
+exit
+nvim
+exit
+exit
+clear
+mkdir $EXT_STORAGE/main/media/shows/
+cd Downloads
+ls
+mv wednesday/ $EXT_STORAGE/main/media/shows
+ls
+z media
+ls
+cd Downloads
+ls
+clear
+ttyper
+z media
+ls
+dua
+cd anime
+ls
+cd deathnote
+la
+cd death-note/
+ls
+dua
+clear
+ls
+dua
+cd part1
+cd part 1
+cd part-1
+ls
+dua
+exit
+ping google.com
+paru -Syu
+paru -Syu
+paru -Syu
+sudo pacman -Syu
+df -h
+sudo lvs
+claer
+clear
+lsblk
+sudo lvs
+sudo swapon /dev/linux/swap
+clear
+exit
+z media
+cd audiobook/
+ls
+clear
+exit
+clear
+exit
+exit
+z media
+mkdir manga
+z down
+ls
+paru -Ss hakuneo
+paru -Ss hakuneko
+paru -S hakuneko-desktop-bin
+hakuneko-desktop 
+hakuneko-desktop --disable-gpu
+clear
+hakuneko-desktop --disable-gpu --disable-software-rasterizer
+ls -l /etc/fonts/conf.d/48-guessfamily.conf       /etc/fonts/conf.d/48-spacing.conf       /etc/fonts/conf.d/49-sansserif.conf
+pacman -Q fontconfig
+pacman -Qo /usr/share/fontconfig/conf.default/48-guessfamily.conf
+GDK_BACKEND=x11 hakuneko-desktop
+OZONE_PLATFORM=x11 LIBGL_ALWAYS_SOFTWARE=1 hakuneko-desktop --disable-gpu
+clear
+hakuneko-desktop 
+paru -S qtile
+nvim
+st
+exit
+clear
+cd .config/qtile
+ls
+clear
+ls
+nvim colorscheme.py 
+nvim 
+clear
+exit
+paru -Rcns hakuneko-desktop
+paru -Rcns hakuneko-desktop-bin
+paru -Ss comics-dl
+git clone https://github.com/Xonshiz/comic-dl#linuxdebian-
+git clone https://github.com/Xonshiz/comic-dl
+cd comic-dl/
+ls
+python -m venv .venv
+cd ..
+cd comic-dl/
+ls
+pip install -r requirements.txt
+ls
+python cli.py 
+sudo chmod +x cli.py
+./cli.py 
+clear
+./cli.py https://mangadex.org/title/a1c7c817-4e59-43b7-9365-09675a149a6f/one-piece
+clear
+cd ..
+rm -rf comic-dl/
+exit
+paru -Ss comics | grep download
+paru -S comics-downloader-git
+cd comic-dl/
+ls
+./cli.py --help
+python cli.py -h
+cd comic-dl/
+python cli.py -i https://fanfox.net/manga/naruto/
+python cli.py --update https://fanfox.net/manga/naruto/
+python cli.py -u https://fanfox.net/manga/naruto/
+python cli.py -u -i https://fanfox.net/manga/naruto/
+python cli.py -i https://fanfox.net/manga/naruto/
+clear
+exit
+cd comic-dl/
+ols
+ls
+cd One\ Piece/
+ls
+clear
+ls
+cd c001
+ls
+cd ..
+cd Downloads
+ls
+z one
+ls
+exit
+cd comic-dl/
+ls
+python cli.py -h
+nvim cli.py
+exit
+pkill steam
+exit
+clear
+git clone https://github.com/Xonshiz/comic-dl
+cd comic-dl/
+ls
+./cli.py
+sudo chmod +x cli.py 
+python -m venv .venv
+cd ..
+cd comic-dl/
+pip install -r requirements.txt
+cd ..
+cd comic-dl/
+ls
+./cli.py https://fanfox.net/manga/one_piece/
+./cli.py -h
+python cli.py -h
+python cli.py https://fanfox.net/manga/one_piece/
+python cli.py -comic-search "one piece"
+python cli.py -comic-search 1
+python cli.py -search-comic
+python cli.py -search-comic https://fanfox.net/manga/one_piece/
+python cli.py -search-comic
+python cli.py https://fanfox.net/manga/one_piece/
+python cli.py https://fanfox.net/manga/one_piece/
+python cli.py -h
+python cli.py -i https://fanfox.net/manga/one_piece/
+clear
+ls
+cd One\ Piece/
+ls
+cd ..
+clear
+ls
+python cli.py -i https://fanfox.net/manga/one_piece/
+python cli.py -i https://fanfox.net/manga/one_piece/
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 20 30
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 30
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 20-30
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 21-30
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 21-50
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 32-50
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 32-50
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 33-50
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 33-50
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 34-50
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 50-100
+sudo reboot now
+cd comic-dl/
+dua
+clear
+dua
+clear
+dua
+clear
+cd comic
+cd comic-dl/
+ls
+cd One\ Piece/
+ls
+cd c128
+ls
+clear
+l
+scd .
+cd ..
+cd c127
+ls
+clear
+ls
+cd comic-dl/
+ls
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 70-100
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 77-500
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 96-500
+python cli.py -i https://fanfox.net/manga/one_piece/ -rn 96-500
+python cli.py -i https://fanfox.net/manga/one_piece/
+clear
+exit
+ping google.com
+ping github.com
+ping google.com
+cleaer
+exit
+ping https://github.com/krllus/one_piece_cbz
+ping https://github.com
+ping google.com
+ping archive.org
+clear
+exit
+cd comic-dl/
+ls
+clear
+ls
+rm -rf Naruto/
+clear
+python cli.py -i https://comix.to/title/pvry-one-piece
+python cli.py -i https://www.nelomanga.net/manga/one-piece
+paru -S tor-browser-bin
+paru -S tor-browser-bin
+paru -Ss tor-browser-bin
+paru -A tor-browser-bin
+tldr paru
+paru -Sa tor-browser-bin
+exit
+sudo reboot now
+cd Downloads
+ls
+clear
+ls
+mkdir naruto
+clear
+ls
+nvim
+exit
+paru -Ss persepo | grep vpn
+paru -Ss perse | fzf
+paru -Ss persepolis
+clear
+exit
+cd Downloads
+ls
+nvim
+echo $MEDIA
+cd $MEDIA
+ls
+nvim $SHELL/env.sh
+nvim $SCRIPT/env.sh
+nvim $SCRIPTS/env.sh
+cd .config/shelll
+cd $HOME/shell/
+z shell
+nvim env.sh 
+clear
+exit
+ls
+cd Downloads
+ls
+cd $MEDIA
+ls
+ls
+clear
+lah
+cd ..
+ls
+cd ..
+ls
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+z main
+ls
+clear
+ls
+cd ..
+ls
+rm -rf main
+sudo rm -rf main
+clear
+cd main
+ls
+cd media
+ls
+cd manga
+ls
+mv $HOME/Downloads/naruto/ .
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+clear
+ls
+cd Downloads
+ls
+clear
+ls
+clear
+ls
+nvim
+mv *.cbz $MEDIA/manga/naruto/
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+tailscale serve status
+z manga
+ls
+cd naruto
+ls
+rm -rf *
+clear
+exit
+suod docker ps
+sudo docker ps
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+z meida
+z media
+ls
+cd manga
+ls
+clear
+ls
+cd naruto
+ls
+clear
+ls
+clear
+ls
+paru -Ss hakuneko
+paru -S hakuneko-desktop-bin
+fzf
+clear
+ls
+cd manga
+ls
+z manga
+ls
+cd MangaDex
+ls
+clear
+ls
+cd Naruto\ \(Official\ Colored\)/
+ls
+cd Downloads
+ls
+cd media
+ls
+z media
+dua
+cd manga
+ls
+clear
+ls
+cd ..
+ls
+cd ..
+dau
+dua
+cd manga
+ls
+clear
+ls
+z manga
+ls
+rm -rf naruto
+ls
+cd MangaFox/
+ls
+mv * ../
+ls
+ln -s ../
+clear
+ls
+ln -s ./..
+clear
+ls
+cd ..
+clear
+ls
+cd MangaFox/
+ln -s /run/media/tuxy/main/media/manga
+ls
+clea
+rls
+rm -rf manga
+ls
+clear
+ls
+cd ..
+ls
+rm -rf MangaFox/
+ln -s . MangaFox
+ls
+clear
+ls
+cd MangaFox
+clear
+ls
+cd ..
+ls
+lah
+clear
+ls
+rm -rf MangaFox
+rm -rf MangaDex/
+clear
+ls
+ln -s /run/media/tuxy/main/media/manga/ MangaFox
+ls
+lah
+exit
+z manga
+ls
+cd Naruto/
+ls
+clear
+ls
+file Vol.72\ Ch.700\ -\ Uzumaki\ \!\!/
+ls
+cd Vol.72\ Ch.700\ -\ Uzumaki\ \!\!/
+ls
+clear
+ls
+exit
+pkill cs2
+z naru
+ls
+clear
+fzf
+clear
+exit
+exit
+z Naruto
+ls
+clear
+fzf
+clear
+ls
+ls | bat
+clear
+exit
+z Naruto
+fzf
+ls
+ls | grep cbz
+clear
+exit
+exit
+clears
+ls
+clear
+ls
+z media
+ls
+clear
+ls
+cd manga
+ls
+tldr zip
+zip -r naruto.cbz Naruto/
+ls
+lah
+cd Naruto
+ls
+clear
+ls
+lah
+clear
+ls
+clear
+ls | bat
+ls | head -n 50
+ls | head -n 1
+ls | head -n 2
+zip -r vol-1-uzumaki.cbz Vol.01\ Ch.001\ -\ Uzumaki/
+ls
+clear
+lah
+fzf
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+lah
+rm- rf folder.jpg 
+clear
+rm -rf folder.jpg 
+clear
+ls
+ls
+clear
+ls
+clear
+ls
+rm -rf *cbz
+ls
+fzf
+clear
+for dir in */; do     [ -d "$dir" ] || continue;     (cd "$dir" && zip -r "../${dir%/}.cbz" .); done
+ls
+rm -rf *.cbz
+clea
+rls
+clear
+ls
+nvim
+clear
+ls
+clear
+ls
+lah
+clear
+lah
+clear
+cd ..
+ls
+clear
+ls
+nvim script.sh
+sudo chmod +x script.sh
+./script.sh 
+./script.sh Naruto
+mv script.sh Naruto
+cd Naruto/
+ls
+./script.sh 
+nvim script.sh 
+nvim script.sh 
+./script.sh
+ls
+clea
+rls
+clear
+ls
+fzf
+cd ..
+ls
+clear
+ls
+cd Naruto-CBZ/
+ls
+cd ..c
+clear
+ls
+cd ..
+cd Naruto
+ls
+cp script.sh ../One\ Piece/
+cp script.sh ../Bleach/
+cd ..
+clear
+l
+cd One\ Piece/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+./script.sh 
+z manga
+cd Bleach
+ls
+./script.sh 
+sudo docker compose -f jellyfin_docker.yml down
+clear
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+tldr zip
+man zip
+exit
+exit
+tldr find
+clear
+man find
+exit
+z manga
+./script.sh Naruto
+clear
+./script.sh 
+./script.sh Naruto
+./script.sh Naruto
+./script.sh Naruto
+./script.sh Naruto
+./script.sh Naruto
+./script.sh Naruto
+clear
+./script.sh Naruto
+./script.sh Naruto
+./script.sh Naruto
+ear
+clear
+./script.sh Naruto
+./script.sh Naruto
+./script.sh Naruto
+clear
+ls
+ls
+./script.sh Naruto
+./script.sh Naruto
+ls Bleach
+clear
+ls
+clear
+ls
+clear
+w
+clear
+w
+clear
+./script.sh Naruto
+clear
+ls
+./script.sh Naruto
+ls
+cd Naruto
+ls
+exit
+z manga
+./script.sh Naruto
+./script.sh Naruto
+clear
+ls
+cd Naruto
+ls
+fzf
+rm -rf *.cz
+rm -rf *.cbz
+lws
+clear
+ls
+exit
+z manga
+ls
+clear
+ls
+./script.sh Naruto
+cd Naruto
+ls
+grep "Vol.1"
+clear
+ls | grep "Vol.1"
+ls | grep "Vol.1"
+clear
+ls
+ls | grep "Vol.1 "
+ls | grep "Vol.1 "
+clear
+ls
+fzf
+clear
+ls
+exit
+exit
+clear
+ls
+sudo swapon /dev/linux/swap
+exit
+z manga
+cp Bleach/*.cbz bleach/
+clear
+exit
+ls
+clear
+ls
+z manga
+ls
+cd one-piece/
+ls
+clear
+ls
+cd ..
+ls
+cp One\ Piece/*.cbz one-piece/
+mkdir bleach
+clear
+ls
+pkill steam
+exit
+pkill cs2
+clear
+exit
+z mangs
+ls
+z manga
+ls
+rm -rf Naruto
+clear
+ls
+cd bleach
+ls
+cd ..
+clear
+ls
+clear
+ls
+cd naruto
+clear
+ls
+cd ..c
+lear
+ls
+clear
+ls
+mv naruto naruto.bak.bbb
+cd ..
+mv naruto naruto.cbbb.bak
+ls
+clear
+ls
+cd Bleach
+ls
+cd ..
+ls
+clear
+ls
+ls Bleach/
+./script Bleach/ 73
+./script.sh Bleach/ 73
+ls
+mv Bleach/*.cbz bleach/
+mv one-piece one-piece.babbb.bak
+clear
+ls
+clear
+ls
+exit
+ls
+z mangas
+z manga
+ls
+clear
+ls
+mkdir naruto
+mkdir one-piece
+clear
+ls
+exit
+z manga
+ls
+mv naruto.cbbb.bak ../
+mv one-piece.babbb.bak/ ../
+clear
+ls
+clear
+ls
+exit
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+z manga
+ls
+clear
+ls
+mv naruto.cbbb.bak/ ../
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd naruto.cbbb.bak/
+ls
+cd ..
+ls
+cd naruto.cbbb.bak/
+ls
+clear
+ls
+cd ..
+ls
+rm -rf naruto.cbbb.bak/
+cd ..
+clear
+ls
+cd media
+ls
+cd manga
+ls
+mv naruto.cbbb.bak/ ../
+sudo mv naruto.cbbb.bak/ ../
+ls
+clear
+ls
+clear
+ls
+cd ..
+ls
+cd naruto.cbbb.bak/
+ls
+clear
+ls
+cd ..
+ls
+rm -rf naruto.cbbb.bak/
+sudo rm -rf naruto.cbbb.bak/
+clear
+ls
+exit
+exit
+z manga
+ls
+clear
+ls
+rm -rf naruto
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd manga
+ls
+clear
+ls
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+lear
+ls
+clear
+ls
+cd manga
+ls
+z manga
+ls
+cd ..
+ls
+rm -rf manga
+clear
+clear
+ls
+rm -rf one-piece.babbb.bak/
+clear
+ls
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+sudo docker inspect
+tldr docker inspect
+tldr docker compose
+tldr docker compose attach
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+clear
+ls
+exit
+ls
+clear
+ls
+lsblk
+clear
+exit
+pkill steam
+exit
+pkill otd
+exit
+lsblk
+z main
+ls
+cd ..
+sudo rm -rf main
+exit
+paru -Syu
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+sudo swapon /dev/linux/swap
+sudo envycontrol -q
+clear
+exit
+cd /
+dua
+sudo timeshift-gtk
+clear
+clear
+ls
+clear
+ls
+sudo lvs
+clear
+sudo lvp
+sudo lvprint
+clear
+sudo lvdisplay
+clear
+sudo lvs
+sudo pvs
+sudo lvextend -r -L 100G /dev/linux/backup
+sudo timeshift-gtk
+paru -Syu
+sudo pacman -S nvidia-dkms
+clear
+sudo reboot now
+sudo rm -rf /run/media/tuxy/main
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+z main
+ls
+clear
+ls
+exit
+sudo swapon /dev/linux/swap
+cd /run/media
+/tuxy
+ls
+cd tuxy
+ls
+cd main
+ls
+cd ..
+rm -rf main
+clear
+sudo rm -rf main
+cd ~
+clear
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo rm -rf /run/media/tuxy/main/media/
+sudo rm -rf /run/media/tuxy/main
+sudo ntfsfix -d /dev/sda1
+exit
+pkill steam
+sudo swapon /dev/linux/swap
+pkill cs2
+ping google.com
+pkill steam
+exit
+ping google.com
+clear
+exit
+cd .config
+ls
+clear
+ls
+cd Brave
+ls
+clear
+ls
+cd BraveSoftware
+ls
+clear
+ls
+cd Brave-Browser/
+ls
+pkill brave
+exit
+date
+paru -Syu
+steam
+pkill steam
+steam
+steam
+paru -Syu
+paru -Syu
+paru -Syu
+paru -Syu
+pkill steam
+exit
+sudo docker jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f pihole_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f jellyfin_docker.yml up
+sudo docker compose -f pihole_docker.yml up
+exit
+pkill steam
+z roms
+dua
+cd switch
+dua
+clear
+ls
+exit
+ z main
+dua
+paur -Syu
+paru -SYu
+paru -Syu
+paru -Syu
+exit
+ping google.com
+clear
+exit
+hledger --list
+clear
+hledger --list
+clear
+tldr hledger
+hledger -f /run/media/tuxy/main/notes/main.journal balancesheet
+tldr hledfger
+tldr hledger
+hlefdger --help
+hledger --help
+man hledger
+man hledger
+exit
+hledger
+hledger add
+clear
+ls
+clear
+clear
+hledger -f /run/media/tuxy/main/notes/main.journal add'
+clear
+nvim main.journal 
+clear
+hledger -f /run/media/tuxy/main/notes/main.journal add
+clear
+hledger -f /run/media/tuxy/main/notes/main.journal balancesheet
+hledger -f /run/media/tuxy/main/notes/main.journal print
+clear
+hledger -f /run/media/tuxy/main/notes/main.journal stats
+hledger -f /run/media/tuxy/main/notes/main.journal balance
+hledger -f /run/media/tuxy/main/notes/main.journal cashflow
+hledger -f /run/media/tuxy/main/notes/main.journal print
+clear
+nvim main.journal 
+hledger -f /run/media/tuxy/main/notes/main.journal balancesheet
+hledger -f main.journal register assets:bank:checking
+clear
+hledger -f main.journal register assets:bank:checking
+hledger -f main.journal print
+nvim main.journal 
+hledger -f main.journal print
+hledger -f main.journal balance
+hledger -f main.journal balancesheet
+clear
+ls
+clear
+exit
+ttyper
+sudo shutdown now
+nvim
+clear
+nvim
+nvim
+sudo rm -rf /run/media/tuxy/main/
+sudo ntfsfix -d /dev/sda1
+pkill steam
+sudo docker compose -f pihole_docker.yml down
+sudo docker compose -f pihole_docker.yml up
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+sudo swapon /dev/linux/swap
+sudo shutdown now
+sudo rm -rf /run/media/tuxy/main/
+sudo rm -rf /run/media/tuxy/main/
+sudo rm -rf /run/media/tuxy/main/
+sudo rm -rf /run/media/tuxy/main/
+sudo docker -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+est
+est
+exit
+paru -Syu
+exit
+nvim
+paru -S sc-im
+paru -Ss sc-im
+paru -S sc-im
+paru -S gnuplot
+clear
+sc-im finance.sc 
+sudo reboot now
+sudo rm -rf /run/media/tuxy/main
+sudo ntfsfix -d /dev/sda1
+exit
+pkill steam
+exit
+fastboot
+paru -Ss fastboot
+paru -S android-sdk-platform-tools
+clear
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+sudo adb reboot sideload
+cd Downloads
+ls
+mv Magisk-v30.7.apk magisk.zip
+exit
+paru -S android-tools
+paru -S android-udev
+clear
+ls
+clear
+ls
+adb devices
+adb devices
+adb devices
+tldr adb
+fastboot
+adb reboot bootloader
+fastboot devices
+cd Downloads
+clear
+fastboot flash --slot=all boot boot.img
+fastboot flash --slot=all dtbo dtbo.img 
+fastboot reboot recovery
+adb sideload crDroidAndroid-14.0-20241008-corfur-v10.8.zip
+adb sideload crDroidAndroid-14.0-20241008-corfur-v10.8.zip
+ls
+clear
+ls
+clear
+ls
+clear
+adb sideload magisk.zip 
+cd Downloads
+ls
+cd Downloads
+ls
+mkdir moto
+mkdir crdroid
+ls
+mv XT2169-1_CORFUR_RETIN_12_S2RUBS32.51-15-3-19_subsidy-DEFAULT_regulatory-DEFAULT_cid50_CFC.xml.zip moto/
+ls
+mv crDroidAndroid-14.0-20241008-corfur-v10.8.zip crdroid/
+mv boot.img dtbo.img crdroid/
+ls
+exit
+fasboot devices
+fastboot devices
+fastboot flash --slot=all boot boot.img
+z down
+fastboot flash --slot=all boot boot.img
+fastboot flash --slot=all dtbo dtbo.img 
+fastboot reboot recovery
+fastboot reboot recovery
+clear
+clear
+exit
+fastboot devices
+fastboot flash --slot=all boot boot.img
+z down
+fastboot flash --slot=all boot boot.img
+fastboot flash --slot=all dtbo dtbo.img 
+fastboot reboot recovery
+adb sideload EvolutionX-14.0-20241026-corfur-v9.5-Unofficial.zip 
+adb sideload magisk.zip
+adb devices
+adb reboot recovery
+adb sideload magisk.zip
+adb sideload magisk.zip 
+clear
+exit
+paru -Syu
+z movies
+ls
+ls
+cd ..
+cd show
+ls
+clear
+ls
+cd shows
+ls
+cd wednesday/
+ls
+cd season1/
+ls
+clear
+ls
+exit
+man yazi
+yazi --help
+tldr yazi
+exit
+paru -Syu yazi
+yazi
+clear
+ls
+yazi
+yazi
+pkilll steam
+pkill steam
+exit
+sudo swapon /dev/linux/swap
+steam
+paru -Syu
+paru -Ss osu
+pacman -Ss osu
+clear
+paru -Ss osu
+paru -S osu-lazer-bin
+paru -S osu-lazer-bin
+paru -Ss superfile
+paru -S superfile
+sudo pacman -S exiftool
+paru -S perl-archive-zip perl-io-compress-brotli
+sf
+clear
+superfile
+clear
+spf
+spf
+exit
+spf
+exit
+cd .config
+ls
+mkdir superfile
+cd superfile
+ls
+clear
+ls
+cd theme
+ls
+clear
+ls
+cd ..
+clea
+rls
+clear
+ls
+nvim config.toml 
+spf
+clear
+exit
+spf
+cd .local/share
+ls
+cd nvim
+ls
+fzf
+cd site/pack/core/opt/
+ls
+cd koda.nvim/
+ls
+cat README.md 
+clear
+ls
+fzf
+cd colors
+ls
+nvim koda.lua
+exit
+spf
+exit
+sf
+spf
+clear
+exit
+psf
+spf
+exit
+spf
+clear
+ls
+clear
+ls
+cd .config
+ls
+clear
+ls
+cd super
+cd superfile/
+ls
+nvim config.toml 
+clear
+ls
+cd ..
+cclear
+clear
+ls
+clear
+ls
+cd .config
+ls
+clear
+ls
+cd foot
+ls
+nvim koda.ini 
+exit
+fastfetch
+clear
+exit
+ttyper
+clear
+exit
+paru -Ss obsidian
+paru -Ss obsidian
+clear
+exit
+paru -Ss tribler
+paru -S tribler-bin
+clear
+exit
+tribler 
+tribler
+paru -Rcns tribler
+paru -Rcns tribler-bin 
+sudo pacman -Ss motrix
+paru -Ss motrix
+paru -S motrix-next-bin
+motrix-next
+clear
+exit
+cd Downloads
+ls
+ls
+cd Applications
+mkdir Applications
+curl -sSL https://raw.githubusercontent.com/8ByteSword/appimage-desktop-integrator/main/setup_appimage_integrator.sh | bash
+ai find
+clear
+exit
+exit
+paru -Ss rat | grep search
+paru -Ss rat-search
+cd Downloads
+ls
+clear
+ls
+mv RatsSearch-Linux-x64-v2.3.5.AppImage ratsearch.AppImage
+ai find
+z Applications
+ls
+clea
+rls
+paru -Rcns motrix-next-bin
+paru -S motrix-bin
+clear
+ls
+cd Downloads
+ls
+clear
+ls
+ls
+mv Obsidian-1.14.4.AppImage obsidian.AppImage
+mv Motrix-2.0.0-beta.49-x86_64.AppImage motrix.AppImage
+mv *.AppImage ../Applications/
+clear
+ls
+z Applications
+ls
+clear
+ls
+cd Applications
+ls
+clear
+ls
+clear
+ls
+z music
+ls
+ls
+clear
+cd post-malone/
+ls
+clear
+ls
+z down
+ls
+clear
+ls
+mv Andrzej\ Sapkowski\ -\ The\ Witcher\ Series\ -\ 2007-2018 witcher
+cd witcher/
+ls
+cd ...
+clear
+ls
+cd ..
+clear
+ls
+spf
+spf
+spf
+yazi
+clear
+eit
+exit
+yazi
+clear
+exit
+yazi
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+z postmalone
+z post
+ls
+z books
+ls
+z media
+cd books
+ls
+clear
+cd library
+ls
+cd witcher
+ls
+cd ..
+clear
+ls
+cd ..
+ls
+clear
+ls
+cd library
+ls
+cd witcher
+ls
+cd ..
+ls
+cd ..
+clear
+ls
+cd movies
+ls
+clear
+exit
+z movies
+ls
+cd johnny-english/
+ls
+cd ..
+clear
+ls
+exit
+cd Downloads
+clear
+ls
+exit
+ai --help
+ai uninstall motrix
+ai uninstall motrix
+ai uninstall motrix
+ai uninstall motrix
+ai uninstall motrix
+clear
+ls
+clear
+ls
+exit
+ai list
+clear
+xit
+exit
+cd Downloads/
+ls
+mv Outline-Client.AppImage outline.AppImage
+ls
+clear
+ls
+ai find
+ai find
+ai uninstall outline
+ai uninstall motrix
+z appli
+z App
+ls
+cd Applications/
+ls
+rm -rf motrix.AppImage outline.AppImage 
+clear
+ls
+clear
+exit
+yazi
+paru -Syu
+sudo bleachbit
+sudo bleachbit 
+sudo bleachbit gui
+tldr bleachbit
+sudo bleachbit --gui
+cd .config
+ls
+rm -rf cividle
+rm -rf CivIdleSaves/
+cd ..
+cd .cache
+fzf
+cd ..
+fzf
+fzf
+clear
+exit
+dua
+clear
+cd ..
+dua
+cd ..
+dua
+clear
+exit
+exit
+cd .config
+ls
+cd BraveSoftware/
+ls
+cd .
+exit
+paru -Syu
+pkill steam
+exit
+cd Downloads
+ls
+cd Erich\ Gamma\,\ Richard\ Helm\,\ Ralph\ Johnson\,\ John\ Vlissides\ -\ Design\ Patterns\ Elements\ of\ Reusable\ Object-Oriented\ Software\ -\ 1994/
+ls
+clear
+ls
+mv Erich\ Gamma\,\ Richard\ Helm\,\ Ralph\ Johnson\,\ John\ Vlissides\ -\ Design\ Patterns\ Elements\ of\ Reusable\ Object-Oriented\ Software\ -\ 1994.epub design-patterns.epub
+mv design-patterns.epub /run/media/tuxy/main/media/library/
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+z library
+ls
+rm -rf design-patterns.pdf 
+clear
+lah
+ls | grep design-patterns
+rm -rf design-patterns-poster.jpg 
+exit
+steam
+pkill steam
+steam
+steam
+cd Downloads
+ls
+mv xournalpp-1.3.8-x86_64.AppImage xournalpp.AppImage
+mv xournalpp-1.3.8-x86_64.AppImage.zsync xournalpp.AppImage.zsync
+clear
+ls
+ai find
+ls
+clear
+ls
+cd Wrong\ Turn\ 1\,\ 2\,\ 3\,\ 4\,\ 5\,\ 6\ Unrated\ -\ Horror\ 2003-2014\ Eng\ Subs\ 1080p\ \[H264-mp4\]/
+ls
+clear
+ls
+cd ..
+ls
+rm -rf Wrong\ Turn\ 1\,\ 2\,\ 3\,\ 4\,\ 5\,\ 6\ Unrated\ -\ Horror\ 2003-2014\ Eng\ Subs\ 1080p\ \[H264-mp4\]/
+cd Erich\ Gamma\,\ Richard\ Helm\,\ Ralph\ Johnson\,\ John\ Vlissides\ -\ Design\ Patterns\ Elements\ of\ Reusable\ Object-Oriented\ Software\ -\ 1994/
+ls
+cd ..
+rm -rf Erich\ Gamma\,\ Richard\ Helm\,\ Ralph\ Johnson\,\ John\ Vlissides\ -\ Design\ Patterns\ Elements\ of\ Reusable\ Object-Oriented\ Software\ -\ 1994/
+clear
+ls
+mv xournalpp.AppImage.zsync ../Applications/
+clear
+ls
+exit
+cd .cofni
+clear
+exit
+z App
+ls
+cd Applications/
+ls
+nvim xournalpp.AppImage.zsync 
+clear
+exit
+env | grep -E '^(GTK|QT|XMODIFIERS|GUILE|SCHEME|UIM)'
+ls -l /usr/share/uim/lib/sigscheme-init.scm
+ls -l /usr/share/uim/lib/ | grep -init.scm
+clear
+exit
+cd Applications/
+ls
+./xournalpp.AppImage 
+cd Downloads
+ls
+clear
+ls
+clear
+ls
+mv xournalpp-1.3.8-x86_64.AppImage xournal.AppImage
+mv xournal.AppImage ../Applications/
+cd ~/Applications
+env -u QT_QPA_PLATFORMTHEME ./xournalpp.AppImage
+./xournalpp.AppImage --version
+clear
+./xournalpp.AppImage --version
+clear
+paru -S xournalpp
+paru -S qpdf
+xournalpp
+paru -S xournalpp
+xournalpp
+clear
+paru -Rcns xournalpp 
+./xournalpp.AppImage 
+rm -rf xournalpp.AppImage*
+clear
+ls
+ls
+ls
+mv xournal.AppImage xournalpp.AppImage
+cd Applications/
+./xournalpp.AppImage
+ai find
+lah
+sudo chmod +x xournalpp.AppImage 
+./xournalpp.AppImage 
+clear
+./xournalpp.AppImage 
+paru -Ss uim
+sudo pacman -S uim
+sudo pacman -Ss uim
+clear
+exit
+sudo pacman -S cmake ninja gtk3 base-devel libxml2 portaudio libsndfile   poppler-glib texlive-bin texlive-pictures libzip lua   gtksourceview4 help2man qpdf
+z app
+z local app
+ls
+ls
+nvim xournalpp.desktop 
+clear
+cd .config
+ls
+fzf
+cd appimamge
+cd appimage_desktop_integrator/
+ls
+clear
+ls
+cd bin
+ls
+nvim appimage-run-wrapper.sh 
+exit
+cd Applications/
+ls
+./xournalpp.AppImage 
+clear
+env GTK_IM_MODULE=gtk-im XMODIFIERS=@im=none ./xournalpp.AppImage
+GTK_IM_MODULE=ibus ./xournalpp.AppImage
+otd
+clear
+exit
+otd
+otd-gui 
+steam
+nvim
+awww
+clear
+exit
+cd .config
+ls
+cd app
+clear
+cd appimage_desktop_integrator/
+ls
+clear
+ls
+cd bin
+nvim appimage-run-wrapper.sh 
+cd ..
+cd ..
+cd ..
+cd Applications/
+ls
+./xournalpp.AppImage 
+clear
+nvim ~/.config/appimage_desktop_integrator/bin/appimage-run-wrapper.sh 
+exitt
+exit
+cd Downlaods
+ls
+cd Downloads
+ls
+clear
+ls
+nvim Rnote-0.14.2-2-anylinux-x86_64.AppImage.zsync 
+clear
+ls
+mv Rnote* ../Applications/
+ai find
+paru -Rcns rnote
+pkill xournalpp
+clear
+clear
+paru -S rnote
+ai uninstall xournal
+clear
+z app
+ls
+rm -rf xournalpp.AppImage 
+clear
+paru -Syu
+cd wallpapers/
+ls
+cd ..
+clear
+ls
+clear
+cat .config/autostart.sh
+awww img wallpapers/101010.png 
+clear
+awww-daemon &
+pkill steam
+pkill steam
+clear
+ls
+clear
+ls
+z media
+z media
+ls
+clear
+exit
+sudo docker compose -f kavita_docker.yml ps
+sudo docker inspect --format='{{.State.Health.Status}}' kavita
+ls
+nvim kavita_docker.yml
+clear
+sudo docker compose -f kavita_docker.yml up
+nvim kavita_docker.yml 
+sudo docker compose -f kavita_docker.yml up
+ls
+rm -rf kavita_docker.yml 
+clear
+sudo docker pws
+sudo docker ps
+sudo docker stop kavita
+sudo docker ps
+clear
+exit
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+clear
+paru -Ss mercury
+paru -S mercury-browser-avx2-bin
+paru -Rcns mercury-browser-avx2-bin 
+paru -Ss librewolf
+clear
+paru -Ss librewolf | grep bin
+paru -Ss librewolf | grep bin | grep -E 'extension'
+paru -Ss librewolf | grep bin | grep -ve 'extension'
+paru -S librewolf-hellfire-bin
+sudo docker ps
+docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' pihole
+clear
+sudo docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' pihole
+clear
+exit
+hostname -I
+clear
+hostnamectl -I
+exit
+ip neigh
+arp -a
+arp 
+paru -S arp
+paru -Ss arp
+clear
+exit
+sudo nmap -p 80,443 --open 192.168.1.0/24
+sudo pacman -S nmap
+clear
+ip route
+sudo nmap -sn 192.168.1.0/24
+ping -c 4 192.168.29.222
+sudo nmap -sV -p 53,80,443 192.168.29.222
+clear
+exit
+tailscale serve status
+clear
+exit
+dig @172.18.0.2 google.com
+sudo ss -lnup | grep ':53 '
+ip route
+ip neigh
+sudo nmap -n -T4 --open -p 53,80,443 --host-timeout 2s 192.168.29.0/24
+dig @192.168.29.86 google.com
+sudo docker ps
+dig @192.168.1.10 example.org
+dig @192.168.29.86 example.org
+dig @172.18.0.1 example.org
+dig @192.158.29.86 example.org
+clear
+exit
+resolvectl status
+clear
+exit
+dig example.org
+dig test.test
+dig archlinux.org
+clear
+cat /etc/resolv.conf 
+sudo resolvectl status
+sudo tailscale set --accept-dns=false
+dig example.org
+ip route
+ip route get 192.168.29.242
+tailscale status
+ping -c 3 192.168.29.242
+ip neigh show 192.168.29.242
+hostname -I
+sudo docker ps
+dig @127.0.0.1 example.org
+cat /etc/resolv.conf
+nmcli connection show --active
+nmcli connection show --active
+clear
+nmcli connection show --active
+ip neigh show 192.168.29.242
+clear
+ip neigh show 192.168.29.242
+ip neigh show 192.168.29.242
+ip neigh show 192.168.29.242
+clear
+nmcli connection show --active
+nmcli device status
+ip -4 addr
+nmcli device connect eno1
+nmcli device status
+clear
+nmcli device status
+nmcli device status
+clear
+nmcli device status
+clear
+exit
+nmcli device status
+ip -4 addr show eno1
+ip -4 addr show eno1
+nmcli device connect eno1
+tailscale serve status
+clear
+exit
+nmcli device status
+sudo nmcli connection modify "subham 5G"   ipv4.dns "127.0.0.1"   ipv4.ignore-auto-dns yes   ipv6.ignore-auto-dns yes
+sudo tailscale set --accept-dns=false
+sudo nmcli connection down "subham 5G"
+sudo nmcli connection up "subham 5G"
+cat /etc/resolv.conf
+dig example.org
+btop
+steam
+clear
+sudo systemd-analyze 
+sudo systemd-blame
+sudo systemd-analyze blame
+sudo systemd-analyze blame | bat
+sudo systemd-analyze blame | nvim
+clear
+systemctl status fstrim.timer
+systemctl status fstrim.service
+systemctl cat fstrim.service
+systemctl list-timers fstrim.timer
+clear
+systemd-analyze critical-chain
+sudo systemctl disable NetworkManager-wait-online.service
+systemctl show docker.service -p Wants -p Requires -p After
+systemd-analyze time
+systemd-analyze critical-chain
+clear
+sudo systemctl disable NetworkManager-wait-online.service
+bootctl status
+cat /boot/loader/loader.conf
+bootctl status
+bootctl status | nvim
+cat /boot/loader/loader.conf | nvim
+cat /boot/loader/loader.conf
+grep -E '^(GRUB_TIMEOUT|GRUB_TIMEOUT_STYLE|GRUB_DEFAULT)=' /etc/default/grub
+sudo nvim /etc/default/grub 
+sudo grub-mkconfig -o /boot/grub/grub.cfg 
+clear
+grep -E '^(GRUB_TIMEOUT|GRUB_TIMEOUT_STYLE|GRUB_DEFAULT|GRUB_DISABLE_OS_PROBER)=' /etc/default/grub
+clear
+docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
+sudo docker ps --format 'table {{.Names}}\t{{.Status}}\t{{.Ports}}'
+nvim
+sudo rm -rf /run/media/tuxy/main/
+sudo ntfsfix -d /dev/sda1
+pkill nautilus
+sudo docker compose -f jellyfin_docker.yml down
+sudo docker compose -f jellyfin_docker.yml up
+exit
+systemd-analyze critical-chain
+sudo systemctl disable docker.service
+clear
+sudo systemctl start docker
+clear
+exit
+suod systemd-analyze critical-chain local-fs.target
+sudo systemd-analyze critical-chain local-fs.target
+clear
+exit
+systemctl status run-docker-netns-6b4de620085c.mount
+sudo systemctl stop run-docker-netns-6b4de620085c.mount
+clear
+exit
+systemctl cat docker.service
+sudo systemd-analyze plot
+sudo systemd-analyze plot | nvim
+clear
+exit
+sudo systemd-analyze 
+sudo systemd-analyze time
+clear
+sudo systemd-analyze time
+sudo systemd-analyze blame 
+sudo reboot now
+sudo docker compose -f jellyfin_docker.yml up -d
+clear
+exit
+sudo docker compose -f pihole_docker.yml up
+sudo sytemctl start docker
+sudo systemctl start docker
+sudo docker compose -f pihole_docker.yml up
+sudo docker compose -f pihole_docker.yml up -d
+clear
+ls
+sudo docker ps
+exit
+systemd-analyze plot > ~/boot.svg
+exit
+sudo systemd-analyze 
+sudo systemd-analyze blame
+sudo systemd-analyze 
+sudo systemd-analyze critical-chain 
+cat /etc/fstab
+clear
+journalctl -b -o short-monotonic | grep -Ei 'timeout|waiting for|start job|nvme|usb'
+clear
+exit
+systemctl status boot-efi.mount
+journalctl -b -u boot-efi.mount --no-pager
+grep -E '^(GRUB_TIMEOUT|GRUB_TIMEOUT_STYLE|GRUB_CMDLINE_LINUX_DEFAULT)=' /etc/default/grub
+systemd-analyze blame | head -20
+systemd-analyze critical-chain
+suod systemd-analyze critical-chain boot-efi.mount
+sudo systemd-analyze critical-chain boot-efi.mount
+clear
+sudo lsblk -o NAME,FSTYPE,LABEL,UUID,MOUNTPOINTS
+systemd-analyze time
+systemd-analyze critical-chain
+systemctl --failed
+ls -lh /boot
+clear
+sudo timeshift-gtk
+pkill ratsearch
+clear
+exit
+cd Downloads
+ls
+ls
+clear
+ls
+exit
+cd Downloads
+ls
+cd the-legend-of-zelda-nes-soundtrack/
+ls
+clear
+ls
+yazi
+yazi
+z post
+ls
+clear
+lah
+cd austin
+ls
+lah
+clear
+fzf
+clear
+exit
+spf
+yazi
+clear
+z downloads
+ls
+mv the-legend-of-zelda-nes-soundtrack zelda
+mv zelda /run/media/tuxy/main/media/music/
+z zelda
+ls
+z musi
+ls
+cd zelda
+ls
+cd legend-of-zelda/
+ls
+cd ..
+ls
+cd ..
+ls
+cd post-malone/
+ls
+cd austin
+ls
+nvim album.nfo 
+cd ..
+ls
+nautilus
+clear
+ls
+cd beerbongs-and-bentleys/
+ls
+nvim album.nfo 
+clear
+exit
+exit
+exit
+z down
+ls
+cd ..
+ls
+unzip tloz-lttp-original-soundtrack.zip 
+clear
+ls
+lah
+clear
+ls
+rm -rf Disc\ 2\ \(SFX\)/
+cd Disc\ 1/
+ls
+clear
+ls
+cd ..
+ls
+mv Disc\ 1/ a-link-to-the-past
+cd a-link-to-the-past/
+ls
+clear
+ls
+yazi
+clear
+cd ..
+clear
+ls
+clear
+ls
+mv a-link-to-the-past/ /run/media/tuxy/main/media/music/zelda/
+clear
+ls
+clear
+ls
+z zelda
+ls
+clear
+cd a-link-to-the-past/
+ls
+mv /home/tuxy/folder.jpg .
+exit
+clear
+xit
+exit
+paru -Ss millenium
+clear
+paru -Ss millennium
+paru -S millennium
+z music
+ls
+cd zelda
+ls
+cd legend-of-zelda/
+ls
+mv lengend-of-zelda.jpg folder.jpg
+clear
+cd Applications
+ls
+./ratsearch.AppImage 
+./ratsearch.AppImage 
+curl -fsSL https://raw.githubusercontent.com/ciscosweater/enter-the-wired/main/enter-the-wired | bash
+curl -fsSL https://raw.githubusercontent.com/Star123451/LuaToolsLinux/main/install.sh | bash
+clear
+curl -fsSL https://raw.githubusercontent.com/ciscosweater/enter-the-wired/main/install-plugins | bash
+steam
+pkill steam
+steam
+millennium
+steam
+exit
+paru -Rcns slssteam
+paru -Rcns slsteam
+paru -Ss slssteam
+sudo pacman -Rcns slssteam
+sudo pacman -Qe | grep steam
+slsh 
+clear
+exit
+stema
+steam
+ls -l ~/.local/share/SLSsteam/SLSsteam.so
+clear
+exit
+tail -n 50 ~/steam-startup.log
+ls 
+cat steam-startup.log 
+clear
+excit
+exit
+tail -n 50 ~/steam-startup.log
+exit
+pgrep -a -f 'steam|SLSsteam'
+steam
+clear
+steam
+clear
+steam
+stema
+steam
+steam -dev 2>&1 | tee ~/steam-startup.log
+steam
+clear
+exit
+tldr steam
+exit
+steam -shutdown
+clear
+tldr steam
+clear
+tldr --update
+steam
+stema
+steam
+cat ~/.config/SLSsteam/config.yaml
+clear
+cd .config
+ls
+cd SLSsteam/
+clear
+ls
+nvim config.yaml
+echo "LD_PRELOAD=$LD_PRELOAD"
+echo "LD_AUDIT=$LD_AUDIT"
+ls -la ~/.local/share/SLSsteam/
+grep -RInE 'SLSsteam|library-inject\.so'   ~/.local/share/Steam/steam.sh   ~/.local/share/Steam/steam.cfg   ~/.config/environment.d   ~/.local/share/applications 2>/dev/null
+sed -n '1,12p;165,185p' ~/.local/share/Steam/steam.sh
+clear
+cp ~/.local/share/Steam/steam.sh ~/.local/share/Steam/steam.sh.backup
+sed -n '1,12p;165,185p' ~/.local/share/Steam/steam.sh
+clear
+steam -shutdown
+pkill -f 'SLSsteam' 
+pkill -f 'SLSsteam'
+Acurl -fsSL https://raw.githubusercontent.com/Star123451/LuaToolsLinux/main/install.sh -o /tmp/luatools-installer.sh
+bash /tmp/luatools-installer.sh --help
+curl -fsSL https://raw.githubusercontent.com/Star123451/LuaToolsLinux/main/install.sh -o /tmp/luatools-installer.sh
+bash /tmp/luatools-installer.sh --help
+bash /tmp/luatools-installer.sh --millennium
+bash /tmp/luatools-installer.sh --help
+bash /tmp/luatools-installer.sh --uninsatll
+bash /tmp/luatools-installer.sh --uninstall
+bash /tmp/luatools-installer.sh --millennium
+sudo bash /tmp/luatools-installer.sh --millennium
+sudo bash /tmp/luatools-installer.sh --millennium
+clear
+clear
+sudo pacman -S python-httpx python-beautifulsoup4
+sudo pacman -S python-ruamel
+sudo pacman -Ss python-ruamel
+sudo pacman -S python-ruamel.yaml
+sudo pacman -S python-ruamel-yaml
+cd /tmp
+ls
+cp luatools-installer.sh /home/tuxy
+cd /home/tuxy
+ls
+mkdir luatools
+mv luatools-installer.sh luatools
+ls
+cd luatools
+ls
+clear
+ls
+python -m venv .venv
+cd ..
+cd luatools
+sudo chmod +x luatools-installer.sh 
+./luatools-installer.sh --help
+./luatools-installer.sh --millennium
+./luatools-installer.sh --millennium
+clear
+cd ..
+z luatools/
+ls
+cd luatools/
+rm -rf .venv
+cd ..
+cd luatools/
+clear
+ls
+./luatools-installer.sh 
+steam
+clear
+steam
+cd .local/share
+ls
+cd ACCELA/
+ls
+./ACCELA.AppImage 
+pkill steam
+clear
+steam
+clear
+clear
+steam
+steam
+steam
+steam -dev
+clear
+exit
+mv .local/share/Steam .local/share/Steam.bak
+clear
+ls
+mv .steam .steam.bak
+clear
+ls
+z main
+ls
+mv SteamLibrary SteamLibrary.bak
+clear
+exit
+z main
+ls
+mv SteamLibrary.bak SteamLibrary
+z .local
+mv .steam.bak .steam
+cd .local/share
+ls
+mv Steam.bak Steam
+exit
+steam
+clear
+exit
+paru -S millennium
+clear
+paru -Rcns millennium
+paru -S millennium
+steam
+steam
+steam
+steam
+clear
+steam
+clear
+exit
+z luatools/
+cd luatools
+ls
+clea
+rls
+clear
+ls
+./luatools-installer.sh 
+./luatools-installer.sh --millennium
+./luatools-installer.sh --accela
+clear
+./luatools-installer.sh --help
+./luatools-installer.sh --fix
+./luatools-installer.sh --fix
+./luatools-installer.sh --uninstall
+./luatools-installer.sh --accela
+./luatools-installer.sh --help
+./luatools-installer.sh --install-all
+./luatools-installer.sh --uninstall
+./luatools-installer.sh --uninstall
+paru -Rcns millennial
+paru -Ss millennial
+sudo pacman -
+sudo pacman -Rcns millennial
+sudo pacman -S millennial
+sudo pacman -S millennium
+sudo pacman -R millennium
+sudo pacman -S millennium
+ls
+clear
+fzf
+cd .config
+ls
+cd librewolf/
+ls
+cd librewolf/
+ls
+clear
+ls
+cat profiles.ini 
+cd 4zoqxnca.default/
+ls
+clear
+ls
+cd ..
+cd 95v8sppd.default-default/
+ls
+clear
+ls
+cd Chrome
+cd chrome
+mkdir chrome
+nvim chrome/userChrome.css
+clear
+exit
+z librewolf
+ls
+cd 95v8sppd.default-default/
+ls
+cd chrome
+ls
+clear
+ls
+nvim userChrome.css 
+paru -Ss opencl
+sudo pacman -Ss opencl
+sudo pacman -S lib32-opencl-mesa
+sudo pacman -S lib32-opencl-mesa opencl-amd
+sudo pacman -S lib32-opencl-mesa
+paru -S openmp
+paru -S offload
+paru -S cuda
+clear
+sudo pacman -S opengl
+sudo pacman -Ss opengl
+sudo pacman -S mesa-tools lib32-mesa-tkg-git
+sudo pacman -S mesa-tools lib32-mesa-tkg
+sudo pacman -S mesa-tools lib32-mesa-tkg-git
+sudo pacman -S mesa-tool lib32-mesa-tkg-git
+sudo pacman -S lib32-mesa-tkg-git
+sudo pacman -Ss mesa-tools
+sudo pacman -Ss mesa-to
+clear
+sudo pacman -Ss opengl
+clear
+exit
+pkill steam
+clear
+steam
+steam
+sudo swapon /dev/linux/swap
+clear
+exit
+paru -S kdenlive gimp
+paru -S recordmydesktop qt6-imageformats python-vosk gutenprint
+clear
+exit
+sudo reboot now
+sudo ntfsfix -d /dev/sda1
+pkill steam
+exit
+lsblok
+lsblk
+sudo ntfsfix -d /dev/sda1
+sudo ntfsfix -d /dev/sda1
+clear
+ls
+clear
+ls
+exit
+cd .config
+lsclear
+lc
+clear
+ls
+clear
+exit
+clear
+exit
+cd .config
+ls
+clear
+ls
+cd st
+ls
+clear
+ls
+git pull
+clear
+ls
+cd xterm
+ls
+clear
+ls
+cd ..
+clear
+ls
+cd st
+clear
+clear
+exit
+eexit
+exit
+st
+sexit
+exit
+nautilus
+sudo ntfsfix -d /dev/sda1
+nautilus
+cd /run/media/tuxy
+ls
+clear
+cd /run
+cd media
+cd tuxy
+ls
+clear
+ls
+cd tuxy
+clear
+exit
+cd .config
+ls
+clear
+ls
+cd ..
+ls
+cd shell
+ls
+clear
+ls
+cd ..
+cd qtile
+nvim
+exit
+clear
+clear
+exit
+git clone https://github.com/Shourai/st
+mv st .config/
+cd .config
+cd st
+clear
+ls
+clear
+ls
+make install
+sudo make install
+st
+clear
+st
+exit
+cd .config
+ls
+cd st
+clear
+ls
+nvim config.
+nvim config.h
+clear
+sudo make clean
+sudo make install
+exit
+clear
+ls
+cd .config
+clear
+ls
+cd st
+clear
+ls
+nvim
+clear
+ls
+cd patches
+ls
+clear
+ls
+git apply *
+cd ..
+git apply patches/*
+clear
+sudo make clean
+sudo make install
+exit
+clear
+ls
+clear
+ls
+cd .config
+ls
+clear
+ls
+clear
+ls
+cd st
+ls
+clear
+ls
+cat patches/
+ls
+clear
+ls patches/
+ls
+clear
+ls
+ls patches/
+cd patches
+nvim 0003-Apply-colorscheme-on-st-version-0.9.patch 
+clear
+ls
+clear
+lah
+rm -rf 0003-Apply-colorscheme-on-st-version-0.9.patch 
+cd ..
+clear
+sudo make clean
+git apply patches/*
+clear
+sudo make install
+exit
+clear
+ls
+cd .config
+clear
+ls
+cd st
+clear
+ls
+nvim config.h
+nvim config.def.h 
+sudo make clean
+sudo make install
+clear
+exit
+clear
+exit
+st
+st
+st
+st
+st
+exit
+clear
+ls
+cd ..
+clear
+cd .config
+ls
+cd foot/
+ls
+cat koda.ini | xsel
+cat koda.ini | xsel --clipboard
+tldr xsel
+tldr --update
+exit
+clear
+exit
+cd .config
+ls
+clear
+ls
+cd .config
+ls
+clea
+rls
+clear
+ls
+cd st
+clear
+ls
+nvim config.h
+sudo make clean
+sudo make install
+nvim config.h
+sudo make clean
+sudo make install
+clear
+exit
+cd .config/st
+clear
+ls
+nvim config.def.h
+sudo make clean
+sudo make install
+st
+clear
+exit
+cd .config
+ls
+cd qtile
+ls
+nvim config.py
+exit
+ls
+clear
+ls
+clear
+cd .config
+cd st
+clear
+exit
+cd .config
+ls
+cd st
+ls
+clear
+ls
+nvim config.def.h 
+nvim config.def.h 
+nvim config.def.h 
+sudo make clean
+sudo make install
+nvim config.def.h 
+clear
+exit
+cd .config
+ls
+cd st
+sudo make clean
+sudo make install
+clear
+cd .config
+ls
+clear
+exit
+cd .config
+clear
+ls
+clear
+ls
+clear
+ls
+cd st
+ls
+nvim config.def.h 
+sudo make clean
+sudo make install
+clear
+ls
+cd patches/
+ls
+curl -L https://st.suckless.org/patches/clickurl/st-clickurl-0.8.5.diff
+ls
+clear
+ls
+clear
+curl -o https://st.suckless.org/patches/clickurl/st-clickurl-0.8.5.diff
+tldr curl
+man curl
+wget https://st.suckless.org/patches/clickurl/st-clickurl-0.8.5.diff
+ls
+clear
+ls
+curl -O https://st.suckless.org/patches/clickurl/st-clickurl-0.8.5.diff
+ls
+git apply st-clickurl-0.8.5.diff
+cd ..
+git apply patches/*
+clear
+git apply patches/*
+git status --short
+git log -1 --oneline
+grep -n 'VERSION' config.mk
+git status --short
+grep -n 'VERSION' config.mk
+git status --short
+git log -1 --oneline
+clear
+git status --short
+git log -1 --oneline
+grep -n 'VERSION' config.mk
+git apply --check patches/0001-Apply-alpha-on-st-version-0.9.patch
+git apply patches/0001-Apply-alpha-on-st-version-0.9.patch
+st > git apply --check patches/0001-Apply-alpha-on-st-version-0.9.patch
+git apply patches/0001-Apply-alpha-on-st-version-0.9.patch
+error: patch failed: config.def.h:93
+error: config.def.h: patch does not apply
+error: patch failed: config.mk:16
+error: config.mk: patch does not apply
+error: patch failed: st.h:124
+error: st.h: patch does not apply
+error: patch failed: x.c:105
+error: x.c: patch does not apply
+error: patch failed: config.def.h:93
+error: config.def.h: patch does not apply
+error: patch failed: config.mk:16
+error: config.mk: patch does not apply
+error: patch failed: st.h:124
+error: st.h: patch does not apply
+error: patch failed: x.c:105
+error: x.c: patch does not apply
+clear
+git diff -- config.def.h config.mk st.h x.c
+clear
+ls
+clear
+exit
+cd .config
+cd st
+clear
+ls
+sudo make clean
+sudo make install
+exit
+clear
+cd .cofnig
+ls
+clear
+ls
+cd .config/st
+clear
+ls
+ls
+cd patches
+curl -O https://st.suckless.org/patches/scrollback/st-scrollback-0.8.4.diff
+cd ..
+git apply patches/st-scrollback-0.8.4.diff
+ls
+nvim st.c 
+clear
+git apply patches/st-scrollback-0.8.4.diff
+clear
+git apply --check patches/st-scrollback-0.8.4.diff
+st > git apply patches/st-scrollback-0.8.4.diff
+error: patch failed: st.c:184
+error: st.c: patch does not apply
+st >
+git diff -- st.c
+sed -n '160,210p' st.c
+clear
+clear
+ls
+sudo make clean
+sudo make install
+clear
+paru -S feh
+clear
+exit
+	touchpad="ELAN0787:00 04F3:321A Touchpad"
+	xinput set-prop "$touchpad" "libinput Tapping Enabled" 1
+	xinput set-prop "$touchpad" "libinput Tapping Drag Enabled" 1
+	xinput set-prop "$touchpad" "libinput Tapping Drag Lock Enabled" 1
+	xinput set-prop "$touchpad" "libinput Tapping Button Mapping Enabled" 1 0
+	xinput set-prop "$touchpad" "libinput Natural Scrolling Enabled" 0
+	xinput set-prop "$touchpad" "libinput Disable While Typing Enabled" 1
+	xinput set-prop "$touchpad" "libinput Clickfinger Button Mapping Enabled" 1 0
+	xinput set-prop "$touchpad" "libinput Horizontal Scroll Enabled" 1
+	xinput set-prop "$touchpad" "libinput Middle Emulation Enabled" 1
+	xinput set-prop "$touchpad" "libinput Accel Speed" 0.3
+clear
+exit
+touchpad_setup() { 	touchpad="ELAN0787:00 04F3:321A Touchpad"; 	xinput set-prop "$touchpad" "libinput Tapping Enabled" 1; 	xinput set-prop "$touchpad" "libinput Tapping Drag Enabled" 1; 	xinput set-prop "$touchpad" "libinput Tapping Drag Lock Enabled" 1; 	xinput set-prop "$touchpad" "libinput Tapping Button Mapping Enabled" 1 0; 	xinput set-prop "$touchpad" "libinput Natural Scrolling Enabled" 0; 	xinput set-prop "$touchpad" "libinput Disable While Typing Enabled" 1; 	xinput set-prop "$touchpad" "libinput Clickfinger Button Mapping Enabled" 1 0; 	xinput set-prop "$touchpad" "libinput Horizontal Scroll Enabled" 1; 	xinput set-prop "$touchpad" "libinput Middle Emulation Enabled" 1; 	xinput set-prop "$touchpad" "libinput Accel Speed" 0.3; }
+touchpad_setup
+paru -S libinput xinput
+touchpad_setup
+clear
+exit
+cd .config
+ls
+clear
+ls
+cd st
+ls
+clear
+nvim config.def.h
+sudo make clean
+sudo make install
+nvim config.def.h
+sudo make clean
+sudo make install
+clear
+nvim config.def.h
+sudo make clean
+sudo make install
+clear
+exit
+	setxkbmap -option caps:escape & \
+clear
+exit
+echo $XDG_SESSION_TYPE
+xinput list
+xinput list-props "ELAN0787:00 04F3:321A Touchpad"
+clear
+echo $XDG_SESSION_TYPE
+xinput list
+clear
+xinput list-props 14
+clear
+exit
+touchpad_setup() { 	touchpad="ELAN0787:00 04F3:321A Touchpad"; 	xinput set-prop "$touchpad" "libinput Tapping Enabled" 1; 	xinput set-prop "$touchpad" "libinput Tapping Drag Enabled" 1; 	xinput set-prop "$touchpad" "libinput Tapping Drag Lock Enabled" 1; 	xinput set-prop "$touchpad" "libinput Tapping Button Mapping Enabled" 1 0; 	xinput set-prop "$touchpad" "libinput Natural Scrolling Enabled" 0; 	xinput set-prop "$touchpad" "libinput Natural Scrolling Enabled" 0; 	xinput set-prop "$touchpad" "libinput Clickfinger Button Mapping Enabled" 1 0; 	xinput set-prop "$touchpad" "libinput Horizontal Scroll Enabled" 1; 	xinput set-prop "$touchpad" "libinput Middle Emulation Enabled" 1; 	xinput set-prop "$touchpad" "libinput Accel Speed" 0.3; }
+touchpad_setup 
+exit
+touchpad_setup() {     local touchpad="ELAN0787:00 04F3:321A Touchpad";     xinput set-prop "$touchpad" "Synaptics Tap Action" 1 1 1 0 1 3 0;     xinput set-prop "$touchpad" "Synaptics Locked Drags" 1;     xinput set-prop "$touchpad" "Synaptics Two-Finger Scrolling" 1 0;     xinput set-prop "$touchpad" "Synaptics Edge Scrolling" 0 0 0;     xinput set-prop "$touchpad" "Synaptics Scrolling Distance" 90 90;     xinput set-prop "$touchpad" "Synaptics Click Action" 1 2 3;     xinput set-prop "$touchpad" "Device Accel Constant Deceleration" 2.5; }
+touchpad_setup
+clear
+exit
+	feh --bg-fill --borderless "$HOME"/wallpapers/101010.png & \
+exit
+hledger
+hledger add
+echo $LEDGER_FILE
+export LEDGER_FILE="/run/media/tuxy/main/notes/main.journal"
+hledger add
+hledger add
+clear
+hledger balance
+hledger balance --help
+tldr hledger
+hledger print
+clear
+tldr hledger
+hledger balancesheet
+hledger incomestatement
+nvim main.journal 
+clear
+exit
+btop
+btop
+tldr st
+clear
+st.stat
+clear
+exit
+man st
+cd qtile
+ls
+cd .config/qtile
+ls
+clear
+ls
+nvim config.py
+cd qtile
+ls
+cd .config/qtile
+ls
+nvim config.py
+cd ..
+nvim autostart.sh
+nvim
+exit
+xprop
+xprop | fzf
+paru -Syu
+paru -Ss onenote
+paru -S p3x-onenote
+paru -S p3x-onenote-bin
+paru -Ss onenote
+paru -Rcns p3x-onenote-bin 
+clear
+exit
+paru -S bottles
+clear
+paru -S vmtouch
+paru -Ss vmtouch
+sudo pacman -S vmtouch
+sudo pacman -Ss vmtouch
+mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 && wget https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz -O /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 --strip-components=1 -f /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
+clear
+ls
+flatpak override com.usebottles.bottles --user --filesystem=xdg-data/applications
+flatpak override com.usebottles.bottles --user --filesystem=home
+ls
+rm -rf tloz-lttp-original-soundtrack.zip 
+clear
+ls
+ls
+cd pol
+ls
+clear
+cd pol-8.2/
+ls
+clear
+ls
+lah
+spf
+clear
+ls
+mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 && wget https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz -O /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 --strip-components=1 -f /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
+ls
+cd ..
+rm -rf pol-8.2*
+ls
+cd Applications
+ls
+cd ..
+z app
+cd ..
+cd .local/share/applications/
+ls
+clear
+ls
+clear
+paru -S flatpak
+paru -Rcns bottles
+mkdir -p ~/.local/share/applications && curl -o ~/.local/share/applications/Office-Excel-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Excel-2010.desktop && curl -o ~/.local/share/applications/Office-Powerpoint-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Powerpoint-2010.desktop && curl -o ~/.local/share/applications/Office-Word-2010.desktop https://raw.githubusercontent.com/tazihad/msoffice-bottle/main/office2010-file-integrations/Office-Word-2010.desktop
+clear
+exit
+nvim office2016.yml
+clear
+exit
+tldr flatpak
+sudo flatpak search bottles
+flatpak install bottles
+clear
+flatpak install bottles
+mkdir -p ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 && wget https://www.playonlinux.com/wine/binaries/phoenicis/upstream-linux-x86/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz -O /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && tar -xz -C ~/.var/app/com.usebottles.bottles/data/bottles/runners/pol-4.3 --strip-components=1 -f /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz && rm /tmp/PlayOnLinux-wine-4.3-upstream-linux-x86.tar.gz
+cat MAS_AIO.
+cat MAS_AIO.cmd 
+clear
+exit
+ls
+ls | grep .cme
+ls | grep .cmd
+nvim test.cmd
+exit
+nvim test.cmd 
+exit
+cat test.cmd | bat
+exit
+nvim test.cmd
+exit
+nvim ohook.cmd
+exit
+cd .config
+clear
+ls
+exit
+xprop | fzf
+wineserver &
+exit
+sudo flatpak uninstall bottles
+sudo pacman -Syu --needed qemu-desktop libvirt virt-manager dnsmasq
+sudo pacman -Sy --needed qemu-desktop libvirt virt-manager dnsmasq
+clear
+sudo systemctl enable --now libvirtd.service
+sudo usermod -aG libvirt "$USER"
+sudo virsh net-list --all
+sudo virsh net-start default
+sudo virsh net-autostart default
+sudo virsh net-list --all
+virsh --connect qemu:///system list --all
+ls
+7z x \[Windows\ X-Lite\]\ Optimum\ 11\ 26H1\ Pro\ v2.7z 
+clear
+ls
+cd \[Windows\ X-Lite\]\ Optimum\ 11\ 26H1\ Pro\ v2/
+ls
+exit
+clear
+exit
+pkill virt-manager
+exit
+sudo shutdown now
+sudo dmesg | grep -Ei 'IOMMU|AMD-Vi|DMAR'
+clear
+lspci -nnk | grep -A 3 -Ei 'VGA|3D|Display'
+cd ~/quickpassthrough
+ls -la
+ls -la backup
+ls -la config
+cd backup/
+ls
+clear
+ls
+cd etc
+ls
+cd ..
+ls
+cd ..
+./quickpassthrough --help
+cd back
+cd backup/
+ls
+cd etc
+ls
+sudo cp -r * /etc/
+ls
+cd quickpassthrough/
+ls
+clear
+ls
+clear
+lah
+nvim README.md 
+clear
+nvim README.md 
+lsblk
+lsblk
+clear
+lsblk
+clear
+lsblk
+clear
+lsblk
+lsbolk
+lsblk
+clear
+lsblk
+cd /run/media/tuxy
+ls
+cd Ventoy/
+ls
+file debian-13.7.0-amd64-netinst.iso 
+dua
+exit
+lsblk
+lsblk
+clear
+lsblk
+lsblk
+clear
+lsblk
+lsblk
+clear
+lsblk
+clear
+lsblk
+lsblk
+clear
+lsblk
+lsblk
+clear
+lsblk
+clear
+lsblk
+lsblk
+clear
+lsblk
+cp debian-13.7.0-amd64-netinst.iso /run/media/tuxy/Ventoy/
+clear
+ls
+exit
+cd /run/media/tuxy
+ls
+cd Ventoy/
+ls
+clear
+ls
+tldr dd
+sudo dd status=progress if=debian-13.7.0-amd64-netinst.iso of=/dev/test
+lsblk
+cd /dev/
+ls
+cd test
+ls
+fzf
+clear
+sudo mount /dev/test /mnt
+sudo mount /dev/test /mnt
+cd /mnt
+ls
+clear
+ls
+sudo umount /mnt
+cd ..
+sudo umount /mnt
+exit
+lsblk
+lsblk
+clear
+lsblk
+clear
+lsblk
+clear
+lsblk
+clear
+lsblk
+lsblk
+clear
+lsblk
+lsblk
+clear
+z ven
+ls
+clear
+ls
+mv archlinux-2026.09.01-x86_64.iso archlinux.iso
+mv Windows\ 11\ 22H2.iso windows-22h2.iso
+clear
+ls
+exit
+pkilll virt-manager
+virt-manager 
+pkill virt-manager 
+paru -Syu
+paru -Syu
+paru -Syu
+paru -Syu
+clear
+ls
+cd /
+dua
+cd /var
+ls
+clear
+dua
+cd lib
+ls
+sudo pacman -Scc
+clear
+cd .config
+ls
+git status
+clear
+lazygit
+clear
+exit
+paru -Syu
+exit
+cd .config
+ls
+cd jellyfin/
+ls
+clear
+nvim system.xml 
+paru -Rcns brave
+paru -Rcns brave-bin
+clear
+exit
+cd .config
+gh
+clear
+gh auth
+tldr gh
+gh auth login
+clear
+lazygit
+clear
+gh auth login
+gh auth login
+clear
+clear
+ls
+clear
+ls
+clear
+exit
+cd .config
+lazygit
+clear
+exit
+cd .cofnig
+cd .config
+clear
+ls
+git status
+clear
+git status
+git status | fzf
+git add jellyfin/.jellyfin-config 
+git commit -m "feat: add jellyfin"
+git commit -m "feat: add jellyfin"
+git config --global user.email "subham020304@gmail.com"
+git config --global user.name "tuxystreamer"
+lazygit
+git config --global user.name "tuxy"
+lazygit
