@@ -1,10 +1,10 @@
 {
-  "Revision": "0.6.6.2",
+  "Revision": "0.6.7",
   "Profiles": [
     {
       "Tablet": "Huion H640P",
       "OutputMode": {
-        "Path": "OpenTabletDriver.Desktop.Output.AbsoluteMode",
+        "Path": "OpenTabletDriver.Desktop.Output.RelativeMode",
         "Settings": [],
         "Enable": true
       },
@@ -33,7 +33,7 @@
               "Value": 0.0
             }
           ],
-          "Enable": true
+          "Enable": false
         },
         {
           "Path": "RadialFollow.RadialFollowSmoothingTabletSpace",
@@ -59,166 +59,66 @@
               "Value": 0.0
             }
           ],
+          "Enable": false
+        },
+        {
+          "Path": "Hover_Distance_Limiter.Hover_Distance_Limiter",
+          "Settings": [
+            {
+              "Property": "Hover_min",
+              "Value": 0
+            },
+            {
+              "Property": "NearProximity",
+              "Value": null
+            },
+            {
+              "Property": "Pressure_min",
+              "Value": 0
+            },
+            {
+              "Property": "Pressure_max",
+              "Value": 16384
+            },
+            {
+              "Property": "Pen",
+              "Value": null
+            },
+            {
+              "Property": "Eraser",
+              "Value": null
+            },
+            {
+              "Property": "Hover_max",
+              "Value": 50
+            }
+          ],
           "Enable": true
         },
         {
-          "Path": "TabletDriverFilters.Devocub.Antichatter",
+          "Path": "OpenTabletDriver.Plugin.NoiseReduction",
+          "Settings": [
+            {
+              "Property": "Samples",
+              "Value": 10
+            },
+            {
+              "Property": "DistanceThreshold",
+              "Value": 0.5
+            }
+          ],
+          "Enable": true
+        },
+        {
+          "Path": "TabletDriverFilters.Hawku.Smoothing",
           "Settings": [
             {
               "Property": "Latency",
               "Value": 2.0
             },
             {
-              "Property": "AntichatterStrength",
-              "Value": 3.0
-            },
-            {
-              "Property": "AntichatterMultiplier",
-              "Value": 1.0
-            },
-            {
-              "Property": "AntichatterOffsetX",
-              "Value": null
-            },
-            {
-              "Property": "AntichatterOffsetY",
-              "Value": 1.0
-            },
-            {
-              "Property": "PredictionEnabled",
-              "Value": null
-            },
-            {
-              "Property": "PredictionStrength",
-              "Value": 1.1
-            },
-            {
-              "Property": "PredictionSharpness",
-              "Value": 1.0
-            },
-            {
-              "Property": "PredictionOffsetX",
-              "Value": 3.0
-            },
-            {
-              "Property": "PredictionOffsetY",
-              "Value": 0.3
-            },
-            {
               "Property": "Frequency",
               "Value": 1000.0
-            }
-          ],
-          "Enable": true
-        },
-        {
-          "Path": "TemporalResampler",
-          "Settings": [
-            {
-              "Property": "frameShift",
-              "Value": 0.5
-            },
-            {
-              "Property": "followRadius",
-              "Value": 0.0
-            },
-            {
-              "Property": "latency",
-              "Value": 0.0
-            },
-            {
-              "Property": "reverseSmoothing",
-              "Value": 1.0
-            },
-            {
-              "Property": "extraFrames",
-              "Value": true
-            },
-            {
-              "Property": "loggingEnabled",
-              "Value": false
-            },
-            {
-              "Property": "Frequency",
-              "Value": 1000.0
-            }
-          ],
-          "Enable": true
-        },
-        {
-          "Path": "BetterCalibrator.BetterCalibrator",
-          "Settings": [
-            {
-              "Property": "ConfigString",
-              "Value": ""
-            }
-          ],
-          "Enable": false
-        },
-        {
-          "Path": "tablet_calibration.tablet_calibration_stretch_tablet",
-          "Settings": [
-            {
-              "Property": "left_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "right_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "top_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "bottom_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "x_offset",
-              "Value": 0.0
-            },
-            {
-              "Property": "y_offset",
-              "Value": 0.0
-            },
-            {
-              "Property": "disable_clamping",
-              "Value": true
-            }
-          ],
-          "Enable": true
-        },
-        {
-          "Path": "tablet_calibration.tablet_calibration_stretch_area",
-          "Settings": [
-            {
-              "Property": "left_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "right_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "top_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "bottom_stretch",
-              "Value": 1.0
-            },
-            {
-              "Property": "x_offset",
-              "Value": 0.0
-            },
-            {
-              "Property": "y_offset",
-              "Value": 0.0
-            },
-            {
-              "Property": "disable_clamping",
-              "Value": null
             }
           ],
           "Enable": true
@@ -234,20 +134,20 @@
         },
         "Tablet": {
           "Width": 160.0,
-          "Height": 90.0,
+          "Height": 100.0,
           "X": 80.0,
           "Y": 50.0,
           "Rotation": 0.0
         },
         "EnableClipping": true,
         "EnableAreaLimiting": false,
-        "LockAspectRatio": true
+        "LockAspectRatio": false
       },
       "RelativeModeSettings": {
-        "XSensitivity": 10.0,
-        "YSensitivity": 10.0,
+        "XSensitivity": 15.0,
+        "YSensitivity": 15.0,
         "RelativeRotation": 0.0,
-        "RelativeResetDelay": "00:00:00.1000000"
+        "RelativeResetDelay": "00:00:00.0500000"
       },
       "Bindings": {
         "TipActivationThreshold": 1.0,
@@ -269,7 +169,7 @@
             "Settings": [
               {
                 "Property": "Button",
-                "Value": "Right"
+                "Value": "Left"
               }
             ],
             "Enable": true
@@ -296,8 +196,10 @@
         "MouseButtons": [],
         "MouseScrollUp": null,
         "MouseScrollDown": null,
+        "WheelBindings": [],
         "DisablePressure": false,
-        "DisableTilt": false
+        "DisableTilt": false,
+        "EnableDragBindings": false
       }
     }
   ],

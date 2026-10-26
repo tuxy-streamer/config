@@ -1,3 +1,4 @@
+import re
 import subprocess
 from os.path import expanduser
 
@@ -5,7 +6,7 @@ from libqtile import (
     bar,
     hook,
     layout,
-    qtile,  # pyright: ignore[reportUnknownVariableType]
+    qtile,
     widget,
 )
 from libqtile.config import (
@@ -21,94 +22,99 @@ from libqtile.config import (
 )
 from libqtile.lazy import lazy
 
-from colorscheme import alabaster  # pyright: ignore[reportImplicitRelativeImport]
+from colorscheme import gruvbox
 
 
-@hook.subscribe.startup_once  # pyright: ignore[reportUnknownMemberType]
+@hook.subscribe.startup_once
 def autostart() -> None:
     """Run autostart.sh script at the startup."""
     autostart_script = expanduser("~/.config/autostart.sh")
     _ = subprocess.call(autostart_script)
 
 
-COLORSCHEME = alabaster
-FONT = "Terminess Nerd Font Mono"
+COLORSCHEME = gruvbox
+FONT = "Iosevka Nerd Font Mono"
 MOD = "mod1"
-TERMINAL = "kitty"
+S = "shift"
+C = "control"
+TERMINAL = "xterm"
+FILE_MANAGER = "thunar"
 EMAIL_CLIENT = "betterbird"
-BROWSER = "zen-twilight"
-SHELL = "zsh"
-SHELLRC = ".zshrc"
+BROWSER = "brave"
+SHELL = "bash"
+SHELLRC = ".bashrc"
 
 
 keys = [
-    Key([MOD], "h", lazy.layout.left(), desc="Move focus to left"),  # pyright: ignore[reportAny]
-    Key([MOD], "l", lazy.layout.right(), desc="Move focus to right"),  # pyright: ignore[reportAny]
-    Key([MOD], "j", lazy.layout.down(), desc="Move focus down"),  # pyright: ignore[reportAny]
-    Key([MOD], "k", lazy.layout.up(), desc="Move focus up"),  # pyright: ignore[reportAny]
+    Key([MOD], "h", lazy.layout.left(), desc="Move focus to left"),
+    Key([MOD], "l", lazy.layout.right(), desc="Move focus to right"),
+    Key([MOD], "j", lazy.layout.down(), desc="Move focus down"),
+    Key([MOD], "k", lazy.layout.up(), desc="Move focus up"),
     Key(
-        [MOD, "shift"],
+        [MOD, S],
         "h",
-        lazy.layout.shuffle_left(),  # pyright: ignore[reportAny]
+        lazy.layout.shuffle_left(),
         desc="Move window to the left",
     ),
     Key(
-        [MOD, "shift"],
+        [MOD, S],
         "l",
-        lazy.layout.shuffle_right(),  # pyright: ignore[reportAny]
+        lazy.layout.shuffle_right(),
         desc="Move window to the right",
     ),
-    Key([MOD, "shift"], "j", lazy.layout.shuffle_down(), desc="Move window down"),  # pyright: ignore[reportAny]
-    Key([MOD, "shift"], "k", lazy.layout.shuffle_up(), desc="Move window up"),  # pyright: ignore[reportAny]
-    Key([MOD, "control"], "h", lazy.layout.grow_left(), desc="Grow window to the left"),  # pyright: ignore[reportAny]
+    Key([MOD, S], "j", lazy.layout.shuffle_down(), desc="Move window down"),
+    Key([MOD, S], "k", lazy.layout.shuffle_up(), desc="Move window up"),
+    Key([MOD, C], "h", lazy.layout.grow_left(), desc="Grow window to left"),
     Key(
-        [MOD, "control"],
+        [MOD, C],
         "l",
-        lazy.layout.grow_right(),  # pyright: ignore[reportAny]
+        lazy.layout.grow_right(),
         desc="Grow window to the right",
     ),
-    Key([MOD, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),  # pyright: ignore[reportAny]
-    Key([MOD, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),  # pyright: ignore[reportAny]
-    Key([MOD], "n", lazy.layout.normalize(), desc="Reset all window sizes"),  # pyright: ignore[reportAny]
-    Key([MOD], "Tab", lazy.layout.next(), desc="Move window focus to other window"),  # pyright: ignore[reportAny]
+    Key([MOD, C], "j", lazy.layout.grow_down(), desc="Grow window down"),
+    Key([MOD, C], "k", lazy.layout.grow_up(), desc="Grow window up"),
+    Key([MOD], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
+    Key([MOD], "Tab", lazy.layout.next(), desc="Move focus to other window"),
     # Split = all windows displayed
     # multiple stack panes
     Key(
-        [MOD, "shift"],
+        [MOD, S],
         "Return",
-        lazy.layout.toggle_split(),  # pyright: ignore[reportAny]
+        lazy.layout.toggle_split(),
         desc="Toggle between split and unsplit sides of stack",
     ),
-    Key([MOD], "Return", lazy.spawn(TERMINAL), desc="Launch terminal"),  # pyright: ignore[reportAny]
-    Key([MOD], "space", lazy.next_layout(), desc="Toggle between layouts"),  # pyright: ignore[reportAny]
-    Key([MOD], "q", lazy.window.kill(), desc="Kill focused window"),  # pyright: ignore[reportAny]
+    Key([MOD], "Return", lazy.spawn(TERMINAL), desc="Launch terminal"),
+    Key([MOD], "space", lazy.next_layout(), desc="Toggle between layouts"),
+    Key([MOD], "q", lazy.window.kill(), desc="Kill focused window"),
     Key(
-        [MOD, "control"],
+        [MOD, C],
         "f",
-        lazy.window.toggle_fullscreen(),  # pyright: ignore[reportAny]
+        lazy.window.toggle_fullscreen(),
         desc="Toggle fullscreen on the focused window",
     ),
     Key(
         [MOD],
         "t",
-        lazy.window.toggle_floating(),  # pyright: ignore[reportAny]
+        lazy.window.toggle_floating(),
         desc="Toggle floating on the focused window",
     ),
-    Key([MOD, "control"], "r", lazy.reload_config(), desc="Reload the config"),  # pyright: ignore[reportAny]
-    Key([MOD, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),  # pyright: ignore[reportAny]
+    Key([MOD, C], "r", lazy.reload_config(), desc="Reload the config"),
+    Key([MOD, C], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    Key([MOD], "s", lazy.spawn("flameshot gui"), desc="Screenshot"),
+    Key([MOD], "e", lazy.spawn(FILE_MANAGER), desc="Open File Manager"),
     KeyChord(
         [MOD],
         "r",
         [
-            Key([], "d", lazy.spawn("rofi -show drun"), desc="Spawn drun launcher"),  # pyright: ignore[reportAny]
-            Key([], "r", lazy.spawn("rofi -show run"), desc="Spawn run launcher"),  # pyright: ignore[reportAny]
+            Key([], "d", lazy.spawn("rofi -show drun"), desc="Spawn drun launcher"),
+            Key([], "r", lazy.spawn("rofi -show run"), desc="Spawn run launcher"),
             Key(
                 [],
                 "t",
                 lazy.spawn(
-                    f"{SHELL} -c 'source {expanduser(f'~/{SHELLRC}')} && time_main'"
+                    f"{SHELL} -c 'source {expanduser(f'~/{SHELLRC}')} && theme_switch_launcher'"
                 ),
-                desc="Spawn time launcher",
+                desc="Spawn theme switcher launcher",
             ),
             Key(
                 [],
@@ -118,20 +124,18 @@ keys = [
                 ),
                 desc="Spawn book launcher",
             ),
-            Key(
-                [],
-                "s",
-                lazy.spawn(
-                    f"{SHELL} -c 'source {expanduser(f'~/{SHELLRC}')} && sesh_connect'"
-                ),
-                desc="Spawn sesh launcher",
-            ),
             Key([], "w", lazy.spawn("rofi -show window"), desc="Spawn window launcher"),
             Key(
                 [],
                 "c",
                 lazy.spawn("clipmenu"),
                 desc="Spawn ssh launcher",
+            ),
+            Key(
+                [],
+                "p",
+                lazy.spawn("powermenu"),
+                desc="Spawn powermenu launcher",
             ),
         ],
         mode=False,
@@ -145,9 +149,9 @@ keys = [
 for vt in range(1, 8):
     keys.append(
         Key(
-            ["control", "mod1"],
+            [C, "mod1"],
             f"f{vt}",
-            lazy.core.change_vt(vt).when(func=lambda: qtile.core.name == "wayland"),  # pyright: ignore[reportAny, reportUnknownMemberType, reportUnknownLambdaType]
+            lazy.core.change_vt(vt).when(func=lambda: qtile.core.name == "wayland"),
             desc=f"Switch to VT{vt}",
         )
     )
@@ -164,7 +168,6 @@ groups = [
             Match(wm_class="obsidian"),
             Match(wm_class="notes"),
         ],
-        layout="max",
     ),
     Group(
         "2",
@@ -172,10 +175,17 @@ groups = [
         matches=[
             Match(wm_class=BROWSER),
         ],
-        layout="max",
     ),
-    Group("3", label="dev", matches=[Match(wm_class="code")], layout="max"),
-    Group("4", label="game", matches=[Match(wm_class="mgba-qt")], layout="max"),
+    Group(
+        "3",
+        label="dev",
+        matches=[Match(wm_class="code")],
+    ),
+    Group(
+        "4",
+        label="game",
+        matches=[Match(wm_class="steam")],
+    ),
     Group("5", label="passive", matches=[Match(wm_class="easyeffects")]),
     Group("6", label="virt", matches=[Match(wm_class="virt-manager")]),
 ]
@@ -186,18 +196,18 @@ for i in groups:
             Key(
                 [MOD],
                 i.name,
-                lazy.group[i.name].toscreen(),  # pyright: ignore[reportAny]
+                lazy.group[i.name].toscreen(),
                 desc=f"Switch to group {i.name}",
             ),
             Key(
-                [MOD, "shift"],
+                [MOD, S],
                 i.name,
-                lazy.window.togroup(i.name, switch_group=True),  # pyright: ignore[reportAny]
+                lazy.window.togroup(i.name, switch_group=True),
                 desc=f"Switch to & move focused window to group {i.name}",
             ),
             # Or, use below if you prefer not to switch to that group.
             # # mod + shift + group number = move focused window to group
-            # Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
+            # Key([mod, S], i.name, lazy.window.togroup(i.name),
             #     desc="move focused window to group {}".format(i.name)),
         ]
     )
@@ -220,7 +230,7 @@ groups.append(
             ),
             DropDown(
                 "btop",
-                f"{TERMINAL} --class=btop -e btop",
+                f"{TERMINAL} -class btop -e btop",
                 width=0.8,
                 height=0.8,
                 x=0.1,
@@ -229,7 +239,7 @@ groups.append(
             ),
             DropDown(
                 "cmus",
-                f"{TERMINAL} --class=cmus -e cmus",
+                f"{TERMINAL} -class cmus -e cmus",
                 width=0.8,
                 height=0.8,
                 x=0.1,
@@ -238,7 +248,7 @@ groups.append(
             ),
             DropDown(
                 "tfm",
-                f"{TERMINAL} --class=yazi -e yazi",
+                f"{TERMINAL} -class yazi -e yazi",
                 width=0.8,
                 height=0.8,
                 x=0.1,
@@ -247,7 +257,7 @@ groups.append(
             ),
             DropDown(
                 "nm",
-                f"{TERMINAL} --class=nmtui -e nmtui",
+                f"{TERMINAL} -class nmtui -e nmtui",
                 width=0.8,
                 height=0.8,
                 x=0.1,
@@ -260,14 +270,15 @@ groups.append(
 
 keys.extend(
     [
-        Key([MOD], "s", lazy.group["scratchpad"].dropdown_toggle("cmus")),  # pyright: ignore[reportAny]
-        Key([MOD], "v", lazy.group["scratchpad"].dropdown_toggle("volume")),  # pyright: ignore[reportAny]
-        Key([MOD], "b", lazy.group["scratchpad"].dropdown_toggle("btop")),  # pyright: ignore[reportAny]
-        Key([MOD], "m", lazy.group["scratchpad"].dropdown_toggle("email")),  # pyright: ignore[reportAny]
-        Key([MOD], "f", lazy.group["scratchpad"].dropdown_toggle("tfm")),  # pyright: ignore[reportAny]
-        Key([MOD], "w", lazy.group["scratchpad"].dropdown_toggle("nm")),  # pyright: ignore[reportAny]
+        Key([MOD], "c", lazy.group["scratchpad"].dropdown_toggle("cmus")),
+        Key([MOD], "v", lazy.group["scratchpad"].dropdown_toggle("volume")),
+        Key([MOD], "b", lazy.group["scratchpad"].dropdown_toggle("btop")),
+        Key([MOD], "m", lazy.group["scratchpad"].dropdown_toggle("email")),
+        Key([MOD], "f", lazy.group["scratchpad"].dropdown_toggle("tfm")),
+        Key([MOD], "w", lazy.group["scratchpad"].dropdown_toggle("nm")),
     ]
 )
+
 widget_defaults = {
     "font": FONT,
     "fontsize": 16,
@@ -280,30 +291,24 @@ widget_defaults = {
     "highlight_color": COLORSCHEME["background"],
     "this_current_screen_border": COLORSCHEME["foreground"],
 }
+
 extension_defaults = widget_defaults.copy()
 
-widgets = [  # pyright: ignore[reportUnknownVariableType]
-    widget.GroupBox(  # pyright: ignore[reportUnknownMemberType]
+widgets = [
+    widget.GroupBox(
         disable_drag=True,
         use_mouse_wheel=False,
         hide_unused=True,
     ),
-    widget.Spacer(),  # pyright: ignore[reportUnknownMemberType]
-    widget.Cmus(  # pyright: ignore[reportUnknownMemberType]
-        format="{status_text}  {artist} - {title}",
-        play_icon="",
-        playing_text="",
-        playing_color=COLORSCHEME["foreground"],
-        pause_icon="",
-        paused_text="",
-        paused_color=COLORSCHEME["foreground"],
-    ),
+    widget.Spacer(),
     widget.Mpris2(
-        objname="org.mpris.MediaPlayer2.<zen>",
-        format="{xesam:title} - {xesam:artist}",
+        stop_pause_text="▶",
+        scroll_chars=None,
+        display_metadata=["xesam:title", "xesam:artist"],
+        objname="org.mpris.MediaPlayer2.spotify",
     ),
-    widget.Spacer(),  # pyright: ignore[reportUnknownMemberType]
-    widget.Battery(  # pyright: ignore[reportUnknownMemberType]
+    widget.Spacer(),
+    widget.Battery(
         format="{char} {percent:2.0%} {hour:d}:{min:02d} {watt:.2f} W",
         charging_char="󰂄",
         discharging_char="v",
@@ -316,15 +321,15 @@ widgets = [  # pyright: ignore[reportUnknownVariableType]
         unknown_char="󰂃",
         update_interval=10,
     ),
-    widget.Clock(),  # pyright: ignore[reportUnknownMemberType]
-    widget.Systray(icon_size=20),  # pyright: ignore[reportUnknownMemberType]
+    widget.Clock(),
+    widget.Systray(icon_size=20),
 ]
 
 screens = [
     Screen(
         top=bar.Bar(
-            widgets,  # pyright: ignore[reportUnknownArgumentType]
-            40,
+            widgets,
+            30,
             background=COLORSCHEME["background"],
             margin=0,
             border_width=0,
@@ -368,20 +373,19 @@ mouse = [
     Drag(
         [MOD],
         "Button1",
-        lazy.window.set_position_floating(),  # pyright: ignore[reportAny]
-        start=lazy.window.get_position(),  # pyright: ignore[reportAny]
+        lazy.window.set_position_floating(),
+        start=lazy.window.get_position(),
     ),
     Drag(
         [MOD],
         "Button3",
-        lazy.window.set_size_floating(),  # pyright: ignore[reportAny]
-        start=lazy.window.get_size(),  # pyright: ignore[reportAny]
+        lazy.window.set_size_floating(),
+        start=lazy.window.get_size(),
     ),
-    Click([MOD], "Button2", lazy.window.bring_to_front()),  # pyright: ignore[reportAny]
+    Click([MOD], "Button2", lazy.window.bring_to_front()),
 ]
 
 dgroups_key_binder = None
-dgroups_app_rules = []
 follow_mouse_focus = True
 bring_front_click = False
 floats_kept_above = True

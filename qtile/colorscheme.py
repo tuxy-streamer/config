@@ -10,8 +10,8 @@ alabaster = {
     "white": "#d7dae0",
 }
 
-one_dark = {
-    "background": "#282c34",
+onedark = {
+    "background": "#82c34",
     "foreground": "#abb2bf",
     "red": "#e06c75",
     "green": "#98c379",
@@ -22,7 +22,7 @@ one_dark = {
     "white": "#d7dae0",
 }
 
-gruvbox_dark = {
+gruvbox = {
     "background": "#282828",
     "foreground": "#fbf1c7",
     "red": "#cc241d",
@@ -32,4 +32,16 @@ gruvbox_dark = {
     "magenta": "#b16286",
     "cyan": "#689d6a",
     "white": "#a89984",
+}
+
+kanagawa_dark = {
+    "background": "#1f1f28",
+    "foreground": "#dcd7ba",
+    "red": "#e82424",
+    "green": "#98bb6c",
+    "yellow": "#dca561",
+    "blue": "#7e9cd8",
+    "magenta": "#957fb8",
+    "cyan": "#7aa89f",
+    "white": "#c8c093",
 }

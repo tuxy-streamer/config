@@ -1,2 +1,5 @@
-# dotfiles
-This is a repository for my config files.
+# config
+
+My GNU+Linux config files for different applications.
+
+## Daily drivers
