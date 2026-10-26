@@ -69,8 +69,12 @@
               "Value": 0
             },
             {
+              "Property": "Hover_max",
+              "Value": 50
+            },
+            {
               "Property": "NearProximity",
-              "Value": null
+              "Value": false
             },
             {
               "Property": "Pressure_min",
@@ -82,15 +86,11 @@
             },
             {
               "Property": "Pen",
-              "Value": null
+              "Value": false
             },
             {
               "Property": "Eraser",
-              "Value": null
-            },
-            {
-              "Property": "Hover_max",
-              "Value": 50
+              "Value": false
             }
           ],
           "Enable": true
@@ -114,7 +114,7 @@
           "Settings": [
             {
               "Property": "Latency",
-              "Value": 2.0
+              "Value": 1.0
             },
             {
               "Property": "Frequency",
@@ -122,6 +122,288 @@
             }
           ],
           "Enable": true
+        },
+        {
+          "Path": "MouseUtils.Abs2Rel.Abs2RelFilter",
+          "Settings": [
+            {
+              "Property": "ResetTime",
+              "Value": 100
+            },
+            {
+              "Property": "bIgnoreOobTabletInput",
+              "Value": true
+            },
+            {
+              "Property": "bNormalizeAspectRatio",
+              "Value": true
+            },
+            {
+              "Property": "SpeedMultiplier",
+              "Value": 1.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_RAW",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 2.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "Kuuube_s_Chatter_Exterminator.Kuuube_s_CHATTER_EXTERMINATOR_SMOOTH",
+          "Settings": [
+            {
+              "Property": "Chatter_Extermination_Strength",
+              "Value": 6.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "VoiDPlugins.Filter.PrecisionControl",
+          "Settings": [
+            {
+              "Property": "Scale",
+              "Value": 0.5
+            }
+          ],
+          "Enable": true
+        },
+        {
+          "Path": "MouseUtils.WindowsAcceleration.WindowsMouseAccelerationFilter",
+          "Settings": [
+            {
+              "Property": "AccelerationIntensity",
+              "Value": 1.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "CustomFilter.CustomFilter",
+          "Settings": [
+            {
+              "Property": "XFunc",
+              "Value": "x"
+            },
+            {
+              "Property": "YFunc",
+              "Value": "y"
+            },
+            {
+              "Property": "PFunc",
+              "Value": "p"
+            },
+            {
+              "Property": "TXFunc",
+              "Value": "tx"
+            },
+            {
+              "Property": "TYFunc",
+              "Value": "ty"
+            },
+            {
+              "Property": "ResetTime",
+              "Value": 0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "BezierInterpolator.BezierInterp",
+          "Settings": [
+            {
+              "Property": "SmoothingFactor",
+              "Value": 1.0
+            },
+            {
+              "Property": "TiltSmoothingFactor",
+              "Value": 1.0
+            },
+            {
+              "Property": "Frequency",
+              "Value": 1000.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "TemporalResampler",
+          "Settings": [
+            {
+              "Property": "frameShift",
+              "Value": 0.5
+            },
+            {
+              "Property": "followRadius",
+              "Value": 0.0
+            },
+            {
+              "Property": "latency",
+              "Value": 0.0
+            },
+            {
+              "Property": "reverseSmoothing",
+              "Value": 1.0
+            },
+            {
+              "Property": "extraFrames",
+              "Value": true
+            },
+            {
+              "Property": "loggingEnabled",
+              "Value": false
+            },
+            {
+              "Property": "Frequency",
+              "Value": 1000.0
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "tablet_calibration.tablet_calibration_stretch_tablet",
+          "Settings": [
+            {
+              "Property": "left_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "right_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "top_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "bottom_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "x_offset",
+              "Value": 0.0
+            },
+            {
+              "Property": "y_offset",
+              "Value": 0.0
+            },
+            {
+              "Property": "disable_clamping",
+              "Value": true
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "tablet_calibration.tablet_calibration_stretch_area",
+          "Settings": [
+            {
+              "Property": "left_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "right_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "top_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "bottom_stretch",
+              "Value": 1.0
+            },
+            {
+              "Property": "x_offset",
+              "Value": 0.0
+            },
+            {
+              "Property": "y_offset",
+              "Value": 0.0
+            },
+            {
+              "Property": "disable_clamping",
+              "Value": false
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "VoiDPlugins.Filter.Reconstructor",
+          "Settings": [
+            {
+              "Property": "EMAWeight",
+              "Value": 0.5
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "BetterCalibrator.BetterCalibrator",
+          "Settings": [
+            {
+              "Property": "ConfigString",
+              "Value": ""
+            }
+          ],
+          "Enable": false
+        },
+        {
+          "Path": "TabletDriverFilters.Devocub.Antichatter",
+          "Settings": [
+            {
+              "Property": "Latency",
+              "Value": 2.0
+            },
+            {
+              "Property": "AntichatterStrength",
+              "Value": 3.0
+            },
+            {
+              "Property": "AntichatterMultiplier",
+              "Value": 1.0
+            },
+            {
+              "Property": "AntichatterOffsetX",
+              "Value": 0.0
+            },
+            {
+              "Property": "AntichatterOffsetY",
+              "Value": 1.0
+            },
+            {
+              "Property": "PredictionEnabled",
+              "Value": false
+            },
+            {
+              "Property": "PredictionStrength",
+              "Value": 1.1
+            },
+            {
+              "Property": "PredictionSharpness",
+              "Value": 1.0
+            },
+            {
+              "Property": "PredictionOffsetX",
+              "Value": 3.0
+            },
+            {
+              "Property": "PredictionOffsetY",
+              "Value": 0.3
+            },
+            {
+              "Property": "Frequency",
+              "Value": 1000.0
+            }
+          ],
+          "Enable": false
         }
       ],
       "AbsoluteModeSettings": {
@@ -169,7 +451,7 @@
             "Settings": [
               {
                 "Property": "Button",
-                "Value": "Left"
+                "Value": "Right"
               }
             ],
             "Enable": true
